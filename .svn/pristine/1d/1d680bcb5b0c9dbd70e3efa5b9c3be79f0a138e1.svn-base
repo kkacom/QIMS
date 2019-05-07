@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\album_menu_album.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\ffa25d77f7a50c539ee6e67ad44d90434efcb200\\output\\res\\menu\\album_menu_album.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\project_toolbar.xml",
+        "source": "E:\\as_workspace\\RF-QIMS-APP\\app\\src\\main\\res\\menu\\project_toolbar.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\toolbar.xml",
+        "source": "E:\\as_workspace\\RF-QIMS-APP\\app\\src\\main\\res\\menu\\toolbar.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\swipe_menu.xml",
+        "source": "E:\\as_workspace\\RF-QIMS-APP\\app\\src\\main\\res\\menu\\swipe_menu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\work_toolbar.xml",
+        "source": "E:\\as_workspace\\RF-QIMS-APP\\app\\src\\main\\res\\menu\\work_toolbar.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\album_menu_gallery.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\ffa25d77f7a50c539ee6e67ad44d90434efcb200\\output\\res\\menu\\album_menu_gallery.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\sample_toolbar.xml",
+        "source": "E:\\as_workspace\\RF-QIMS-APP\\app\\src\\main\\res\\menu\\sample_toolbar.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\ucrop_menu_activity.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\1f483d7b0f2a9ff606691d78cac6a99848f63f8b\\output\\res\\menu\\ucrop_menu_activity.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\search_menu.xml",
+        "source": "E:\\as_workspace\\RF-QIMS-APP\\app\\src\\main\\res\\menu\\search_menu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\album_menu_item_camera.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\ffa25d77f7a50c539ee6e67ad44d90434efcb200\\output\\res\\menu\\album_menu_item_camera.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\menu\\durban_menu_activity.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\7a6b0049c89b066da9f0e240d44e0966b2482272\\output\\res\\menu\\durban_menu_activity.xml"
+    }
+]

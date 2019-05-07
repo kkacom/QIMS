@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_gridview"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/enterprise_qualification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="企业资质"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/enterprise_qualification_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分数"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

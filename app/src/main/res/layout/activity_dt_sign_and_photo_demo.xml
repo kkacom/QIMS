@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--<View
+        android:layout_marginLeft="5dp"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#515151"
+        />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_work_one"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#3A5FCD"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text="从业能力见证人1"
+                android:textColor="#FCFCFC"
+                />
+
+            <TextView
+            android:id="@+id/tv_work_two"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FCFCFC"
+            android:background="#3CB371"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:text="从业能力见证人2"
+            />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_pro_one"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#EEEE00"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text="生产管理见证人1"
+                android:textColor="#FCFCFC"
+                />
+            <TextView
+                android:id="@+id/tv_pro_two"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#FCFCFC"
+                android:background="#8B5A00"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text="生产管理见证人2"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_install_one"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#242424"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="1.06"
+                android:layout_height="0dp"
+                android:text="安装管理见证人1"
+                android:textColor="#FCFCFC"
+                />
+
+            <TextView
+                android:id="@+id/tv_install_two"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#FCFCFC"
+                android:background="#BC8F8F"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:text="安装管理见证人2"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#515151"
+        />
+
+    <com.zhilian.rf_qims.widget.NoScrollViewPager
+        android:id="@+id/sign_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
+

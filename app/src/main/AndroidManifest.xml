@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zhilian.rf_qims">
+
+    <!--Android8.0新特性，未知来源的更新安装权限-->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 获取网络类型权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 读写SDCard权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 读取电话状态权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- WIFI权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 短信服务权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <application
+        android:name="com.zhilian.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/QMUITheme"
+        tools:replace="android:icon, android:theme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity
+            android:name=".mvp.login.view.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mvp.launcher.LauncherActivity"
+            android:screenOrientation="portrait" />
+        <!-- <activity android:name=".mvp.login.view.LoginActivity"/> -->
+        <activity
+            android:name=".mvp.main.view.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.project_manager.view.ProjectManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.project_detail.view.ProjectDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.project_detail.view.ProjectDetailWeb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.sample_detail.view.SampleDetailActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.sample_manager.view.SampleManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.sample_data.DataActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".service.ReceiveService" />
+        <service android:name="com.colin.download.service.DownloadService" />
+
+        <activity
+            android:name=".mvp.test.view.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".util.FileDisplayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.project_detail.view.ProjectAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.project_detail.view.ProjectUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.office.PdfSeeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.office.WordSeeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.office.SignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.sample_detail.view.SampleUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mvp.SamplePic.SamplePicActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".mvp.rfid.RfidScanActivity"></activity>
+
+    <!--移植新增功能《从业评估》-->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.pfassessment.IntegrityModuleActivity"
+            android:label="PfAssessDetailActivity"/>
+
+        <activity android:name=".mvp.work_assessment.view.activity.pfassessment.UserSignActivity"/>
+
+        <activity
+            android:name=".mvp.work_assessment.view.activity.pfassessment.PfAssessmentDemoTestActivity"
+            android:label="诚信评估"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".mvp.work_assessment.view.activity.pfassessment.SpecialEventActivity"
+            android:label="一票否决的不良行为"/>
+
+        <activity
+            android:name=".mvp.work_assessment.view.activity.pfassessment.DtSignAndPhoto"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!--这是轻量级的相册-->
+        <!--<activity-->
+            <!--android:name="com.yanzhenjie.album.AlbumActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:label="图库"-->
+            <!--android:launchMode="standard"-->
+            <!--android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden|stateHidden"/>-->
+
+        <activity
+            android:name=".mvp.work_assessment.view.activity.pfassessment.IntegrityMarkActivity"
+            android:label="考核评分"/>
+        <!--android:windowSoftInputMode="adjustPan"-->
+
+
+        <!-- 从业评估（从业能力现场评估表） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessment.WorkAssessmentFieldActivity"
+            android:label="从业能力现场评估表"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!-- 企业评估信息（修改） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessment.WorkAssessmentUpdate"
+            android:label="企业评估信息"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+
+        <!-- 从业评估（企业名单列表） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessment.WorkAssessmentListActivity"
+            android:label="企业名单列表"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+
+        <!-- 从业评估（打分细节） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessment.WorkAssessmentRatingActivity"
+            android:label="打分细节"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+
+        <!-- 必备条件（企业资质） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.EnterpriseQualification"
+            android:label="企业资质"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 必备条件（质量体系） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.QualitySystem"
+            android:label="质量体系"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 必备条件（环境设备） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.EnvironmentalFacility"
+            android:label="环境设施"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 必备条件（关键人员） <迁移到2.1>-->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.KeyPersonnel"
+            android:label="关键人员"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.CreatePerson"
+            android:label="创建人员"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+
+        <!-- 从业能力（技术人员） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.TechnicistPersonnel"
+            android:label="技术人员"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.TechnicistList"
+            android:label="技术人员"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList"
+            android:label="生产人员"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description1"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description2"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description2P"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description3"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description4"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description5"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description6"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description7"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description8"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description9"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description10"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description23"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description231"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description233"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description234"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description235"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description241"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description242"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description243"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description244"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description245"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description246"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description257"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description258"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description266"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description271"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description277"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description278"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description279"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description311"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description312"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description313"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description314"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description315"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description316"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description317"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description321"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description322"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description323"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description324"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description325"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description326"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description327"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description328"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description331"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description332"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description333"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description334"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description413"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.technical.personnel.Description424"
+            android:label="打分明细"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 从业能力（生产人员） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.ProductionPersonnel"
+            android:label="生产人员"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 从业能力（管理制度） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.ManagementSystem"
+            android:label="管理制度"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 从业能力（场地条件） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.SiteCondition"
+            android:label="场地条件"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 从业能力（大型设备） -->
+        <activity
+        android:name=".mvp.work_assessment.view.activity.workassessmentmodule.LargeScaleEquipment"
+        android:label="大型设备"
+        android:theme="@style/DarkAppTheme"
+        android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.CreateEquipment"
+            android:label="创建设备"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 从业能力（加工设备） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.ProcessingEquipment"
+            android:label="加工设备"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 从业能力（质检工具） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.QualityInspectionTools"
+            android:label="质检工具"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+
+        <!-- 生产管理（经营管理） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.OperatingManagement"
+            android:label="经营管理"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 生产管理（产品质量） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.ProductQuality"
+            android:label="产品质量"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+
+        <!-- 安装管理（安装操作） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.InstallationOperation"
+            android:label="安装操作"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!-- 安装管理（安装质量） -->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.InstallationQuality"
+            android:label="安装质量"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <!--从业新增人员和设备的统计List界面-->
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList271"
+            android:label="安装质量"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList272"
+            android:label="安装质量"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList273"
+            android:label="安装质量"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList275"
+            android:label="安装质量"
+            android:theme="@style/DarkAppTheme"
+            android:screenOrientation="landscape"/>
+    </application>
+
+
+</manifest>

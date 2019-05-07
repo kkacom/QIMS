@@ -1,0 +1,17 @@
+package com.zhilian.rf_qims.mvp.sample_data;
+
+import com.zhilian.rf_qims.mvp.sample_data.view.IDataView;
+
+/**
+ * Created by colin on 2018/3/12 15:50 .
+ */
+
+public class DataPresenter {
+	private DataModel mModel;
+	private IDataView mView;
+
+	public DataPresenter(IDataView view) {
+		mView = view;
+		mModel = new DataModel();
+	}
+}

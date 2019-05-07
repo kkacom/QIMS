@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TableLayout  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <TableRow  android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:layout_width="65dp"
+                android:text="门框孔高"
+                />
+            <TableLayout>
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/frame_hole_height1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/frame_hole_height2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/frame_hole_height3"
+
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/frame_hole_height_design"
+
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@+id/frame_hole_height_instruction"
+
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="门框孔宽"
+                />
+            <TableLayout>
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@+id/frame_hole_width1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/frame_hole_width2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/frame_hole_width3"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/frame_hole_width_design"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@id/frame_hole_width_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="门框\n对角线"/>
+            <TableLayout>
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左下"/>
+
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右上"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="互差"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/frame_diagonal_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/frame_diagonal_right_bottom"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/frame_diagonal_difference"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@+id/frame_diagonal_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+
+    </TableLayout>
+</ScrollView>

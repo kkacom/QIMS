@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

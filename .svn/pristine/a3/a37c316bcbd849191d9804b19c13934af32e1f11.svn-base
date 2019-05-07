@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:text="铰页轴线\n垂直度"
+            android:textSize="@dimen/text_size_12"/>
+
+        <TableLayout>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="双向交点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="正向"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="侧向"/>
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+
+            </TableRow>
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+
+
+            <TableRow android:layout_marginTop="5dp">
+
+
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp"/>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:background="#EDD185">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_height="match_parent"
+            android:text="门框垂直度"
+            android:textSize="@dimen/text_size_12"/>
+
+        <TableLayout>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="正左"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="正右"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="侧左"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="侧右"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="MAX"/>
+
+            </TableRow>
+            <TableRow>
+
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+            </TableRow>
+
+            <TableRow>
+
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值(正)"
+                    android:textSize="@dimen/text_size_10"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值(侧)"
+                    android:textSize="@dimen/text_size_10"/>
+            </TableRow>
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp"/>
+        </TableLayout>
+    </TableRow>
+</TableLayout>
+
+</ScrollView>

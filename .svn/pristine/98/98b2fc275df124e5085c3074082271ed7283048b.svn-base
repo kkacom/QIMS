@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="闭锁轴直径公差"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/atresia_shaft_diameter1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/atresia_shaft_diameter2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/atresia_shaft_diameter3"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/atresia_shaft_diameter_design"
+                        style="@style/TestInput"/>
+                </TableRow>
+
+
+                <TableRow android:layout_marginTop="5dp">
+
+
+                    <EditText  android:id="@id/atresia_shaft_diameter_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="闭锁孔直径公差"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/atresia_hole_diameter1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/atresia_hole_diameter2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/atresia_hole_diameter3"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/atresia_hole_diameter_design"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText  android:id="@id/atresia_hole_diameter_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="铰页轴直径公差"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/hingepage_shaft_diameter1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/hingepage_shaft_diameter2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/hingepage_shaft_diameter3"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/hingepage_shaft_diameter_design"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText  android:id="@id/hingepage_shaft_diameter_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="铰页孔直径公差"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/hingepage_hole_diameter1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/hingepage_hole_diameter2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/hingepage_hole_diameter3"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/hingepage_hole_diameter_design"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText  android:id="@id/hingepage_hole_diameter_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

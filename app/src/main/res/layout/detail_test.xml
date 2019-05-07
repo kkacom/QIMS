@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#ffff"
+              android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textColor="#515151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="考核细则"
+        />
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/close"
+        android:layout_alignParentRight="true"
+        />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#515151"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="考核描述:"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="#515151"
+        />
+
+    <TextView
+        android:padding="6dp"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:textColor="#515151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 获“国家人民防空先进单位”称号或受国家级表彰"
+        android:id="@+id/tv_as_descibe"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#515151"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+     <TextView
+         android:id="@+id/tv_srtype"
+         android:padding="10dp"
+         android:textSize="12sp"
+         android:layout_gravity="center"
+         android:layout_marginTop="20dp"
+         android:textColor="#515151"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="分值类型：+ ；  分值：5分； 日常得分：4；"
+                />
+
+    <EditText
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="请输入评分"
+        android:textColorHint="#CDC9C9"
+        android:padding="10dp"
+        android:textColor="#FF0000"
+        android:numeric="integer"
+        android:digits="123450"
+        android:maxLength="1"
+        android:layout_marginBottom="5dp"
+
+        android:id="@+id/ed_score"/>
+
+        </LinearLayout>
+
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#F2F2F2"
+        android:id="@+id/view2"/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#515151"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:padding="10dp"
+        android:textSize="13sp"
+        android:textColor="#515151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="备注:"
+        />
+
+    <EditText
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="#515151"
+        android:layout_marginTop="20dp"
+        android:hint="请输入备注"
+        android:textColorHint="#CDC9C9"
+        android:id="@+id/ed_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="left"
+    android:background="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+       android:layout_toLeftOf="@id/save"
+        android:id="@+id/clear"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+        android:layout_height="28dp"
+       android:text="清空"
+       android:textColor="#515151"
+       android:background="@drawable/bg_gridview_one"
+       android:gravity="center"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/save"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="28dp"
+       android:text="保存"
+        android:textColor="#515151"
+        android:background="@drawable/bg_gridview_three"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

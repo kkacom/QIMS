@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.LuckSiege.PictureSelector:ucrop-v2.2.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/c16cd944d2be88dc1f789e4a74a84a09e41b0549/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/c16cd944d2be88dc1f789e4a74a84a09e41b0549/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 安装质量-贴合面-贴合面间隙 -->
+    <item name="surface_gap_left_top" type="id"/>
+    <item name="surface_gap_left_middle" type="id"/>
+    <item name="surface_gap_left_bottom" type="id"/>
+    <item name="surface_gap_right_top" type="id"/>
+    <item name="surface_gap_right_middle" type="id"/>
+    <item name="surface_gap_right_bottom" type="id"/>
+    <item name="surface_gap_spacing_instruction" type="id"/>
+    <!-- 安装质量-贴合面-中心线偏差 -->
+    <item name="groove_width_left_top" type="id"/>
+    <item name="groove_width_left_middle" type="id"/>
+    <item name="groove_width_left_bottom" type="id"/>
+    <item name="groove_width_right_top" type="id"/>
+    <item name="groove_width_right_middle" type="id"/>
+    <item name="groove_width_right_bottom" type="id"/>
+    <item name="indentation_position_left_top" type="id"/>
+    <item name="indentation_position_left_middle" type="id"/>
+    <item name="indentation_position_left_bottom" type="id"/>
+    <item name="indentation_position_right_top" type="id"/>
+    <item name="indentation_position_right_middle" type="id"/>
+    <item name="indentation_position_right_bottom" type="id"/>
+    <item name="plate_width_left" type="id"/>
+    <item name="plate_width_top" type="id"/>
+    <item name="center_line_deviation_instruction" type="id"/>
+    <!-- 安装质量-贴合面-中心线偏差(B型门) -->
+    <item name="b_groove_width_left_top" type="id"/>
+    <item name="b_groove_width_left_middle" type="id"/>
+    <item name="b_groove_width_left_bottom" type="id"/>
+    <item name="b_groove_width_right_top" type="id"/>
+    <item name="b_groove_width_right_middle" type="id"/>
+    <item name="b_groove_width_right_bottom" type="id"/>
+    <item name="b_center_line_deviation_instruction" type="id"/>
+    <!-- 安装质量-悬摆门-关闭悬摆板的启动力 -->
+    <item name="xbm_max_start1" type="id"/>
+    <item name="xbm_max_start2" type="id"/>
+    <item name="xbm_max_start3" type="id"/>
+    <item name="xbm_planet" type="id"/>
+    <item name="xbm_hinge_page" type="id"/>
+    <item name="xbm_diameter" type="id"/>
+    <item name="xbm_max_start_instruction" type="id"/>
+    <!-- 安装质量-悬摆门-悬摆板关闭时的最大力 -->
+    <item name="xbm_max_close1" type="id"/>
+    <item name="xbm_max_close2" type="id"/>
+    <item name="xbm_max_close3" type="id"/>
+    <item name="xbm_max_close_instruction" type="id"/>
+    <!-- 安装质量-悬摆门-悬摆板与门扇间最大间隙 -->
+    <item name="xbm_max_planet_spacing1" type="id"/>
+    <item name="xbm_max_planet_spacing2" type="id"/>
+    <item name="xbm_max_planet_spacing3" type="id"/>
+    <item name="xbm_max_planet_spacing_instruction" type="id"/>
+    <!-- 安装质量-悬摆门-门框与门扇间最大间隙 -->
+    <item name="xbm_max_frame_spacing1" type="id"/>
+    <item name="xbm_max_frame_spacing2" type="id"/>
+    <item name="xbm_max_frame_spacing3" type="id"/>
+    <item name="xbm_max_frame_spacing_instruction" type="id"/>
+
+    <!-- 生产尺寸-门框-孔高 -->
+    <item name="frame_hole_height1" type="id"/>
+    <item name="frame_hole_height2" type="id"/>
+    <item name="frame_hole_height3" type="id"/>
+    <item name="frame_hole_height_design" type="id"/>
+    <item name="frame_hole_height_instruction" type="id"/>
+
+    <!-- 生产尺寸-门框-孔宽 -->
+    <item name="frame_hole_width1" type="id"/>
+    <item name="frame_hole_width2" type="id"/>
+    <item name="frame_hole_width3" type="id"/>
+    <item name="frame_hole_width_design" type="id"/>
+    <item name="frame_hole_width_instruction" type="id"/>
+    <!-- 生产尺寸-门框-对象线 -->
+    <item name="frame_diagonal_left_top" type="id"/>
+    <item name="frame_diagonal_right_bottom" type="id"/>
+    <item name="frame_diagonal_difference" type="id"/>
+    <item name="frame_diagonal_instruction" type="id"/>
+
+
+    <!-- 生产尺寸-门扇-高 -->
+    <item name="leaf_height1" type="id"/>
+    <item name="leaf_height2" type="id"/>
+    <item name="leaf_height3" type="id"/>
+    <item name="leaf_height_design" type="id"/>
+    <item name="leaf_height_instruction" type="id"/>
+
+    <!-- 生产尺寸-门扇-宽 -->
+    <item name="leaf_width1" type="id"/>
+    <item name="leaf_width2" type="id"/>
+    <item name="leaf_width3" type="id"/>
+    <item name="leaf_width_design" type="id"/>
+    <item name="leaf_width_instruction" type="id"/>
+    <!-- 生产尺寸-门扇-高 -->
+    <item name="leaf_thickness1" type="id"/>
+    <item name="leaf_thickness2" type="id"/>
+    <item name="leaf_thickness3" type="id"/>
+    <item name="leaf_thickness4" type="id"/>
+    <item name="leaf_thickness5" type="id"/>
+    <item name="leaf_thickness6" type="id"/>
+    <item name="leaf_thickness_design" type="id"/>
+    <item name="leaf_thickness_instruction" type="id"/>
+    <!-- 生产尺寸-门扇-对象线 -->
+    <item name="leaf_diagonal_left_top" type="id"/>
+    <item name="leaf_diagonal_right_bottom" type="id"/>
+    <item name="leaf_diagonal_difference" type="id"/>
+    <item name="leaf_diagonal_design" type="id"/>
+    <item name="leaf_diagonal_instruction" type="id"/>
+    <!-- 生产尺寸-门扇-嵌压板高度 -->
+    <item name="embedded_plate_height1" type="id"/>
+    <item name="embedded_plate_height2" type="id"/>
+    <item name="embedded_plate_height3" type="id"/>
+    <item name="embedded_plate_height4" type="id"/>
+    <item name="embedded_plate_height5" type="id"/>
+    <item name="embedded_plate_height6" type="id"/>
+    <item name="embedded_plate_height7" type="id"/>
+    <item name="embedded_plate_height8" type="id"/>
+    <item name="embedded_plate_height9" type="id"/>
+    <item name="embedded_plate_height_design" type="id"/>
+    <item name="embedded_plate_height_instruction" type="id"/>
+    <!-- 生产尺寸-悬摆门-悬摆板高度 -->
+    <item name="xbm_height1" type="id"/>
+    <item name="xbm_height2" type="id"/>
+    <item name="xbm_height_design" type="id"/>
+    <item name="xbm_height_instruction" type="id"/>
+    <!-- 生产尺寸-悬摆门-悬摆板宽度 -->
+    <item name="xbm_width1" type="id"/>
+    <item name="xbm_width2" type="id"/>
+    <item name="xbm_width_design" type="id"/>
+    <item name="xbm_width_instruction" type="id"/>
+    <!-- 生产尺寸-悬摆门-悬摆板对角线 -->
+    <item name="xbm_diagonal1" type="id"/>
+    <item name="xbm_diagonal2" type="id"/>
+    <item name="xbm_diagonal_design" type="id"/>
+    <item name="xbm_diagonal_instruction" type="id"/>
+    <!-- 生产尺寸-悬摆门-底座门扇通风孔高 -->
+    <item name="xbm_hole_height1" type="id"/>
+    <item name="xbm_hole_height2" type="id"/>
+    <item name="xbm_hole_height3" type="id"/>
+    <item name="xbm_hole_height4" type="id"/>
+    <item name="xbm_hole_height5" type="id"/>
+    <item name="xbm_hole_height6" type="id"/>
+    <item name="xbm_hole_height_design" type="id"/>
+    <item name="xbm_hole_height_instruction" type="id"/>
+    <!-- 生产尺寸-悬摆门-底座门扇通风孔宽 -->
+    <item name="xbm_hole_width1" type="id"/>
+    <item name="xbm_hole_width2" type="id"/>
+    <item name="xbm_hole_width3" type="id"/>
+    <item name="xbm_hole_width4" type="id"/>
+    <item name="xbm_hole_width5" type="id"/>
+    <item name="xbm_hole_width6" type="id"/>
+    <item name="xbm_hole_width_design" type="id"/>
+    <item name="xbm_hole_width_instruction" type="id"/>
+    <!-- 装配尺寸-直径公差-闭锁轴直径公差-->
+    <item name="atresia_shaft_diameter1" type="id"/>
+    <item name="atresia_shaft_diameter2" type="id"/>
+    <item name="atresia_shaft_diameter3" type="id"/>
+    <item name="atresia_shaft_diameter_design" type="id"/>
+    <item name="atresia_shaft_diameter_instruction" type="id"/>
+    <!-- 装配尺寸-直径公差-闭锁孔直径公差-->
+    <item name="atresia_hole_diameter1" type="id"/>
+    <item name="atresia_hole_diameter2" type="id"/>
+    <item name="atresia_hole_diameter3" type="id"/>
+    <item name="atresia_hole_diameter_design" type="id"/>
+    <item name="atresia_hole_diameter_instruction" type="id"/>
+
+    <!-- 装配尺寸-直径公差-铰页轴直径公差-->
+    <item name="hingepage_shaft_diameter1" type="id"/>
+    <item name="hingepage_shaft_diameter2" type="id"/>
+    <item name="hingepage_shaft_diameter3" type="id"/>
+    <item name="hingepage_shaft_diameter_design" type="id"/>
+    <item name="hingepage_shaft_diameter_instruction" type="id"/>
+    <!-- 装配尺寸-直径公差-铰页孔直径公差-->
+    <item name="hingepage_hole_diameter1" type="id"/>
+    <item name="hingepage_hole_diameter2" type="id"/>
+    <item name="hingepage_hole_diameter3" type="id"/>
+    <item name="hingepage_hole_diameter_design" type="id"/>
+    <item name="hingepage_hole_diameter_instruction" type="id"/>
+    <!-- 装配尺寸-平面度-门扇贴合面平面度-->
+    <item name="leaf_surface_left1" type="id"/>
+    <item name="leaf_surface_left2" type="id"/>
+    <item name="leaf_surface_left3" type="id"/>
+    <item name="leaf_surface_top1" type="id"/>
+    <item name="leaf_surface_top2" type="id"/>
+    <item name="leaf_surface_top3" type="id"/>
+    <item name="leaf_surface_right1" type="id"/>
+    <item name="leaf_surface_right2" type="id"/>
+    <item name="leaf_surface_right3" type="id"/>
+    <item name="leaf_surface_instruction" type="id"/>
+    <!-- 装配尺寸-平面度-门框贴合面平面度-->
+    <item name="frame_surface_left1" type="id"/>
+    <item name="frame_surface_left2" type="id"/>
+    <item name="frame_surface_left3" type="id"/>
+    <item name="frame_surface_top1" type="id"/>
+    <item name="frame_surface_top2" type="id"/>
+    <item name="frame_surface_top3" type="id"/>
+    <item name="frame_surface_right1" type="id"/>
+    <item name="frame_surface_right2" type="id"/>
+    <item name="frame_surface_right3" type="id"/>
+    <item name="frame_surface_instruction" type="id"/>
+    <!-- 装配尺寸-平面度-悬摆门平面度-->
+    <item name="xbm_surface_top1" type="id"/>
+    <item name="xbm_surface_top2" type="id"/>
+    <item name="xbm_surface_middle1" type="id"/>
+    <item name="xbm_surface_middle2" type="id"/>
+    <item name="xbm_surface_bottom1" type="id"/>
+    <item name="xbm_surface_bottom2" type="id"/>
+    <item name="xbm_surface_instruction" type="id"/>
+
+
+    <!-- 生产质量-钢板厚度-门框型钢厚度-->
+    <item name="steel_thickness_frame_left1" type="id"/>
+    <item name="steel_thickness_frame_left2" type="id"/>
+    <item name="steel_thickness_frame_left3" type="id"/>
+    <item name="steel_thickness_frame_left4" type="id"/>
+    <item name="steel_thickness_frame_left5" type="id"/>
+    <item name="steel_thickness_frame_left6" type="id"/>
+
+    <item name="steel_thickness_frame_right1" type="id"/>
+    <item name="steel_thickness_frame_right2" type="id"/>
+    <item name="steel_thickness_frame_right3" type="id"/>
+    <item name="steel_thickness_frame_right4" type="id"/>
+    <item name="steel_thickness_frame_right5" type="id"/>
+    <item name="steel_thickness_frame_right6" type="id"/>
+
+    <item name="steel_thickness_frame_design" type="id"/>
+    <item name="steel_thickness_frame_instruction" type="id"/>
+    <!-- 生产质量-钢板厚度-门扇型钢厚度-->
+    <item name="steel_thickness_planet1_front1" type="id"/>
+    <item name="steel_thickness_planet1_front2" type="id"/>
+    <item name="steel_thickness_planet1_front3" type="id"/>
+    <item name="steel_thickness_planet1_front4" type="id"/>
+    <item name="steel_thickness_planet1_front5" type="id"/>
+    <item name="steel_thickness_planet1_front6" type="id"/>
+
+    <item name="steel_thickness_planet2_front1" type="id"/>
+    <item name="steel_thickness_planet2_front2" type="id"/>
+    <item name="steel_thickness_planet2_front3" type="id"/>
+    <item name="steel_thickness_planet2_front4" type="id"/>
+    <item name="steel_thickness_planet2_front5" type="id"/>
+    <item name="steel_thickness_planet2_front6" type="id"/>
+
+    <item name="steel_thickness_planet1_back1" type="id"/>
+    <item name="steel_thickness_planet1_back2" type="id"/>
+    <item name="steel_thickness_planet1_back3" type="id"/>
+    <item name="steel_thickness_planet1_back4" type="id"/>
+    <item name="steel_thickness_planet1_back5" type="id"/>
+    <item name="steel_thickness_planet1_back6" type="id"/>
+
+    <item name="steel_thickness_planet2_back1" type="id"/>
+    <item name="steel_thickness_planet2_back2" type="id"/>
+    <item name="steel_thickness_planet2_back3" type="id"/>
+    <item name="steel_thickness_planet2_back4" type="id"/>
+    <item name="steel_thickness_planet2_back5" type="id"/>
+    <item name="steel_thickness_planet2_back6" type="id"/>
+
+    <item name="steel_thickness_leaf_design" type="id"/>
+    <item name="steel_thickness_leaf_instruction" type="id"/>
+
+    <!-- 生产质量-漆膜质量-漆膜厚度 -->
+    <item name="film_thickness_left_front1" type="id"/>
+    <item name="film_thickness_left_front2" type="id"/>
+    <item name="film_thickness_left_front3" type="id"/>
+    <item name="film_thickness_left_front4" type="id"/>
+    <item name="film_thickness_left_back1" type="id"/>
+    <item name="film_thickness_left_back2" type="id"/>
+    <item name="film_thickness_left_back3" type="id"/>
+    <item name="film_thickness_right_front1" type="id"/>
+    <item name="film_thickness_right_front2" type="id"/>
+    <item name="film_thickness_right_front3" type="id"/>
+    <item name="film_thickness_right_front4" type="id"/>
+    <item name="film_thickness_right_back1" type="id"/>
+    <item name="film_thickness_right_back2" type="id"/>
+    <item name="film_thickness_right_back3" type="id"/>
+    <item name="film_thickness_instruction" type="id"/>
+
+    <!-- 生产质量-漆膜质量-漆膜附着力(%) -->
+    <item name="film_adhesion_left_front1" type="id"/>
+    <item name="film_adhesion_left_front2" type="id"/>
+    <item name="film_adhesion_left_front3" type="id"/>
+    <item name="film_adhesion_left_front4" type="id"/>
+    <item name="film_adhesion_left_back1" type="id"/>
+    <item name="film_adhesion_left_back2" type="id"/>
+    <item name="film_adhesion_left_back3" type="id"/>
+    <item name="film_adhesion_right_front1" type="id"/>
+    <item name="film_adhesion_right_front2" type="id"/>
+    <item name="film_adhesion_right_front3" type="id"/>
+    <item name="film_adhesion_right_front4" type="id"/>
+    <item name="film_adhesion_right_back1" type="id"/>
+    <item name="film_adhesion_right_back2" type="id"/>
+    <item name="film_adhesion_right_back3" type="id"/>
+    <item name="film_adhesion_instruction" type="id"/>
+
+
+    <!-- 安装尺寸-门框-对象线上支点 -->
+    <item name="frame_diagonal_top1" type="id"/>
+    <item name="frame_diagonal_top2" type="id"/>
+    <item name="frame_diagonal_top_weld1" type="id"/>
+    <item name="frame_diagonal_top_weld2" type="id"/>
+    <item name="frame_diagonal_top_difference" type="id"/>
+    <item name="frame_hole_top_instruction" type="id"/>
+
+    <!-- 安装尺寸-门框-对象线下支点 -->
+    <item name="frame_diagonal_bottom1" type="id"/>
+    <item name="frame_diagonal_bottom2" type="id"/>
+    <item name="frame_diagonal_bottom_weld1" type="id"/>
+    <item name="frame_diagonal_bottom_weld2" type="id"/>
+    <item name="frame_diagonal_bottom_difference" type="id"/>
+    <item name="frame_hole_bottom_instruction" type="id"/>
+</resources>

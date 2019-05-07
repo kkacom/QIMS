@@ -1,0 +1,23 @@
+package com.zhilian.rf_qims.mvp.sample_data.view;
+
+import android.content.Context;
+import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.FrameLayout;
+
+import butterknife.ButterKnife;
+
+/**
+ * Created by colin on 2018/3/23 11:15 .
+ */
+
+public interface IBaseItemView {
+
+	void initContentView();
+
+	void initTopBar();
+
+	int layoutRes();
+}

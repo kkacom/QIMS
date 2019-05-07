@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="@drawable/bg_gridview_two"
+              android:padding="10dp">
+
+    <!--<TextView
+        android:id="@+id/tv_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:text="1.1"/>-->
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_edittext"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

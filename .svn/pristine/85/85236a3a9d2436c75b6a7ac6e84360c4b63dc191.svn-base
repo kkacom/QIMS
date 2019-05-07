@@ -1,0 +1,36 @@
+TASK com.zhilian.rf_qims id=1093
+  ACTIVITY com.zhilian.rf_qims/.ui.activity.ProjectActivity 740dfca pid=11069
+    Local Activity 9ec1a64 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 460mcc1mnc [zh_CN_#Hans] ldltr sw360dp w360dp h578dp 480dpi nrml long port finger -keyb/v/h -nav/h suim:1 s.41}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@80aae39
+        mContainer=android.app.Activity$HostCallbacks@80aae39
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false      mIsAmbientMode=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=88095588 (148272 ms ago)
+    View Hierarchy:
+      DecorView@6b7bc7e[ProjectActivity]
+        android.widget.LinearLayout{f1dd5df V.E...... ........ 0,0-1080,1806}
+          android.view.ViewStub{edef4f5 G.E...... ......I. 0,0-0,0 #10203e4 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{e0f228a V.E...... ........ 0,72-1080,1806 #1020002 android:id/content}
+            android.widget.LinearLayout{9b3f0fb V.E...... ........ 0,0-1080,1734}
+              android.widget.TextView{22c4518 V.ED..... ........ 0,0-209,57 #7f0b0054 app:id/tv_show}
+              android.widget.Button{276eb71 VFED..C.. ........ 0,57-264,201 #7f0b0055 app:id/stop}
+        android.view.View{2c4dd56 V.ED..... ........ 0,1806-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{fc6a1d7 V.ED..... ........ 0,0-1080,72 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {2c9ac4}
+      (Total messages: 0, polling=false, quitting=false)

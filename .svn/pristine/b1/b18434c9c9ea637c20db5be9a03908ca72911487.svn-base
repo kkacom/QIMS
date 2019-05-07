@@ -1,0 +1,65 @@
+package com.zhilian.rf_qims.bean;
+
+import org.greenrobot.greendao.annotation.Entity;
+import org.greenrobot.greendao.annotation.Id;
+
+import java.io.Serializable;
+import org.greenrobot.greendao.annotation.Generated;
+
+/**
+ * Created by sl on 2017-10-17.
+ */
+
+public class CompanyBean implements Serializable{
+
+	private static final long serialVersionUID = 5251488744519183844L;
+	/**
+	 * TEMPCOLUMN : 0
+	 * NAME : 东莞市鑫安人防工程有限公司
+	 * ID : 565
+	 * TEMPROWNUMBER : 61
+	 * EID : 112
+	 */
+	private String NAME;
+
+	private long ID;
+
+	private long EID;
+
+	public CompanyBean(String NAME, long ID, long EID) {
+					this.NAME = NAME;
+					this.ID = ID;
+					this.EID = EID;
+	}
+
+
+	public CompanyBean() {
+	}
+
+	public String getNAME() {
+					return this.NAME;
+	}
+
+	public void setNAME(String NAME) {
+					this.NAME = NAME;
+	}
+
+	public long getID() {
+					return this.ID;
+	}
+
+	public void setID(long ID) {
+					this.ID = ID;
+	}
+
+	public long getEID() {
+					return this.EID;
+	}
+
+	public void setEID(long EID) {
+					this.EID = EID;
+	}
+
+
+
+}

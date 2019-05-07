@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view3"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/TextViewStyle1"
+                android:text="2.7.1 生产车间车床数量不少于4台(其中数控车床不少于1台，工件直径800毫米、长度1500毫米的车床不少于1台)。"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#F5F5F5"/>
+
+            <Button
+                style="@style/Text"
+                android:id="@+id/create"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:gravity="center"
+                android:text="创建设备"
+                android:drawableLeft="@drawable/icon_person"
+                android:background="@drawable/common_button_style"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:padding="10dp">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="设备信息"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="设备名称："/>
+
+                        <EditText
+                            android:id="@+id/et_name2_7_1"
+                            android:layout_width="match_parent"
+                            style="@style/EditTextStyle"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="设备型号："/>
+
+                        <EditText
+                            android:id="@+id/et_type2_7_1"
+                            android:layout_width="match_parent"
+                            style="@style/EditTextStyle"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="设备编号："/>
+
+                        <EditText
+                            android:id="@+id/et_number2_7_1"
+                            android:layout_width="match_parent"
+                            style="@style/EditTextStyle"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="备注："/>
+
+                        <EditText
+                            android:id="@+id/et_remark2_7_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            style="@style/EditTextStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="#F5F5F5"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="得分："/>
+
+                        <TextView
+                            android:id="@+id/tv_score2_7_1"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"/>
+                    </LinearLayout>
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb5_yes2_7_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/Text"
+                            android:text="满足"/>
+
+                        <RadioButton
+                            android:id="@+id/rb5_no2_7_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/Text"
+                            android:text="不满足"
+                            android:checked="true"/>
+                    </RadioGroup>
+
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb1_yes2_7_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/Text"
+                            android:text="正常运转"/>
+
+                        <RadioButton
+                            android:id="@+id/rb1_no2_7_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/Text"
+                            android:text="未正常运转"
+                            android:checked="true"/>
+                    </RadioGroup>
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <RadioButton
+                            android:id="@+id/rb2_yes2_7_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/Text"
+                            android:text="有付款凭证"/>
+
+                        <RadioButton
+                            android:id="@+id/rb2_no2_7_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/Text"
+                            android:text="无付款凭证"
+                            android:checked="true"/>
+                    </RadioGroup>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <CheckBox
+                            android:id="@+id/cb1_2_7_1"
+                            style="@style/Text"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="自有"/>
+
+                        <CheckBox
+                            android:id="@+id/cb2_2_7_1"
+                            style="@style/Text"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="租凭"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_rule2_7_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        style="@style/Text"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/style_edittext"
+                        android:text=""/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        android:layout_above="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/view3"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff">
+
+        <include
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</RelativeLayout>

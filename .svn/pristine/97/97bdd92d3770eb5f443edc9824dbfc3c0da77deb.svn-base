@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\as_workspace\\RF-QIMS-APP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\icon_bg_list.jpg",
+        "source": "E:\\as_workspace\\RF-QIMS-APP\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon_bg_list.jpg"
+    }
+]

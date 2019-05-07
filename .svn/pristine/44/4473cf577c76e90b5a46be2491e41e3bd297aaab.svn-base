@@ -1,0 +1,702 @@
+[
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sample_download.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\sample_download.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_shadow_upside.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c16cd944d2be88dc1f789e4a74a84a09e41b0549\\output\\res\\drawable\\ucrop_shadow_upside.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\item_user_info_selector.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\item_user_info_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\picture_sb_thumb.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\picture_sb_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\login_button_style_is.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\login_button_style_is.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_bottom_inset_left.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_bottom_inset_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\num_oval.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\num_oval.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d752f36d7d159b648688d928285d7fdd3538d2cb\\output\\res\\drawable\\default_scroll_handle_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\has_toggle.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\has_toggle.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_gv.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\bg_gv.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\picture_checkbox_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\picture_checkbox_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_bottom_inset.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_bottom_inset.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_bottom_inset_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_bottom_inset_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\rightsave.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\rightsave.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\login_button_style.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\login_button_style.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\picture_btn_music_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\picture_btn_music_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selected.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_btn_selected.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_popup_arrow_up.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_popup_arrow_up.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_oval_true.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c16cd944d2be88dc1f789e4a74a84a09e41b0549\\output\\res\\drawable\\ucrop_oval_true.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_dialog_check_mark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_dialog_check_mark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_top_inset_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_top_inset_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_tips_point.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_tips_point.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_icon_switch.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_icon_switch.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tab_panel_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\tab_panel_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_dialog_action_button_bg_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_dialog_action_button_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_vector_ic_crop.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c16cd944d2be88dc1f789e4a74a84a09e41b0549\\output\\res\\drawable\\ucrop_vector_ic_crop.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tab_item_selected.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\tab_item_selected.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_item_selected.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_item_selected.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_double_border.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_double_border.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_bottom_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_bottom_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_list_item_bg_with_border_none.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_list_item_bg_with_border_none.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_style2_is.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\button_style2_is.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_right_bottom_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\btn_right_bottom_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_style2_no.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\button_style2_no.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_left.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d752f36d7d159b648688d928285d7fdd3538d2cb\\output\\res\\drawable\\default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\radius_button_bg_pressed.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\radius_button_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_red.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\button_red.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\emotionstore_progresscancelbtn.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\emotionstore_progresscancelbtn.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fj_icon.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\fj_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d45d2917190c45a6c3bc1c12702abf5b9f63f03\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\takepic.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\takepic.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_custom_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\dialog_custom_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_switch_thumb.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d752f36d7d159b648688d928285d7fdd3538d2cb\\output\\res\\drawable\\default_scroll_handle_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\picture_layer_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\picture_layer_progress.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_news.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\shape_news.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_double_border_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_double_border_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_left_bottom_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\btn_left_bottom_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_red_no.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\button_red_no.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_switch_thumb_checked.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_switch_thumb_checked.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\orange_oval.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\orange_oval.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_top_inset_left_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_top_inset_left_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_left_false.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\btn_left_false.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\pager_layout_item_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\pager_layout_item_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_transparent.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_transparent.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\audio_placeholder.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\audio_placeholder.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_vector_loader.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c16cd944d2be88dc1f789e4a74a84a09e41b0549\\output\\res\\drawable\\ucrop_vector_loader.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\toolbar_back.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\toolbar_back.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\no_toggle.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\no_toggle.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\item_select_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\item_select_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_style1_is.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\button_style1_is.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_switch_track.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_switch_track.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_top_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_top_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_switch_track_checked.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_switch_track_checked.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_list_item_bg_with_border_top_inset.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_list_item_bg_with_border_top_inset.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_list_item_bg_with_border_bottom_inset.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_list_item_bg_with_border_bottom_inset.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\p_seekbar_thumb_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\p_seekbar_thumb_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_bottom_inset_left_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_bottom_inset_left_pressed.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_top_inset.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_top_inset.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d45d2917190c45a6c3bc1c12702abf5b9f63f03\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d45d2917190c45a6c3bc1c12702abf5b9f63f03\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\radius_button_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\radius_button_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_tip_dialog_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_tip_dialog_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_bg_with_radius_and_border.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\common_bg_with_radius_and_border.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\has_upload.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\has_upload.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_dialog_action_btn_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_dialog_action_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\no_print.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\no_print.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\has_print.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\has_print.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_list_item_bg_with_border_double.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_list_item_bg_with_border_double.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_sign_count_view_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_sign_count_view_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\text_readonly.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\text_readonly.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_right.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d752f36d7d159b648688d928285d7fdd3538d2cb\\output\\res\\drawable\\default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_switch_thumb.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_list_item_bg_with_border_top_inset_left.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_list_item_bg_with_border_top_inset_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\print_icon.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\print_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_left_true.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\btn_left_true.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_list_item_bg_with_border_top_inset_left.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_list_item_bg_with_border_top_inset_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\round_rect_translucent_black_shape.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\round_rect_translucent_black_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\p_seekbar_thumb_normal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\p_seekbar_thumb_normal.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_list_item_bg_with_border_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_list_item_bg_with_border_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_selector_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_switch_track.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_switch_track.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_divider_bottom_bitmap.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_divider_bottom_bitmap.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_item_selected_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_item_selected_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_style2.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\button_style2.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selector_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_save.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\icon_save.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_divider_top_bitmap.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_divider_top_bitmap.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_list_item_bg_with_border_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_list_item_bg_with_border_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_pickerview_btn.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\452fedd52b32b88e563144bc1ee22410ad2c809e\\output\\res\\drawable\\selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_edittext_bg_border_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_edittext_bg_border_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_right_true.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\btn_right_true.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_red_is.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\button_red_is.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\delet_zhaopian_1x.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\delet_zhaopian_1x.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_shadow.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\dialog_shadow.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9d45d2917190c45a6c3bc1c12702abf5b9f63f03\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\s_app_touch_fix_area_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\s_app_touch_fix_area_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\employment_evaluation.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\employment_evaluation.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\gif_tag.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\gif_tag.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_dialog_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_dialog_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\s_radius_button_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\s_radius_button_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\close.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\close.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_clear.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\icon_clear.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\no_upload.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\no_upload.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sidebar_background.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sign_icon.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\sign_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\arrow_vertical.png",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\bundles\\default\\res\\drawable\\arrow_vertical.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_right_false.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\btn_right_false.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_vector_loader_animated.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c16cd944d2be88dc1f789e4a74a84a09e41b0549\\output\\res\\drawable\\ucrop_vector_loader_animated.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qmui_s_list_item_bg_with_border_bottom_inset_left.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable\\qmui_s_list_item_bg_with_border_bottom_inset_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edit_bg_white.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\edit_bg_white.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\login_box_style.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\login_box_style.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\today_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\today_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_style1_no.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\button_style1_no.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edit_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\edit_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selected_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable\\md_btn_selected_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\select_day_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\select_day_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\image_placeholder.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\drawable\\image_placeholder.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable\\login_button_style_no.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\drawable\\login_button_style_no.xml"
+    }
+]

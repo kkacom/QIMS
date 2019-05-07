@@ -1,0 +1,115 @@
+// Generated code from Butter Knife. Do not modify!
+package com.zhilian.rf_qims.mvp.login.view;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class LoginActivity_ViewBinding implements Unbinder {
+  private LoginActivity target;
+
+  private View view2131755432;
+
+  private View view2131755434;
+
+  private View view2131755431;
+
+  private View view2131755433;
+
+  private View view2131755428;
+
+  @UiThread
+  public LoginActivity_ViewBinding(LoginActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public LoginActivity_ViewBinding(final LoginActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, 2131755432, "field 'eye' and method 'eye'");
+    target.eye = Utils.castView(view, 2131755432, "field 'eye'", ImageView.class);
+    view2131755432 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.eye();
+      }
+    });
+    view = Utils.findRequiredView(source, 2131755434, "field 'tv_forgetPwd' and method 'forgetPwd'");
+    target.tv_forgetPwd = Utils.castView(view, 2131755434, "field 'tv_forgetPwd'", TextView.class);
+    view2131755434 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.forgetPwd();
+      }
+    });
+    view = Utils.findRequiredView(source, 2131755431, "field 'clear2' and method 'clear2'");
+    target.clear2 = Utils.castView(view, 2131755431, "field 'clear2'", ImageView.class);
+    view2131755431 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.clear2();
+      }
+    });
+    view = Utils.findRequiredView(source, 2131755433, "field 'login_button' and method 'onLogin'");
+    target.login_button = Utils.castView(view, 2131755433, "field 'login_button'", Button.class);
+    view2131755433 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onLogin();
+      }
+    });
+    target.et_user = Utils.findRequiredViewAsType(source, 2131755427, "field 'et_user'", EditText.class);
+    target.et_password = Utils.findRequiredViewAsType(source, 2131755430, "field 'et_password'", EditText.class);
+    view = Utils.findRequiredView(source, 2131755428, "field 'clear1' and method 'clear1'");
+    target.clear1 = Utils.castView(view, 2131755428, "field 'clear1'", ImageView.class);
+    view2131755428 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.clear1();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    LoginActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.eye = null;
+    target.tv_forgetPwd = null;
+    target.clear2 = null;
+    target.login_button = null;
+    target.et_user = null;
+    target.et_password = null;
+    target.clear1 = null;
+
+    view2131755432.setOnClickListener(null);
+    view2131755432 = null;
+    view2131755434.setOnClickListener(null);
+    view2131755434 = null;
+    view2131755431.setOnClickListener(null);
+    view2131755431 = null;
+    view2131755433.setOnClickListener(null);
+    view2131755433 = null;
+    view2131755428.setOnClickListener(null);
+    view2131755428 = null;
+  }
+}

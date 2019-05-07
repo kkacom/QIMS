@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\md_nav_back.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\drawable-anydpi-v21\\md_nav_back.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\qmui_icon_topbar_back.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-anydpi-v21\\qmui_icon_topbar_back.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    }
+]

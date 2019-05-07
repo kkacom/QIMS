@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="368dp"
+        android:layout_height="56dp"
+        android:background="#666666"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="产品尺寸-门框"
+            android:textSize="@dimen/text_size_18"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="220dp"
+            tools:layout_editor_absoluteY="25dp"
+            tools:layout_editor_absoluteX="164dp" />
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:textColor="@color/black"
+            android:id="@+id/tv_previous"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="上一页"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_title"
+            app:layout_constraintStart_toEndOf="@+id/guideline"
+            app:qmui_radius="3dp"
+            tools:layout_editor_absoluteX="164dp" />
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="1/3"
+            android:textSize="@dimen/text_size_18"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_previous"
+            app:layout_constraintStart_toEndOf="@+id/tv_previous"
+            tools:layout_editor_absoluteX="218dp" />
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:textColor="@color/black"
+            android:id="@+id/tv_next"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="下一页"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_num"
+            app:layout_constraintStart_toEndOf="@+id/tv_num"
+            app:qmui_radius="3dp"
+            tools:layout_editor_absoluteX="256dp" />
+
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:textColor="@color/black"
+            android:id="@+id/tv_save"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="保存"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_next"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_next"
+            app:qmui_radius="3dp"
+            tools:layout_editor_absoluteX="320dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>

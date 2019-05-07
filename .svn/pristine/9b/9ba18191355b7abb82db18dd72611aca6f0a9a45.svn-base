@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_double.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_double.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\c971e56c74f7e4691caa635ab703798c9254d1f3\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\c971e56c74f7e4691caa635ab703798c9254d1f3\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom_inset.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom_inset.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_none.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_none.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_top_inset_left.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_top_inset_left.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\c971e56c74f7e4691caa635ab703798c9254d1f3\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom_inset_left.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom_inset_left.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\c971e56c74f7e4691caa635ab703798c9254d1f3\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_top.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\9858a8f67a505cdeb17cfcfce36d453ebe5767b9\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

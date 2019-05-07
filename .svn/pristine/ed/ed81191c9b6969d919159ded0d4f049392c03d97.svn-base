@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:text="悬摆板高度"
+            />
+        <TableLayout>
+            <TableRow
+                android:background="#6DEDD7"
+                android:layout_height="@dimen/row_height">
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+
+            </TableRow>
+            <TableRow
+                android:background="#6DEDD7"
+                android:layout_height="@dimen/row_height">
+
+                <EditText  android:id="@id/xbm_height1"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_height2"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_height_design"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:background="#6DEDD7"
+                android:layout_height="@dimen/row_height">
+
+                <EditText  android:id="@id/xbm_height_instruction"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:background="#EDD185">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_height="match_parent"
+            android:text="悬摆板宽度"/>
+        <TableLayout>
+            <TableRow
+                android:layout_height="@dimen/row_height">
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="@dimen/row_height">
+
+                <EditText  android:id="@id/xbm_width1"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_width2"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_width_design"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_height="@dimen/row_height">
+
+                <EditText  android:id="@id/xbm_width_instruction"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_height="match_parent"
+            android:text="悬摆门对角线"/>
+        <TableLayout>
+            <TableRow
+                android:layout_height="@dimen/row_height">
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="@dimen/row_height">
+
+                <EditText  android:id="@id/xbm_diagonal1"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_diagonal2"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_diagonal_design"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_height="@dimen/row_height">
+
+                <EditText  android:id="@id/xbm_diagonal_instruction"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:background="#EDD185">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_height="match_parent"
+            android:text="底座门扇通风孔高"
+            />
+        <TableLayout>
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+
+
+                <EditText  android:id="@id/xbm_hole_height1"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_hole_height2"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_hole_height3"
+                    style="@style/TestInput"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+            </TableRow>
+
+            <TableRow>
+
+                <EditText  android:id="@id/xbm_hole_height4"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_hole_height5"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_hole_height6"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_hole_height_design"
+                    style="@style/TestInput"/>
+
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp">
+
+                <EditText  android:id="@id/xbm_hole_height_instruction"
+                    style="@style/TestInput"
+                    android:layout_span="4"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="底座门扇通风孔宽"/>
+        <TableLayout>
+            <TableRow
+                android:layout_height="@dimen/row_height">
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点"/>
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="@dimen/row_height">
+
+                <EditText  android:id="@id/xbm_hole_width1"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_hole_width2"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/xbm_hole_width3"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/xbm_hole_width_design"
+                    style="@style/TestInput"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_height="@dimen/row_height">
+
+                <EditText  android:id="@id/xbm_hole_width_instruction"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+</TableLayout>
+
+
+</ScrollView>

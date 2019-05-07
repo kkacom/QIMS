@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.constraint.ConstraintLayout
+            android:background="#99FFFF"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pmd_mkthm_title1"
+                style="@style/LeftTitle"
+                android:layout_height="27dp"
+                android:text="@string/title_mkthm_pmd"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/pmd_mkthm_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="@string/title_value"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_title1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_title1" />
+
+            <TextView
+                android:id="@+id/pmd_mkthm_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="2dp"
+                android:text="@string/title_value"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_item1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_item1" />
+
+            <TextView
+                android:id="@+id/pmd_mkthm_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="2dp"
+                android:text="@string/title_value"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_item2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_item2" />
+            <TextView
+                android:id="@+id/pmd_mkthm_title2"
+                style="@style/LeftTitle"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="4dp"
+                android:text="左边:"
+                app:layout_constraintEnd_toEndOf="@+id/pmd_mkthm_title1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_mkthm_title1" />
+            <EditText
+                android:id="@+id/pmd_mkthm_left1"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_title2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_title2" android:inputType="" />
+
+            <EditText
+                android:id="@+id/pmd_mkthm_left2"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_left1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_left1" />
+            <EditText
+                android:id="@+id/pmd_mkthm_left3"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_left2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_left2" />
+
+            <TextView
+                android:id="@+id/pmd_mkthm_title3"
+                style="@style/LeftTitle"
+                android:layout_marginTop="4dp"
+                android:text="上边:"
+                app:layout_constraintEnd_toEndOf="@+id/pmd_mkthm_title2"
+                app:layout_constraintStart_toStartOf="@+id/pmd_mkthm_title2"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_mkthm_title2" />
+            <EditText
+                android:id="@+id/pmd_mkthm_top1"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_title3"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_title3" />
+
+            <EditText
+                android:id="@+id/pmd_mkthm_top2"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_top1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_top1" />
+            <EditText
+                android:id="@+id/pmd_mkthm_top3"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_top2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_top2" />
+
+            <TextView
+                android:id="@+id/pmd_mkthm_title4"
+                style="@style/LeftTitle"
+                android:layout_marginTop="4dp"
+                android:text="上边:"
+                app:layout_constraintEnd_toEndOf="@+id/pmd_mkthm_title3"
+                app:layout_constraintStart_toStartOf="@+id/pmd_mkthm_title3"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_mkthm_title3" />
+            <EditText
+                android:id="@+id/pmd_mkthm_right1"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_title4"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_title4" />
+
+            <EditText
+                android:id="@+id/pmd_mkthm_right2"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_right1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_right1" android:inputType="" />
+            <EditText
+                android:id="@+id/pmd_mkthm_right3"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_mkthm_right2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_mkthm_right2" android:inputType="" />
+
+            <EditText
+                android:id="@+id/et_mkthm_bz"
+                style="@style/InputRemarks"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/pmd_mkthm_right1"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_mkthm_right1" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:background="#FFFFCC"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pmd_msthm_title1"
+                style="@style/LeftTitle"
+                android:layout_height="27dp"
+                android:text="@string/title_msthm_pmd"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/pmd_msthm_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="@string/title_value"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_title1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_title1" />
+
+            <TextView
+                android:id="@+id/pmd_msthm_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="2dp"
+                android:text="@string/title_value"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_item1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_item1" />
+
+            <TextView
+                android:id="@+id/pmd_msthm_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="2dp"
+                android:text="@string/title_value"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_item2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_item2" />
+            <TextView
+                android:id="@+id/pmd_msthm_title2"
+                style="@style/LeftTitle"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="4dp"
+                android:text="左边:"
+                app:layout_constraintEnd_toEndOf="@+id/pmd_msthm_title1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_msthm_title1" />
+            <EditText
+                android:id="@+id/pmd_msthm_left1"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_title2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_title2" android:inputType="" />
+
+            <EditText
+                android:id="@+id/pmd_msthm_left2"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_left1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_left1" />
+            <EditText
+                android:id="@+id/pmd_msthm_left3"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_left2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_left2" />
+
+            <TextView
+                android:id="@+id/pmd_msthm_title3"
+                style="@style/LeftTitle"
+                android:layout_marginTop="4dp"
+                android:text="上边:"
+                app:layout_constraintEnd_toEndOf="@+id/pmd_msthm_title2"
+                app:layout_constraintStart_toStartOf="@+id/pmd_msthm_title2"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_msthm_title2" />
+            <EditText
+                android:id="@+id/pmd_msthm_top1"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_title3"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_title3" />
+
+            <EditText
+                android:id="@+id/pmd_msthm_top2"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_top1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_top1" />
+            <EditText
+                android:id="@+id/pmd_msthm_top3"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_top2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_top2" />
+
+            <TextView
+                android:id="@+id/pmd_msthm_title4"
+                style="@style/LeftTitle"
+                android:layout_marginTop="4dp"
+                android:text="上边:"
+                app:layout_constraintEnd_toEndOf="@+id/pmd_msthm_title3"
+                app:layout_constraintStart_toStartOf="@+id/pmd_msthm_title3"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_msthm_title3" />
+            <EditText
+                android:id="@+id/pmd_msthm_right1"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_title4"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_title4" />
+
+            <EditText
+                android:id="@+id/pmd_msthm_right2"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_right1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_right1" android:inputType="" />
+            <EditText
+                android:id="@+id/pmd_msthm_right3"
+                style="@style/InputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_msthm_right2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_msthm_right2" android:inputType="" />
+
+            <EditText
+                android:id="@+id/et_msthm_bz"
+                style="@style/InputRemarks"
+                android:layout_marginTop="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/pmd_msthm_right1"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_msthm_right1" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:background="#99FFFF"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pmd_xbm_title1"
+                style="@style/LeftTitle"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="24dp"
+                android:text="门扇帖合面平面度:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/pmd_xbm_item1"
+                style="@style/SmallTopTitle"
+                android:layout_marginStart="8dp"
+                android:text="上1 "
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_title1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pmd_xbm_item2"
+                style="@style/SmallTopTitle"
+                android:layout_marginStart="8dp"
+                android:text="上2"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_xbm_item1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_item1" />
+
+            <TextView
+                android:id="@+id/pmd_xbm_item3"
+                style="@style/SmallTopTitle"
+                android:layout_marginStart="8dp"
+                android:text="中1"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_xbm_item2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_item2" />
+
+            <TextView
+                android:id="@+id/pmd_xbm_item4"
+                style="@style/SmallTopTitle"
+                android:layout_marginStart="8dp"
+                android:text="中2"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_xbm_item3"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_item3" />
+
+            <TextView
+                android:id="@+id/pmd_xbm_item5"
+                style="@style/SmallTopTitle"
+                android:layout_marginStart="8dp"
+                android:text="下1"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_xbm_item4"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_item4" />
+
+            <TextView
+                android:id="@+id/pmd_xbm_item6"
+                style="@style/SmallTopTitle"
+                android:layout_marginStart="2dp"
+                android:text="下2"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_xbm_item5"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_item5" />
+
+            <EditText
+                android:id="@+id/pmd_xbm_top1"
+                style="@style/SmallInputValue"
+                app:layout_constraintStart_toStartOf="@+id/pmd_xbm_item1"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_xbm_item1" />
+
+            <EditText
+                android:id="@+id/pmd_xbm_top2"
+                style="@style/SmallInputValue"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_xbm_top1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_top1" />
+
+            <EditText
+                android:id="@+id/pmd_xbm_mid1"
+                style="@style/SmallInputValue"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_xbm_mid2"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_mid2" />
+
+            <EditText
+                android:id="@+id/pmd_xbm_mid2"
+                style="@style/SmallInputValue"
+                app:layout_constraintStart_toStartOf="@+id/pmd_xbm_item3"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_xbm_item3" />
+
+            <EditText
+                android:id="@+id/pmd_xbm_bottom1"
+                style="@style/SmallInputValue"
+                app:layout_constraintStart_toStartOf="@+id/pmd_xbm_item5"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_xbm_item5" />
+
+            <EditText
+                android:id="@+id/pmd_xbm_bottom2"
+                style="@style/SmallInputValue"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/pmd_xbm_bottom1"
+                app:layout_constraintStart_toEndOf="@+id/pmd_xbm_bottom1" />
+
+            <EditText
+                android:id="@+id/et_xbm_bz"
+                style="@style/InputRemarks"
+
+                android:layout_width="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/pmd_xbm_bottom2"
+                app:layout_constraintStart_toStartOf="@+id/pmd_xbm_top1"
+                app:layout_constraintTop_toBottomOf="@+id/pmd_xbm_top1" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+
+</ScrollView>

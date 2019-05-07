@@ -1,0 +1,13 @@
+package com.zhilian.rf_qims.mvp.sample_data.info;
+
+/**
+ * Created by colin on 2018/3/26 10:42 .
+ */
+
+public class InfoModel {
+
+
+	interface Callback{
+
+	}
+}

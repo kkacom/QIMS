@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/TextViewStyle1"
+                android:text="2.1.5 持有建筑工程专业工程师以上职称证书" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#F5F5F5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TableLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:stretchColumns="0">
+
+                    <TableRow>
+
+                        <Button
+                            android:id="@+id/create"
+                            style="@style/Text"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/common_button_style"
+                            android:drawableLeft="@drawable/icon_person"
+                            android:gravity="center"
+                            android:paddingLeft="15dp"
+                            android:text="创建人员" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/Text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center"
+                            android:text="姓名" />
+
+                        <TextView
+                            style="@style/Text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="个人得分" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <ListView
+                            android:id="@+id/listView"
+                            android:layout_height="wrap_content"
+                            android:divider="@color/colorPrimary"
+                            android:dividerHeight="5px"></ListView>
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="2px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/albumSelectorNormal" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5">
+
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TableRow>
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="总分：" />
+
+                            <TextView
+                                android:id="@+id/totalPoint"
+                                style="@style/TextBlue"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:text="" />
+                        </TableRow>
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="有职称或资格证书：" />
+
+                            <TextView
+                                android:id="@+id/yesCredential"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:text="人" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="无职称或资格证书：" />
+
+                            <TextView
+                                android:id="@+id/noCredential"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+                        </TableRow>
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="有证书：" />
+
+                            <TextView
+                                android:id="@+id/yesCertificate"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="无证书：" />
+
+                            <TextView
+                                android:id="@+id/noCertificate"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+                        </TableRow>
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="有培训证书：" />
+
+                            <TextView
+                                android:id="@+id/yesCultivate"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="无培训证书：" />
+
+                            <TextView
+                                android:id="@+id/noCultivate"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+                        </TableRow>
+
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="有社保：" />
+
+                            <TextView
+                                android:id="@+id/yesSecurity"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="无社保：" />
+
+                            <TextView
+                                android:id="@+id/noSecurity"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+                        </TableRow>
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="有劳动合同：" />
+
+                            <TextView
+                                android:id="@+id/yesPact"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="无劳动合同：" />
+
+                            <TextView
+                                android:id="@+id/noPact"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+                        </TableRow>
+
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="考核通过：" />
+
+                            <TextView
+                                android:id="@+id/pass"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="考核不通过：" />
+
+                            <TextView
+                                android:id="@+id/notPass"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+                        </TableRow>
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="在册：" />
+
+                            <TextView
+                                android:id="@+id/tome"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="不在册：" />
+
+                            <TextView
+                                android:id="@+id/notTome"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center_horizontal"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="人" />
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+   <!-- <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <include layout="@layout/include_bottom2" />
+    </LinearLayout>-->
+</LinearLayout>

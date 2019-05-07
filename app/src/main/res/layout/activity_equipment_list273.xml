@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/TextViewStyle1"
+                android:text="2.7.3 铣床不少于2台（工作台面积不小于200mm×1000mm）。" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#F5F5F5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TableLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:stretchColumns="0">
+                    <TableRow>
+                        <Button
+                            style="@style/Text"
+                            android:id="@+id/create"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:gravity="center"
+                            android:text="创建设备"
+                            android:drawableLeft="@drawable/icon_person"
+                            android:background="@drawable/common_button_style"/>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            style="@style/Text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="设备名称" />
+
+                        <TextView
+                            style="@style/Text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="每台得分" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <ListView
+                            android:id="@+id/listView"
+                            android:layout_height="match_parent"
+                            android:divider="@color/colorPrimary"
+                            android:dividerHeight="5px"/>
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="2px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/albumSelectorNormal" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow>
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="得分：" />
+
+                            <TextView
+                                android:id="@+id/totalPoint"
+                                style="@style/TextBlue"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:text="0.0" />
+                        </TableRow>
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="自有设备：" />
+
+                            <TextView
+                                android:id="@+id/newEquipment"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:text="台" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="租赁设备：" />
+
+                            <TextView
+                                android:id="@+id/oldEquipment"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="台" />
+                        </TableRow>
+
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="正常运转：" />
+
+                            <TextView
+                                android:id="@+id/yesOperate"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="台" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="未正常运转：" />
+
+                            <TextView
+                                android:id="@+id/noOperate"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="台" />
+                        </TableRow>
+
+                        <TableRow android:layout_marginTop="5dp"
+                            android:visibility="invisible">
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="已固定：" />
+
+                            <TextView
+                                android:id="@+id/yesFixation"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="台" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="未固定：" />
+
+                            <TextView
+                                android:id="@+id/noFixation"
+                                style="@style/Text"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/style_edittext"
+                                android:gravity="center"
+                                android:text="" />
+
+                            <TextView
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="台" />
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow
+                            android:layout_marginTop="15dp"
+                            android:gravity="center_horizontal">
+
+                            <CheckBox
+                                android:id="@+id/cb1_2_7_3"
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="工作台面积小于要求扣1.0分" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginTop="5dp"
+                            android:gravity="center_horizontal"
+                            android:visibility="gone">
+
+                            <CheckBox
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="加工长度小于1500mm扣1.0分" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginTop="5dp"
+                            android:gravity="center_horizontal"
+                            android:visibility="invisible">
+
+                            <CheckBox
+                                style="@style/Text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="数控车床不足1台" />
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <include layout="@layout/include_bottom2" />
+    </LinearLayout>
+
+</LinearLayout>

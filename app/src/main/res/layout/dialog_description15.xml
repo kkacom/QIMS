@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/TextViewStyle1"
+                android:text="3.1.4 企业采购的原材料和外购件质量符合设计图纸要求，产品质量合格。对检验不合格材料及产品有明确的处置记录并符合质量控制要求。"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="分值："/>
+
+                        <TextView
+                            android:id="@+id/tv_value3_1_4"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/style_edittext"/>
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="/得分："/>
+
+                        <TextView
+                            android:id="@+id/tv_score3_1_4"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:background="@drawable/style_edittext"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb1_3_1_4"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="抽查近一年油漆、焊条/丝、涂料、高强螺栓、钢材、钢筋、密封条、混凝土等材料检验报告符合质量要求、处置有序"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb2_3_1_4"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="外购件附有产品合格证书或第三方抽验检测报告"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb3_3_1_4"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="检验报告不合格未做处置不得分"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb4_3_1_4"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="外购件无质量凭证不得分"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_rule3_1_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/style_edittext"
+                        android:text=""/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        android:layout_above="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff">
+
+        <include
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</LinearLayout>

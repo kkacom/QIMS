@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+           >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/sliderlayout"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="160dp"
+            />
+
+       <!-- <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/view3"/>
+-->
+        <mobileplayer.gitdemo.com.hunandefensesystem.widget.MyGridView
+            android:id="@+id/gridview_one"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:horizontalSpacing="0.0dip"
+            android:listSelector="@null"
+
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0.0dip"
+            android:numColumns="2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/integrity"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_gridview"
+            android:clickable="true"
+            >
+            <ImageView
+                android:id="@+id/iv_integrity"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/integrity"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:text="诚信评估"
+                android:textColor="#ff333333"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iv_integrity"
+                />
+
+            </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+        <mobileplayer.gitdemo.com.hunandefensesystem.widget.MyGridView
+            android:id="@+id/gridview_two"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:horizontalSpacing="0.0dip"
+            android:listSelector="@null"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0.0dip"/>
+</LinearLayout>
+    </ScrollView>
+</FrameLayout>

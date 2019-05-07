@@ -1,0 +1,482 @@
+[
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_btn_blue_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_border.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\color\\s_btn_blue_border.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6516219c2c84e4c536e9b68b9d702f5d06fe8b9f\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_list_item_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_s_list_item_text_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_dialog_action_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_dialog_action_text_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_switch_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_s_switch_text_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_topbar_btn_color.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\color\\s_topbar_btn_color.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_dialog_action_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_dialog_action_text_color.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_link_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_s_link_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_topbar_btn_color.xml",
+        "source": "E:\\androidproject\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_topbar_btn_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_btn_blue_bg.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_topbar_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_topbar_text_color.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_text.xml",
+        "source": "E:\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_btn_blue_text.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_border.xml",
+        "source": "E:\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_btn_blue_border.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_topbar_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_topbar_text_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_dialog_action_text_negative_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_dialog_action_text_negative_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_btn_blue_text.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_btn_blue_text.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\picture_list_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72de97388534a465dca7541e7b727251bf4e3f79\\output\\res\\color\\picture_list_text_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\picture_list_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6fee513ce575a19786b7dc1557f2dce5526a2461\\output\\res\\color\\picture_list_text_color.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_dialog_action_text_negative_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_dialog_action_text_negative_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_switch_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_s_switch_text_color.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_topbar_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_topbar_text_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_transparent.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_s_transparent.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_border.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_btn_blue_border.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\picture_preview_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6fee513ce575a19786b7dc1557f2dce5526a2461\\output\\res\\color\\picture_preview_text_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_app_color_gray.xml",
+        "source": "E:\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_app_color_gray.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_app_color_blue_2.xml",
+        "source": "E:\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_app_color_blue_2.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\picture_preview_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72de97388534a465dca7541e7b727251bf4e3f79\\output\\res\\color\\picture_preview_text_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_link_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_s_link_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_border.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_btn_blue_border.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_app_color_gray.xml",
+        "source": "E:\\androidproject\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_app_color_gray.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_dialog_action_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_dialog_action_text_color.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_app_color_gray.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\color\\s_app_color_gray.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_text.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\color\\s_btn_blue_text.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\ucrop_scale_text_view_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c16cd944d2be88dc1f789e4a74a84a09e41b0549\\output\\res\\color\\ucrop_scale_text_view_selector.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\ucrop_scale_text_view_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d2d16a1fc48b7ff0c43c2aeb493564596c23b456\\output\\res\\color\\ucrop_scale_text_view_selector.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_bg.xml",
+        "source": "E:\\androidproject\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_btn_blue_bg.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\picture_preview_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\color\\picture_preview_text_color.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_border.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_btn_blue_border.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_text.xml",
+        "source": "E:\\androidproject\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_btn_blue_text.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_transparent.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_s_transparent.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_bg.xml",
+        "source": "E:\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_btn_blue_bg.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_btn_blue_bg.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\66a2184c0367a861a0846136160fdfc30250386a\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_app_color_blue_2.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\color\\s_app_color_blue_2.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_app_color_blue_2.xml",
+        "source": "E:\\androidproject\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_app_color_blue_2.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d230e5807906bdf235ef29b571a2b9806cb3154d\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_topbar_btn_color.xml",
+        "source": "E:\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_topbar_btn_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_dialog_action_text_negative_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_dialog_action_text_negative_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_list_item_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_s_list_item_text_color.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\ucrop_scale_text_view_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7ea2226ee8019153792f1fc6b734c238f0a5c25d\\output\\res\\color\\ucrop_scale_text_view_selector.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_btn_blue_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_btn_blue_text.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_switch_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_s_switch_text_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_link_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\color\\qmui_s_link_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\66a2184c0367a861a0846136160fdfc30250386a\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_border.xml",
+        "source": "E:\\androidproject\\RF-QIMS-APP\\app\\src\\main\\res\\color\\s_btn_blue_border.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\picture_list_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\color\\picture_list_text_color.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_transparent.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\color\\qmui_s_transparent.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\qmui_s_list_item_text_color.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\color\\qmui_s_list_item_text_color.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\color\\s_btn_blue_bg.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\color\\s_btn_blue_bg.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9eb5ecaf0893f4e3a652c1cdf7cc7be5047c7b2a\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6516219c2c84e4c536e9b68b9d702f5d06fe8b9f\\output\\res\\color\\design_tint_password_toggle.xml"
+    }
+]

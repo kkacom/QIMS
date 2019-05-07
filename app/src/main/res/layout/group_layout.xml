@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="@drawable/bg_gridview">
+
+    <!--<View
+        android:id="@+id/group_view"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#6495ED"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/group_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:text="1"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:text="良好行为记录及加分标准"/>
+
+        <TextView
+            android:id="@+id/group_score"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:background="@drawable/style_edittext"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:text="100"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.baoyz.swipemenulistview:library-1.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/5af5767081b5c3b4dc3904ca97276673d5f8e98a/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/5af5767081b5c3b4dc3904ca97276673d5f8e98a/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.baoyz.swipemenulistview/library/1.3.0/4d7abb7fbfc955f1b54aff3a9410d9bbf8cd98b3/library-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6b0b4149a051c671bc4ec3d644e2fb084b2b343b\\output\\res\\layout-v14\\md_stub_progress_indeterminate.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fe1a79a775f0428dfdfdc3dab78d10a42a0fae58\\output\\res\\layout-v14\\md_stub_progress_indeterminate.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6b0b4149a051c671bc4ec3d644e2fb084b2b343b\\output\\res\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fe1a79a775f0428dfdfdc3dab78d10a42a0fae58\\output\\res\\layout-v14\\md_stub_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6b0b4149a051c671bc4ec3d644e2fb084b2b343b\\output\\res\\layout-v14\\md_stub_progress.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress_indeterminate.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\layout-v14\\md_stub_progress_indeterminate.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\28af8bac5b9812978ef70d56c2059bdedd697c0c\\output\\res\\layout-v14\\md_stub_progress.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\md_stub_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fe1a79a775f0428dfdfdc3dab78d10a42a0fae58\\output\\res\\layout-v14\\md_stub_progress.xml"
+    }
+]

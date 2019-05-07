@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableRow android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:text="焊缝余高"
+            />
+
+        <TableLayout>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="竖边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="竖边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="竖边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="竖边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="竖边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="竖边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+            </TableRow>
+
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="横边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="横边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="横边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="横边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="横边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="横边"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+            </TableRow>
+
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+            </TableRow>
+            <TableRow>
+
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/destroy"
+                    style="@style/TestInput"
+                    android:layout_span="5                   "
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp">
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:background="#EDD185">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_height="match_parent"
+            android:text="锈蚀等级"
+            />
+
+        <TableLayout>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="@dimen/col_width_x2"
+                    style="@style/TableTitle"
+                    android:text="板材鉴定"/>
+
+                <TextView
+                    android:layout_width="@dimen/col_width_x2"
+                    style="@style/TableTitle"
+                    android:text="板材鉴定"/>
+
+                <TextView
+                    android:layout_width="@dimen/col_width_x2"
+                    style="@style/TableTitle"
+                    android:text="板材鉴定"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:layout_width="@dimen/col_width_x2"
+                    android:text="型材鉴定"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:layout_width="@dimen/col_width_x2"
+                    android:text="型材鉴定"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:layout_width="@dimen/col_width_x2"
+                    android:text="型材鉴定"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+
+
+            </TableRow>
+            <TableRow>
+
+
+            </TableRow>
+            <TableRow android:layout_marginTop="5dp">
+
+                <EditText android:id="@id/destroy"
+                          style="@style/TestInput"
+                          android:layout_span="4"
+                          android:gravity="left|center"
+                          android:hint="现场调查及说明"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+
+</TableLayout>

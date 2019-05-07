@@ -1,0 +1,172 @@
+// Generated code from Butter Knife. Do not modify!
+package com.zhilian.rf_qims.mvp.sample_data.ins_size;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class InsSizeZjgc_ViewBinding implements Unbinder {
+  private InsSizeZjgc target;
+
+  @UiThread
+  public InsSizeZjgc_ViewBinding(InsSizeZjgc target, View source) {
+    this.target = target;
+
+    target.ed22 = Utils.findRequiredViewAsType(source, 2131755628, "field 'ed22'", EditText.class);
+    target.ed51 = Utils.findRequiredViewAsType(source, 2131755640, "field 'ed51'", EditText.class);
+    target.tvTitle41 = Utils.findRequiredViewAsType(source, 2131755634, "field 'tvTitle41'", TextView.class);
+    target.tvTitle101 = Utils.findRequiredViewAsType(source, 2131755668, "field 'tvTitle101'", TextView.class);
+    target.tvTitle81 = Utils.findRequiredViewAsType(source, 2131755654, "field 'tvTitle81'", TextView.class);
+    target.ed111Remark = Utils.findRequiredViewAsType(source, 2131755672, "field 'ed111Remark'", EditText.class);
+    target.ly41 = Utils.findRequiredViewAsType(source, 2131755633, "field 'ly41'", RelativeLayout.class);
+    target.ly71 = Utils.findRequiredViewAsType(source, 2131755650, "field 'ly71'", RelativeLayout.class);
+    target.tvTitle141 = Utils.findRequiredViewAsType(source, 2131755689, "field 'tvTitle141'", TextView.class);
+    target.ly121 = Utils.findRequiredViewAsType(source, 2131755673, "field 'ly121'", RelativeLayout.class);
+    target.tv72 = Utils.findRequiredViewAsType(source, 2131755657, "field 'tv72'", TextView.class);
+    target.tvTitle131 = Utils.findRequiredViewAsType(source, 2131755681, "field 'tvTitle131'", TextView.class);
+    target.ly91 = Utils.findRequiredViewAsType(source, 2131755662, "field 'ly91'", RelativeLayout.class);
+    target.ed141Remark = Utils.findRequiredViewAsType(source, 2131755776, "field 'ed141Remark'", EditText.class);
+    target.ed53 = Utils.findRequiredViewAsType(source, 2131755642, "field 'ed53'", EditText.class);
+    target.tv11 = Utils.findRequiredViewAsType(source, 2131755454, "field 'tv11'", TextView.class);
+    target.tvTitle21 = Utils.findRequiredViewAsType(source, 2131755626, "field 'tvTitle21'", TextView.class);
+    target.ed82 = Utils.findRequiredViewAsType(source, 2131755660, "field 'ed82'", EditText.class);
+    target.ly141 = Utils.findRequiredViewAsType(source, 2131755688, "field 'ly141'", RelativeLayout.class);
+    target.tv73 = Utils.findRequiredViewAsType(source, 2131755658, "field 'tv73'", TextView.class);
+    target.ed81 = Utils.findRequiredViewAsType(source, 2131755659, "field 'ed81'", EditText.class);
+    target.tv123 = Utils.findRequiredViewAsType(source, 2131755676, "field 'tv123'", TextView.class);
+    target.tv93 = Utils.findRequiredViewAsType(source, 2131755731, "field 'tv93'", TextView.class);
+    target.tv94 = Utils.findRequiredViewAsType(source, 2131755732, "field 'tv94'", TextView.class);
+    target.tv41 = Utils.findRequiredViewAsType(source, 2131755560, "field 'tv41'", TextView.class);
+    target.ed24 = Utils.findRequiredViewAsType(source, 2131755721, "field 'ed24'", EditText.class);
+    target.ed31Remark = Utils.findRequiredViewAsType(source, 2131755632, "field 'ed31Remark'", EditText.class);
+    target.ed103 = Utils.findRequiredViewAsType(source, 2131755736, "field 'ed103'", EditText.class);
+    target.ed104 = Utils.findRequiredViewAsType(source, 2131755737, "field 'ed104'", EditText.class);
+    target.tv13 = Utils.findRequiredViewAsType(source, 2131755458, "field 'tv13'", TextView.class);
+    target.ed21 = Utils.findRequiredViewAsType(source, 2131755627, "field 'ed21'", EditText.class);
+    target.ed61Remark = Utils.findRequiredViewAsType(source, 2131755656, "field 'ed61Remark'", EditText.class);
+    target.tvTitle71 = Utils.findRequiredViewAsType(source, 2131755651, "field 'tvTitle71'", TextView.class);
+    target.ly101 = Utils.findRequiredViewAsType(source, 2131755667, "field 'ly101'", RelativeLayout.class);
+    target.ly21 = Utils.findRequiredViewAsType(source, 2131755625, "field 'ly21'", RelativeLayout.class);
+    target.ed23 = Utils.findRequiredViewAsType(source, 2131755629, "field 'ed23'", EditText.class);
+    target.tv92 = Utils.findRequiredViewAsType(source, 2131755730, "field 'tv92'", TextView.class);
+    target.tv121 = Utils.findRequiredViewAsType(source, 2131755580, "field 'tv121'", TextView.class);
+    target.tv43 = Utils.findRequiredViewAsType(source, 2131755636, "field 'tv43'", TextView.class);
+    target.ed133 = Utils.findRequiredViewAsType(source, 2131755684, "field 'ed133'", EditText.class);
+    target.tv122 = Utils.findRequiredViewAsType(source, 2131755675, "field 'tv122'", TextView.class);
+    target.ed132 = Utils.findRequiredViewAsType(source, 2131755683, "field 'ed132'", EditText.class);
+    target.ly131 = Utils.findRequiredViewAsType(source, 2131755680, "field 'ly131'", RelativeLayout.class);
+    target.tvTitle11 = Utils.findRequiredViewAsType(source, 2131755624, "field 'tvTitle11'", TextView.class);
+    target.ed54 = Utils.findRequiredViewAsType(source, 2131755643, "field 'ed54'", EditText.class);
+    target.ly111 = Utils.findRequiredViewAsType(source, 2131755670, "field 'ly111'", RelativeLayout.class);
+    target.tvTitle121 = Utils.findRequiredViewAsType(source, 2131755674, "field 'tvTitle121'", TextView.class);
+    target.tv91 = Utils.findRequiredViewAsType(source, 2131755569, "field 'tv91'", TextView.class);
+    target.tvTitle91 = Utils.findRequiredViewAsType(source, 2131755663, "field 'tvTitle91'", TextView.class);
+    target.tv71 = Utils.findRequiredViewAsType(source, 2131755572, "field 'tv71'", TextView.class);
+    target.ed102 = Utils.findRequiredViewAsType(source, 2131755735, "field 'ed102'", EditText.class);
+    target.tv14 = Utils.findRequiredViewAsType(source, 2131755460, "field 'tv14'", TextView.class);
+    target.ly81 = Utils.findRequiredViewAsType(source, 2131755653, "field 'ly81'", RelativeLayout.class);
+    target.tvTitle111 = Utils.findRequiredViewAsType(source, 2131755671, "field 'tvTitle111'", TextView.class);
+    target.tv42 = Utils.findRequiredViewAsType(source, 2131755635, "field 'tv42'", TextView.class);
+    target.ly51 = Utils.findRequiredViewAsType(source, 2131755638, "field 'ly51'", RelativeLayout.class);
+    target.ed52 = Utils.findRequiredViewAsType(source, 2131755641, "field 'ed52'", EditText.class);
+    target.ly31 = Utils.findRequiredViewAsType(source, 2131755630, "field 'ly31'", RelativeLayout.class);
+    target.ed83 = Utils.findRequiredViewAsType(source, 2131755661, "field 'ed83'", EditText.class);
+    target.tvTitle51 = Utils.findRequiredViewAsType(source, 2131755639, "field 'tvTitle51'", TextView.class);
+    target.tv44 = Utils.findRequiredViewAsType(source, 2131755637, "field 'tv44'", TextView.class);
+    target.tv124 = Utils.findRequiredViewAsType(source, 2131755677, "field 'tv124'", TextView.class);
+    target.tv12 = Utils.findRequiredViewAsType(source, 2131755456, "field 'tv12'", TextView.class);
+    target.ly61 = Utils.findRequiredViewAsType(source, 2131755644, "field 'ly61'", RelativeLayout.class);
+    target.ed101 = Utils.findRequiredViewAsType(source, 2131755669, "field 'ed101'", EditText.class);
+    target.ed131 = Utils.findRequiredViewAsType(source, 2131755682, "field 'ed131'", EditText.class);
+    target.tvTitle31 = Utils.findRequiredViewAsType(source, 2131755631, "field 'tvTitle31'", TextView.class);
+    target.tvTitle61 = Utils.findRequiredViewAsType(source, 2131755645, "field 'tvTitle61'", TextView.class);
+    target.ed134 = Utils.findRequiredViewAsType(source, 2131755685, "field 'ed134'", EditText.class);
+    target.ly11 = Utils.findRequiredViewAsType(source, 2131755623, "field 'ly11'", RelativeLayout.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    InsSizeZjgc target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.ed22 = null;
+    target.ed51 = null;
+    target.tvTitle41 = null;
+    target.tvTitle101 = null;
+    target.tvTitle81 = null;
+    target.ed111Remark = null;
+    target.ly41 = null;
+    target.ly71 = null;
+    target.tvTitle141 = null;
+    target.ly121 = null;
+    target.tv72 = null;
+    target.tvTitle131 = null;
+    target.ly91 = null;
+    target.ed141Remark = null;
+    target.ed53 = null;
+    target.tv11 = null;
+    target.tvTitle21 = null;
+    target.ed82 = null;
+    target.ly141 = null;
+    target.tv73 = null;
+    target.ed81 = null;
+    target.tv123 = null;
+    target.tv93 = null;
+    target.tv94 = null;
+    target.tv41 = null;
+    target.ed24 = null;
+    target.ed31Remark = null;
+    target.ed103 = null;
+    target.ed104 = null;
+    target.tv13 = null;
+    target.ed21 = null;
+    target.ed61Remark = null;
+    target.tvTitle71 = null;
+    target.ly101 = null;
+    target.ly21 = null;
+    target.ed23 = null;
+    target.tv92 = null;
+    target.tv121 = null;
+    target.tv43 = null;
+    target.ed133 = null;
+    target.tv122 = null;
+    target.ed132 = null;
+    target.ly131 = null;
+    target.tvTitle11 = null;
+    target.ed54 = null;
+    target.ly111 = null;
+    target.tvTitle121 = null;
+    target.tv91 = null;
+    target.tvTitle91 = null;
+    target.tv71 = null;
+    target.ed102 = null;
+    target.tv14 = null;
+    target.ly81 = null;
+    target.tvTitle111 = null;
+    target.tv42 = null;
+    target.ly51 = null;
+    target.ed52 = null;
+    target.ly31 = null;
+    target.ed83 = null;
+    target.tvTitle51 = null;
+    target.tv44 = null;
+    target.tv124 = null;
+    target.tv12 = null;
+    target.ly61 = null;
+    target.ed101 = null;
+    target.ed131 = null;
+    target.tvTitle31 = null;
+    target.tvTitle61 = null;
+    target.ed134 = null;
+    target.ly11 = null;
+  }
+}

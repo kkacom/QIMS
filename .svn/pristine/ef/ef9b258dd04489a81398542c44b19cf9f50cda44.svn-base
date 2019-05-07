@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">民防协会</string>
+
+    <!-- 主界面 -->
+    <string name="chats">消息</string>
+    <string name="contacts">工作台</string>
+    <string name="discover">联系人</string>
+    <string name="me">我的</string>
+
+    <!-- 登录 -->
+    <string name="login_app_name">民防协会OA系统</string>
+
+    <string name="login_user_hint">请输入账号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_button">登&#160;&#160;录</string>
+    <string name="login_forget_password">忘记密码？</string>
+    <string name="login_technical_support">技术支持</string>
+    <string name="login_about_us">关于我们</string>
+    <string name="login_copyright"> Copyright © 2017 智联科技有限公司 版权所有</string>
+
+    <!-- 联系人 -->
+    <string name="friends">联系人</string>
+    <string name="friends_address_list">通讯录</string>
+    <string name="friends_my_group">我的群组</string>
+    <string name="friends_create_group">创建团队</string>
+    <!-- 通讯录 -->
+    <string name="friends_input_keyword_hint">请输入关键字</string>
+    <!-- 联系人详情 -->
+    <string name="friends_mbphone">手机</string>
+    <string name="friends_phone">固定电话</string>
+    <string name="friends_person_infrom">个人信息</string>
+    <string name="friends_name">姓名</string>
+    <string name="friends_begin_date">开始工作时间</string>
+    <string name="friends_married">婚姻状态</string>
+    <string name="friends_gradename">职务名称</string>
+    <string name="friends_gradelevel">职务级别</string>
+
+    <!-- 版本更新 -->
+    <string name="update_download_failed">下载失败</string>
+    <string name="update_download_failed_msg">下载失败原因</string>
+    <string name="update_download_finish">下载完成</string>
+    <string name="update_download_processing">正在下载</string>
+    <string name="update_download_start">下载开始</string>
+    <string name="update_download_new_version">有新版本</string>
+
+    <!-- 关于我们 -->
+    <string name="contact_phone">热线电话：0752-2589937</string>
+    <string name="contact_we">联系我们：惠州市智联科技有限公司</string>
+    <string name="contact_address">公司地址：广东惠州惠城区江北街道云山西路12号德赛大厦1907</string>
+    <string name="contact_url">公司网站：www.zhiliantech.com</string>
+
+    <!-- 工作台 -->
+    <string name="work_logo_title">广东省人民防空协会</string>
+
+
+    <string-array name="responsible_person">
+        <item>--请选择常用意见--</item>
+        <item>同意。</item>
+        <item>已核。</item>
+        <item>已阅。</item>
+    </string-array>
+
+    <!-- 提醒 -->
+    <string-array name="remind1">
+        <item>无提醒</item>
+        <item>5分钟前</item>
+        <item>10分钟前</item>
+        <item>30分钟前</item>
+        <item>1小时前</item>
+        <item>2小时前</item>
+    </string-array>
+    <!-- 提醒（全天事件） -->
+    <string-array name="remind2">
+        <item>无提醒</item>
+        <item>1天前</item>
+    </string-array>
+    <!-- 公开范围 -->
+    <string-array name="scope">
+        <item>--请选择--</item>
+        <item>私人</item>
+        <item>全部人员</item>
+        <item>指定人员</item>
+    </string-array>
+
+
+    <string name="work_sample_title1">检测项目</string>
+    <string name="work_title1">工作台</string>
+    <string name="work_sample_title2">检测类型</string>
+    <string name="title_mkthm_pmd">门框帖合面平面度:</string>
+    <string name="title_top">上边:</string>
+    <string name="title_value">检测值</string>
+    <string name="title_msthm_pmd">门扇帖合面平面度:</string>
+    <string name="title_top1">上1</string>
+
+    <string-array name="projects">
+        <item>生产尺寸</item>
+        <item>启闭开锁</item>
+        <item>钢板漆膜</item>
+        <item>钢筋分布</item>
+        <item>水泥强度</item>
+    </string-array>
+
+    <string-array name="tests">
+        <item>现场抽检</item>
+        <item>产品抽检</item>
+    </string-array>
+
+
+    <string-array name="arrays_dj">
+        <item>--请选择--</item>
+        <item>等级A</item>
+        <item>等级B</item>
+        <item>等级C</item>
+    </string-array>
+
+    <!-- 项目明细 -->
+    <string name="create_project_title">新建工程项目</string>
+    <string name="modify_project_title">修改项目明细</string>
+    <string-array name="sample_source">
+        <item>生产厂区</item>
+        <item>安装现场</item>
+    </string-array>
+
+    <string-array name="secret">
+        <item>--请选择--</item>
+        <item>不保密</item>
+        <item>保密</item>
+    </string-array>
+    <string-array name="shapes">
+        <item>--请选择--</item>
+        <item>电话/网络委托</item>
+        <item>客户委托</item>
+        <item>专项指派</item>
+    </string-array>
+    <string-array name="commission_category">
+        <item>--请选择--</item>
+        <item>检查抽检</item>
+        <item>专项抽检</item>
+        <item>监督见证送检</item>
+        <item>有见证送检</item>
+        <item>普通送检</item>
+    </string-array>
+    <string-array name="sample_area">
+        <item>--请选择--</item>
+        <item>龙门县</item>
+        <item>惠东区</item>
+        <item>惠城区</item>
+        <item>惠阳区</item>
+    </string-array>
+
+    <!-- 样品明细 -->
+    <string-array name="sample_state">
+        <item>--请选择--</item>
+        <item>Y</item>
+        <item>N</item>
+    </string-array>
+    <string-array name="sample_type">
+        <item>--请选择--</item>
+        <item>钢筋混凝土门</item>
+        <item>钢结构门</item>
+        <item>钢筋混凝土悬摆门</item>
+        <item>钢结构悬摆门</item>
+    </string-array>
+
+    <!-- 产品尺寸-门框 -->
+    <string name="data_pro_size">产品尺寸</string>
+    <string name="data_ins_size">安装尺寸</string>
+    <string name="data_pro_quality">生产质量</string>
+    <string name="data_ins_quality">安装质量</string>
+    <string name="data_sample_info">样品信息</string>
+    <string name="create_sample_title">新建样品明细</string>
+    <string name="modify_sample_title">修改样品明细</string>
+
+    <!-- 工程管理 -->
+    <string name="project_delete">删除项目成功！</string>
+
+    <!-- 样品管理 -->
+    <string name="sample_remove">删除样品成功!</string>
+
+</resources>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_detail"
+    android:visibility="visible"
+    android:background="#FFFFFF"   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFF"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/xbm_gb_qdl_title"
+                style="@style/LeftTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="32dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="关闭悬摆板的启动力:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xbm_gb_qdl_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="检测值"
+                app:layout_constraintStart_toEndOf="@+id/xbm_gb_qdl_title"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xbm_gb_qdl_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_gb_qdl_item1"
+                app:layout_constraintStart_toEndOf="@+id/xbm_gb_qdl_item1" />
+
+            <TextView
+                android:id="@+id/xbm_gb_qdl_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_gb_qdl_item2"
+                app:layout_constraintStart_toEndOf="@+id/xbm_gb_qdl_item2" />
+
+            <EditText
+                android:id="@+id/et_xbm_gb_qdl1"
+                style="@style/InputValue"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_gb_qdl_title"
+                app:layout_constraintEnd_toEndOf="@+id/xbm_gb_qdl_item1"
+                app:layout_constraintStart_toStartOf="@+id/xbm_gb_qdl_item1" />
+
+            <EditText
+                android:id="@+id/et_xbm_gb_qdl2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_xbm_gb_qdl1"
+                app:layout_constraintStart_toEndOf="@+id/et_xbm_gb_qdl1" />
+
+            <EditText
+                android:id="@+id/et_xbm_gb_qdl_max3"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_xbm_gb_qdl2"
+                app:layout_constraintStart_toEndOf="@+id/et_xbm_gb_qdl2" />
+
+            <TextView
+                android:id="@+id/xbzl_title"
+                style="@style/TopTitle"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="悬板质量"
+                android:textSize="@dimen/text_size_10"
+                app:layout_constraintStart_toStartOf="@+id/et_xbm_gb_qdl1"
+                app:layout_constraintTop_toBottomOf="@+id/et_xbm_gb_qdl1" />
+
+            <TextView
+                android:id="@+id/jzzl_title"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="铰座质量"
+                android:textSize="@dimen/text_size_10"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbzl_title"
+                app:layout_constraintStart_toEndOf="@+id/xbzl_title" />
+
+            <TextView
+                android:id="@+id/dlgj_title"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="当量管径"
+                android:textSize="@dimen/text_size_10"
+                app:layout_constraintBaseline_toBaselineOf="@+id/jzzl_title"
+                app:layout_constraintStart_toEndOf="@+id/jzzl_title" />
+
+            <EditText
+                android:id="@+id/xbzl"
+                style="@style/InputValue"
+
+                app:layout_constraintStart_toStartOf="@+id/xbzl_title"
+                app:layout_constraintTop_toBottomOf="@+id/xbzl_title" />
+
+            <EditText
+                android:id="@+id/jzzl"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbzl"
+                app:layout_constraintStart_toEndOf="@+id/xbzl" />
+
+            <EditText
+                android:id="@+id/dlgj"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/jzzl"
+                app:layout_constraintStart_toEndOf="@+id/jzzl" />
+
+            <EditText
+                android:id="@+id/et_xbm_gb_qdl_bz"
+                style="@style/InputRemarks"
+                android:layout_width="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/dlgj"
+                app:layout_constraintStart_toStartOf="@+id/xbzl"
+                app:layout_constraintTop_toBottomOf="@+id/xbzl" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFCC"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/xbm_gb_max_title"
+                style="@style/LeftTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="32dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="悬摆板关闭时的最大力:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xbm_gb_max_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="10dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="检测值"
+                app:layout_constraintStart_toEndOf="@+id/xbm_gb_max_title"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xbm_gb_max_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_gb_max_item1"
+                app:layout_constraintStart_toEndOf="@+id/xbm_gb_max_item1" />
+
+            <TextView
+                android:id="@+id/xbm_gb_max_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_gb_max_item2"
+                app:layout_constraintStart_toEndOf="@+id/xbm_gb_max_item2" />
+
+            <EditText
+                android:id="@+id/et_xbm_gb_max1"
+                style="@style/InputValue"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_gb_max_title"
+                app:layout_constraintEnd_toEndOf="@+id/xbm_gb_max_item1"
+                app:layout_constraintStart_toStartOf="@+id/xbm_gb_max_item1" />
+
+            <EditText
+                android:id="@+id/et_xbm_gb_max2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_xbm_gb_max1"
+                app:layout_constraintStart_toEndOf="@+id/et_xbm_gb_max1" />
+
+            <EditText
+                android:id="@+id/et_xbm_gb_max_max3"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_xbm_gb_max2"
+                app:layout_constraintStart_toEndOf="@+id/et_xbm_gb_max2" />
+
+            <EditText
+                android:id="@+id/et_xbm_gb_max_bz"
+                style="@style/InputRemarks"
+                android:layout_width="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_xbm_gb_max_max3"
+                app:layout_constraintStart_toStartOf="@+id/et_xbm_gb_max1"
+                app:layout_constraintTop_toBottomOf="@+id/et_xbm_gb_max1" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFF"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/xbm_jx_max_title"
+                style="@style/LeftTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="32dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="门框与门扇间最大间隙:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xbm_jx_max_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="10dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="检测值"
+                app:layout_constraintStart_toEndOf="@+id/xbm_jx_max_title"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xbm_jx_max_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_jx_max_item1"
+                app:layout_constraintStart_toEndOf="@+id/xbm_jx_max_item1" />
+
+            <TextView
+                android:id="@+id/xbm_jx_max_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_jx_max_item2"
+                app:layout_constraintStart_toEndOf="@+id/xbm_jx_max_item2" />
+
+            <EditText
+                android:id="@+id/et_xbm_jx_max1"
+                style="@style/InputValue"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_jx_max_title"
+                app:layout_constraintEnd_toEndOf="@+id/xbm_jx_max_item1"
+                app:layout_constraintStart_toStartOf="@+id/xbm_jx_max_item1" />
+
+            <EditText
+                android:id="@+id/et_xbm_jx_max2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_xbm_jx_max1"
+                app:layout_constraintStart_toEndOf="@+id/et_xbm_jx_max1" />
+
+            <EditText
+                android:id="@+id/et_xbm_jx_max_max3"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_xbm_jx_max2"
+                app:layout_constraintStart_toEndOf="@+id/et_xbm_jx_max2" />
+
+            <EditText
+                android:id="@+id/et_xbm_jx_max_bz"
+                style="@style/InputRemarks"
+                android:layout_width="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_xbm_jx_max_max3"
+                app:layout_constraintStart_toStartOf="@+id/et_xbm_jx_max1"
+                app:layout_constraintTop_toBottomOf="@+id/et_xbm_jx_max1" />
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="345dp"
+            android:background="#FFFFCC"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="383dp">
+
+
+            <TextView
+                android:id="@+id/xbm_xjx_max_title"
+                style="@style/LeftTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="悬摆板与门扇间最大间隙:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xbm_xjx_max_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="10dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="检测值"
+                app:layout_constraintStart_toEndOf="@+id/xbm_xjx_max_title"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xbm_xjx_max_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_xjx_max_item1"
+                app:layout_constraintStart_toEndOf="@+id/xbm_xjx_max_item1" />
+
+            <TextView
+                android:id="@+id/xbm_xjx_max_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_xjx_max_item2"
+                app:layout_constraintStart_toEndOf="@+id/xbm_xjx_max_item2" />
+
+            <EditText
+                android:id="@+id/et_xbm_xjx_max1"
+                style="@style/InputValue"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/xbm_xjx_max_title"
+                app:layout_constraintEnd_toEndOf="@+id/xbm_xjx_max_item1"
+                app:layout_constraintStart_toStartOf="@+id/xbm_xjx_max_item1" />
+
+            <EditText
+                android:id="@+id/et_xbm_xjx_max2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_xbm_xjx_max1"
+                app:layout_constraintStart_toEndOf="@+id/et_xbm_xjx_max1" />
+
+            <EditText
+                android:id="@+id/et_xbm_xjx_max_max3"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_xbm_xjx_max2"
+                app:layout_constraintStart_toEndOf="@+id/et_xbm_xjx_max2" />
+
+            <EditText
+                android:id="@+id/et_xbm_xjx_max_bz"
+                style="@style/InputRemarks"
+                android:layout_width="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_xbm_xjx_max_max3"
+                app:layout_constraintStart_toStartOf="@+id/et_xbm_xjx_max1"
+                app:layout_constraintTop_toBottomOf="@+id/et_xbm_xjx_max1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PORT_NUMBER" translatable="false">8088</string>
+</resources>

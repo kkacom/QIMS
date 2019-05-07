@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableRow android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:text="钢筋保护层及间距"
+            android:textSize="@dimen/text_size_12"/>
+
+        <TableLayout>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:layout_width="@dimen/col_width_x2"
+                    android:text="A部位文件名"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:layout_width="@dimen/col_width_x2"
+                    android:text="B部位文件名"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:layout_width="@dimen/col_width_x2"
+                    android:text="C部位文件名"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="保护层"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="间距"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="钢筋直径"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+
+            </TableRow>
+
+
+            <TableRow android:layout_marginTop="5dp">
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+
+
+
+</TableLayout>

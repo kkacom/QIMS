@@ -1,0 +1,1283 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-578:12
+	package
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:7:5-83
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:7:22-80
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:9:5-11:47
+	tools:ignore
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:11:9-44
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:10:9-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [RF-QIMS-APP:colin-utils:unspecified] E:\as_workspace\RF-QIMS-APP\colin-utils\build\intermediates\bundles\default\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\zhilian\.android\build-cache\8fa2f4d6ff3de58f344832264eb92a96fde833f0\output\AndroidManifest.xml:11:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:17:5-80
+MERGED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:25:5-80
+MERGED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:18:5-81
+MERGED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:26:5-81
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\zhilian\.android\build-cache\8fa2f4d6ff3de58f344832264eb92a96fde833f0\output\AndroidManifest.xml:12:5-81
+MERGED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:21:22-72
+uses-permission#android.permission.CAMERA
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:23:5-65
+MERGED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:23:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:25:5-60
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:25:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:26:5-70
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:26:19-67
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:28:5-76
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:28:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:30:5-68
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:30:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:32:5-69
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:32:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:34:5-67
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:34:22-64
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:35:5-37:47
+	tools:ignore
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:37:9-44
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:36:9-59
+application
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:40:5-575:19
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.android\build-cache\5552d559f1d0f8128b6e08fcf8731f45c4c99a66\output\AndroidManifest.xml:13:5-20
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.android\build-cache\8ad5c4c9c4bcdccefb9681c3512e92b7f1d19166\output\AndroidManifest.xml:11:5-17:19
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\zhilian\.android\build-cache\6ca658013b3fd903059af7289cec4f2db09ac0e7\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zhilian\.android\build-cache\6dbf5be52e5250002fde77363133fa5a9aa59327\output\AndroidManifest.xml:9:5-20
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:11:5-34:19
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\zhilian\.android\build-cache\0afae1fd5874411780dfbd7e70230ffbebbd7fd0\output\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\zhilian\.android\build-cache\36f1882f62ecede5c0d09d71209f439c902fff2c\output\AndroidManifest.xml:9:5-20
+MERGED from [com.githang:status-bar-compat:0.3] C:\Users\zhilian\.android\build-cache\eca6f5eeaa76ffdc3790f3adde82d2427e76f91e\output\AndroidManifest.xml:12:5-20
+MERGED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:29:5-71:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\zhilian\.android\build-cache\d9743ce8b961e774cd4a4b8ce7f980d59ebc0e1d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:27:5-33:19
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\zhilian\.android\build-cache\f86fab0649e1c87c0bacc5e0a8ef73d5946db680\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:32:5-38:19
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:44:9-41
+	android:supportsRtl
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:45:9-35
+	android:allowBackup
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:42:9-35
+	android:icon
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:43:9-41
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:46:9-41
+		REJECTED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:11:18-49
+	tools:replace
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:47:9-52
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:41:9-39
+provider#android.support.v4.content.FileProvider
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:48:9-56:20
+	android:authorities
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:50:13-64
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	android:grantUriPermissions
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:52:13-47
+	android:exported
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:49:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:53:13-55:53
+	android:resource
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:55:17-50
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:54:17-67
+activity#com.zhilian.rf_qims.mvp.login.view.LoginActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:58:9-66:20
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:59:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:61:13-65:29
+action#android.intent.action.MAIN
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:62:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:64:17-77
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:64:27-74
+activity#com.zhilian.rf_qims.mvp.launcher.LauncherActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:67:9-69:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:68:13-58
+activity#com.zhilian.rf_qims.mvp.main.view.MainActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:71:9-73:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:72:13-55
+activity#com.zhilian.rf_qims.mvp.project_manager.view.ProjectManagerActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:75:13-76
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectDetailActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:78:13-74
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectDetailWeb
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:81:13-69
+activity#com.zhilian.rf_qims.mvp.sample_detail.view.SampleDetailActivity2
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:84:13-73
+activity#com.zhilian.rf_qims.mvp.sample_manager.view.SampleManagerActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:87:13-74
+activity#com.zhilian.rf_qims.mvp.sample_data.DataActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:89:9-91:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:90:13-57
+service#com.zhilian.rf_qims.service.ReceiveService
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:93:9-59
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:93:18-56
+service#com.colin.download.service.DownloadService
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:94:9-78
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:94:18-75
+activity#com.zhilian.rf_qims.mvp.test.view.TestActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:96:9-98:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:98:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:97:13-55
+activity#com.zhilian.rf_qims.util.FileDisplayActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:99:9-101:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:101:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:100:13-53
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectAddActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:102:9-104:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:104:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:103:13-71
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectUpdateActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:105:9-107:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:107:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:106:13-74
+activity#com.zhilian.rf_qims.mvp.office.PdfSeeActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:108:9-110:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:109:13-54
+activity#com.zhilian.rf_qims.mvp.office.WordSeeActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:111:9-113:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:113:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:112:13-55
+activity#com.zhilian.rf_qims.mvp.office.SignActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:114:9-116:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:115:13-52
+activity#com.zhilian.rf_qims.mvp.sample_detail.view.SampleUpdateActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:117:9-119:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:119:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:118:13-72
+activity#com.zhilian.rf_qims.mvp.SamplePic.SamplePicActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:120:9-122:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:121:13-60
+activity#com.zhilian.rf_qims.mvp.rfid.RfidScanActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:124:9-72
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:124:19-60
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.pfassessment.IntegrityModuleActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:127:9-129:53
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:129:13-51
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:128:13-99
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.pfassessment.UserSignActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:131:9-100
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:131:19-98
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.pfassessment.PfAssessmentDemoTestActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:133:9-136:58
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:135:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:136:13-56
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:134:13-104
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.pfassessment.SpecialEventActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:138:9-139:40
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:139:13-38
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:138:19-102
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.pfassessment.DtSignAndPhoto
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:141:9-144:58
+	android:configChanges
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:143:13-74
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:144:13-56
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:142:13-90
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.pfassessment.IntegrityMarkActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:155:9-157:35
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:157:13-33
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:156:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessment.WorkAssessmentFieldActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:162:9-166:58
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:165:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:164:13-38
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:166:13-56
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:163:13-105
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessment.WorkAssessmentUpdate
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:169:9-173:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:173:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:171:13-35
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:172:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:170:13-98
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessment.WorkAssessmentListActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:176:9-180:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:180:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:178:13-35
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:179:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:177:13-104
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessment.WorkAssessmentRatingActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:183:9-187:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:187:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:185:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:186:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:184:13-106
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.EnterpriseQualification
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:190:9-194:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:194:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:192:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:193:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:191:13-107
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.QualitySystem
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:196:9-200:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:200:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:198:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:199:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:197:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.EnvironmentalFacility
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:202:9-206:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:206:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:204:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:205:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:203:13-105
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.KeyPersonnel
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:208:9-212:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:212:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:210:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:211:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:209:13-96
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.CreatePerson
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:214:9-218:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:218:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:216:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:217:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:215:13-96
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.TechnicistPersonnel
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:221:9-225:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:225:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:223:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:224:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:222:13-103
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.TechnicistList
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:226:9-230:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:230:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:228:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:229:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:227:13-98
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:231:9-235:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:235:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:233:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:234:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:232:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description1
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:236:9-240:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:240:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:238:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:239:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:237:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description2
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:241:9-245:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:245:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:243:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:244:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:242:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description2P
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:246:9-250:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:250:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:248:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:249:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:247:13-96
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description3
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:251:9-255:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:255:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:253:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:254:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:252:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description4
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:256:9-260:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:260:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:258:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:259:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:257:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description5
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:261:9-265:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:265:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:263:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:264:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:262:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description6
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:266:9-270:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:270:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:268:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:269:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:267:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description7
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:271:9-275:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:275:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:273:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:274:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:272:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description8
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:276:9-280:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:280:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:278:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:279:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:277:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description9
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:281:9-285:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:285:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:283:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:284:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:282:13-95
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description10
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:286:9-290:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:290:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:288:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:289:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:287:13-96
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description23
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:291:9-295:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:295:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:293:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:294:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:292:13-96
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description231
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:296:9-300:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:300:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:298:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:299:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:297:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description233
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:301:9-305:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:305:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:303:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:304:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:302:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description234
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:306:9-310:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:310:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:308:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:309:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:307:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description235
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:311:9-315:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:315:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:313:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:314:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:312:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description241
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:316:9-320:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:320:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:318:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:319:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:317:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description242
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:321:9-325:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:325:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:323:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:324:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:322:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description243
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:326:9-330:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:330:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:328:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:329:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:327:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description244
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:331:9-335:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:335:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:333:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:334:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:332:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description245
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:336:9-340:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:340:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:338:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:339:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:337:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description246
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:341:9-345:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:345:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:343:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:344:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:342:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description257
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:346:9-350:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:350:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:348:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:349:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:347:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description258
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:351:9-355:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:355:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:353:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:354:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:352:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description266
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:356:9-360:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:360:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:358:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:359:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:357:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description271
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:361:9-365:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:365:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:363:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:364:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:362:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description277
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:366:9-370:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:370:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:368:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:369:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:367:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description278
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:371:9-375:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:375:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:373:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:374:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:372:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description279
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:376:9-380:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:380:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:378:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:379:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:377:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description311
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:381:9-385:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:385:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:383:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:384:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:382:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description312
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:386:9-390:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:390:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:388:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:389:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:387:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description313
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:391:9-395:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:395:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:393:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:394:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:392:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description314
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:396:9-400:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:400:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:398:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:399:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:397:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description315
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:401:9-405:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:405:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:403:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:404:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:402:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description316
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:406:9-410:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:410:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:408:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:409:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:407:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description317
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:411:9-415:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:415:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:413:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:414:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:412:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description321
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:416:9-420:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:420:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:418:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:419:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:417:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description322
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:421:9-425:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:425:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:423:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:424:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:422:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description323
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:426:9-430:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:430:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:428:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:429:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:427:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description324
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:431:9-435:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:435:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:433:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:434:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:432:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description325
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:436:9-440:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:440:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:438:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:439:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:437:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description326
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:441:9-445:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:445:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:443:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:444:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:442:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description327
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:446:9-450:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:450:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:448:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:449:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:447:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description328
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:451:9-455:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:455:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:453:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:454:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:452:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description331
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:456:9-460:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:460:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:458:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:459:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:457:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description332
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:461:9-465:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:465:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:463:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:464:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:462:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description333
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:466:9-470:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:470:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:468:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:469:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:467:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description334
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:471:9-475:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:475:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:473:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:474:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:472:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description413
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:476:9-480:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:480:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:478:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:479:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:477:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.technical.personnel.Description424
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:481:9-485:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:485:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:483:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:484:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:482:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.ProductionPersonnel
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:487:9-491:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:491:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:489:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:490:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:488:13-103
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.ManagementSystem
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:493:9-497:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:497:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:495:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:496:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:494:13-100
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.SiteCondition
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:499:9-503:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:503:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:501:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:502:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:500:13-97
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.LargeScaleEquipment
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:505:9-509:48
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:509:9-46
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:507:9-29
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:508:9-44
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:506:9-99
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.CreateEquipment
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:511:9-515:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:515:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:513:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:514:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:512:13-99
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.ProcessingEquipment
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:517:9-521:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:521:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:519:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:520:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:518:13-103
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.QualityInspectionTools
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:523:9-527:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:527:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:525:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:526:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:524:13-106
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.OperatingManagement
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:530:9-534:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:534:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:532:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:533:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:531:13-103
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.ProductQuality
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:536:9-540:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:540:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:538:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:539:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:537:13-98
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.InstallationOperation
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:543:9-547:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:547:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:545:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:546:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:544:13-105
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.InstallationQuality
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:549:9-553:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:553:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:551:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:552:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:550:13-103
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList271
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:555:9-559:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:559:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:557:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:558:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:556:13-100
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList272
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:560:9-564:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:564:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:562:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:563:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:561:13-100
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList273
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:565:9-569:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:569:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:567:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:568:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:566:13-100
+activity#com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessmentmodule.EquipmentList275
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:570:9-574:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:574:13-50
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:572:13-33
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:573:13-48
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:571:13-100
+uses-sdk
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.android\build-cache\5552d559f1d0f8128b6e08fcf8731f45c4c99a66\output\AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.4] C:\Users\zhilian\.android\build-cache\9ce0d1cb15dfb41c5567003fa568b3ae70e8e717\output\AndroidManifest.xml:11:5-13:41
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.android\build-cache\8ad5c4c9c4bcdccefb9681c3512e92b7f1d19166\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\zhilian\.android\build-cache\9becbd5ba21891db1643558ab8a7d86dd323a48b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\zhilian\.android\build-cache\22676ac6e0b16562bd1161151dcc7f94e748580d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\zhilian\.android\build-cache\6ca658013b3fd903059af7289cec4f2db09ac0e7\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\zhilian\.android\build-cache\2fe4aa4a97ee3d69ba92629395f4237d86b78548\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zhilian\.android\build-cache\6dbf5be52e5250002fde77363133fa5a9aa59327\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.bigkoo:pickerview:2.0.8] C:\Users\zhilian\.android\build-cache\f18e9d9897384f4a0fac42a0e88809c13700af83\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.venusic:E-signature:0.2] C:\Users\zhilian\.android\build-cache\952fda2621bda0a3131587968b568e71926d2f2e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.3.9] C:\Users\zhilian\.android\build-cache\4760172a592682107a4a97a3ffd62a57b34a6ceb\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.2.3] C:\Users\zhilian\.android\build-cache\1f483d7b0f2a9ff606691d78cac6a99848f63f8b\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\zhilian\.android\build-cache\0afae1fd5874411780dfbd7e70230ffbebbd7fd0\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\zhilian\.android\build-cache\36f1882f62ecede5c0d09d71209f439c902fff2c\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.githang:status-bar-compat:0.3] C:\Users\zhilian\.android\build-cache\eca6f5eeaa76ffdc3790f3adde82d2427e76f91e\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie:mediascanner:1.0.3] C:\Users\zhilian\.android\build-cache\4af80fb0b2df9952567e64069b5b4bcfadbab099\output\AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\zhilian\.android\build-cache\532d4a7df5b7940284cc84058e8b023be5e4dd60\output\AndroidManifest.xml:20:5-44
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\zhilian\.android\build-cache\a7f12feda45be10b4f93f006bfb76a51681ec6d3\output\AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\zhilian\.android\build-cache\d9743ce8b961e774cd4a4b8ce7f980d59ebc0e1d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\zhilian\.android\build-cache\8fa2f4d6ff3de58f344832264eb92a96fde833f0\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] C:\Users\zhilian\.android\build-cache\4a3f0846d8b66222a277074e854a1f738909f0d5\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie:loading:1.0.0] C:\Users\zhilian\.android\build-cache\07868795e9117fd9d54a04ca6ddff6fefb7c8ddc\output\AndroidManifest.xml:21:5-23:41
+MERGED from [RF-QIMS-APP:colin-utils:unspecified] E:\as_workspace\RF-QIMS-APP\colin-utils\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\zhilian\.android\build-cache\f86fab0649e1c87c0bacc5e0a8ef73d5946db680\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.qmuiteam:qmui:1.0.6] C:\Users\zhilian\.android\build-cache\6f8800ede3e1d5f958ebdd9135064a21ade11306\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\zhilian\.android\build-cache\51977d85a265f331ee6f381b708dc39cfe4c094b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\zhilian\.android\build-cache\ad08e184395d7d88815c88aa74893a72ffecb515\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\zhilian\.android\build-cache\15d0f5b5f4c34c31a830fba73b661ee07b83a722\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\zhilian\.android\build-cache\e5d5b007e51672b85f685d4344d3c0d3f5b629e0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\zhilian\.android\build-cache\b8d18e9966d12f1cc9d62251b19fb2142bcf6544\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\zhilian\.android\build-cache\11d7d9e699adbf22be6a8bb771c63bdab29cadd6\output\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\zhilian\.android\build-cache\e3c544cffc707c4aac8749b24e31d920bb82f066\output\AndroidManifest.xml:19:5-43
+MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\zhilian\.android\build-cache\309ecbab6b5d30a66d87ea4676bbc1e7d7c14021\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\zhilian\.android\build-cache\9b6031432327ffbed6303a0057169a55d485bf08\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\zhilian\.android\build-cache\2b33692bac97d9704ab507834414cd64e9bf7d12\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\zhilian\.android\build-cache\dbff854cf9b17421f1e630f22ff6eae01d17e6fc\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\zhilian\.android\build-cache\8e6a199bf237d2bce7fea436fe0cc2be0292b0d2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\zhilian\.android\build-cache\eb0e7ae7c315f833e400910804d41c06e4305624\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\zhilian\.android\build-cache\63770d2351ebc8cd623f717f77d27375ffb34f9e\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\zhilian\.android\build-cache\ff2baafa457a489cc02c420c49575dcb1fc39d6a\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\zhilian\.android\build-cache\97d8d37234853c27c663178241087f3f0930cf2c\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\zhilian\.android\build-cache\cdd551469b81167cbebdcacabf3ca10bf1c125de\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\zhilian\.android\build-cache\a368a8adf5923f1f29f2e650bf89675df42dbdab\output\AndroidManifest.xml:20:5-44
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:25:5-27:41
+	tools:overrideLibrary
+		ADDED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.android\build-cache\5552d559f1d0f8128b6e08fcf8731f45c4c99a66\output\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.android\build-cache\8ad5c4c9c4bcdccefb9681c3512e92b7f1d19166\output\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.android\build-cache\8ad5c4c9c4bcdccefb9681c3512e92b7f1d19166\output\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.android\build-cache\8ad5c4c9c4bcdccefb9681c3512e92b7f1d19166\output\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.android\build-cache\8ad5c4c9c4bcdccefb9681c3512e92b7f1d19166\output\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.android\build-cache\8ad5c4c9c4bcdccefb9681c3512e92b7f1d19166\output\AndroidManifest.xml:13:13-86
+provider#com.luck.picture.lib.PictureFileProvider
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:12:9-20:20
+	android:authorities
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:14:13-60
+	android:grantUriPermissions
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:16:13-47
+	android:exported
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:13:13-68
+activity#com.luck.picture.lib.PictureSelectorActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:22:9-24:55
+	android:windowSoftInputMode
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:23:13-72
+activity#com.luck.picture.lib.PicturePreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:25:9-80
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:25:19-77
+activity#com.luck.picture.lib.PictureVideoPlayActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:26:9-29:50
+	android:screenOrientation
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:29:13-47
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:27:13-73
+activity#com.luck.picture.lib.PictureExternalPreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:30:9-88
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:30:19-85
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:31:19-66
+activity#com.yalantis.ucrop.PictureMultiCuttingActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:32:9-83
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:32:19-80
+activity#com.luck.picture.lib.PicturePlayAudioActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:33:9-82
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.android\build-cache\cf9daa5089a34e83a684cdde91cf28662493259d\output\AndroidManifest.xml:33:19-79
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:27:5-71
+	android:name
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:27:22-68
+activity#com.yanzhenjie.album.app.album.AlbumActivity
+ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:30:9-34:75
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:34:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:32:13-59
+	android:theme
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:31:13-72
+activity#com.yanzhenjie.album.app.album.GalleryActivity
+ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:35:9-39:75
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:39:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:37:13-59
+	android:theme
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:36:13-74
+activity#com.yanzhenjie.album.app.album.NullActivity
+ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:40:9-44:75
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:44:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:42:13-59
+	android:theme
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:41:13-71
+activity#com.yanzhenjie.album.app.gallery.GalleryActivity
+ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:45:9-49:75
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:49:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:47:13-59
+	android:theme
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:46:13-76
+activity#com.yanzhenjie.album.app.gallery.GalleryAlbumActivity
+ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:50:9-54:75
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:54:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:52:13-59
+	android:theme
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:51:13-81
+activity#com.yanzhenjie.album.app.camera.CameraActivity
+ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:55:9-59:75
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:59:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:57:13-59
+	android:theme
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:58:13-68
+	android:name
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:56:13-74
+provider#com.yanzhenjie.album.provider.CameraFileProvider
+ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:61:9-70:20
+	android:authorities
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:63:13-69
+	android:grantUriPermissions
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:65:13-47
+	android:multiprocess
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:66:13-40
+	android:exported
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from [com.yanzhenjie:album:2.1.2] C:\Users\zhilian\.android\build-cache\ffa25d77f7a50c539ee6e67ad44d90434efcb200\output\AndroidManifest.xml:62:13-76
+activity#com.yanzhenjie.durban.DurbanActivity
+ADDED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:28:9-32:75
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:32:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:31:13-69
+	android:name
+		ADDED from [com.yanzhenjie:durban:1.0.1] C:\Users\zhilian\.android\build-cache\7a6b0049c89b066da9f0e240d44e0966b2482272\output\AndroidManifest.xml:29:13-64
+provider#com.amitshekhar.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:33:9-37:40
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:35:13-71
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\zhilian\.android\build-cache\868abd88a58d47c635b6223b4aa2ccdbadec6b55\output\AndroidManifest.xml:34:13-63

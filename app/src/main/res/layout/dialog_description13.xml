@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/TextViewStyle1"
+                android:text="3.1.1 企业近两年未查有：①违法违纪、失信等行为，②组织或参与价格联盟、恶意竞争等不正当行为，③他人名义投标、串标、以行贿手段谋取中标；④以其他弄虚作假方式投标。"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="分值："/>
+
+                        <TextView
+                            android:id="@+id/tv_value3_1_1"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/style_edittext"/>
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="/得分："/>
+
+                        <TextView
+                            android:id="@+id/tv_score3_1_1"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:background="@drawable/style_edittext"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb1_3_1_1"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="现场验查有不良经营行为不得分"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb2_3_1_1"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="近两年有公开处罚的不得分"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb3_3_1_1"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="合同显示有恶意竞争倾向不得分"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb4_3_1_1"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="查有阴阳合同不得分"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb5_3_1_1"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="查有投诉无正当解释扣一半分"/>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_rule3_1_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/style_edittext"
+                        android:text="单项设备未固定扣减一半分值；单项未能运转不得分；无付款凭证证明设备所有权不得分"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        android:layout_above="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff">
+
+        <include
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+
+</LinearLayout>

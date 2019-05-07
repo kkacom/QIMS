@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="#ffffff">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_page_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignTop="@+id/tv_page_before"-->
+            <!--android:layout_marginLeft="18dp"-->
+            <!--android:layout_marginStart="18dp"-->
+            <!--android:text="生产尺寸-悬摆门"-->
+            <!--android:textSize="14sp" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="单位 : mm"-->
+            <!--android:layout_marginLeft="18dp"-->
+            <!--android:layout_alignParentBottom="true"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_page_before"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_toRightOf="@id/tv_page_title"-->
+            <!--android:background="@drawable/edit_bg"-->
+            <!--android:padding="2dp"-->
+            <!--android:text="上一页" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_page_curpage"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_toRightOf="@id/tv_page_before"-->
+            <!--android:text="3/3" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_page_next"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_toRightOf="@id/tv_page_curpage"-->
+            <!--android:background="@drawable/edit_bg"-->
+            <!--android:padding="2dp"-->
+            <!--android:text="下一页" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_save"-->
+            <!--android:layout_width="55dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--style="@style/EdStyle"-->
+            <!--android:textColor="#ff0000"-->
+            <!--android:text="未保存"-->
+            <!--android:gravity="center"/>-->
+    <!--</RelativeLayout>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ly_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF">
+
+
+                <TextView
+                    android:id="@+id/tv_title_1_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="15dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="悬摆板高度 : "
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_1_1"
+                    style="@style/TopTitle"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_title_1_1"
+                    android:text="检测值1" />
+
+                <TextView
+                    android:id="@+id/tv_1_2"
+                    style="@style/TopTitle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_1_1"
+                    android:text="检测值2" />
+
+                <TextView
+                    android:id="@+id/tv_1_3"
+                    style="@style/TopTitle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_1_2"
+                    android:text="设计值" />
+
+                <TextView
+                    android:id="@+id/tv_1_4"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_1_3"
+                    android:text="由上至下第几块" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/tv_title_2_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="上 : "
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_2_1"
+                    style="@style/EdStyle"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/tv_title_2_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_2_2"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ed_2_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_2_3"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ed_2_2"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/tv_title_3_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="中 : "
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_3_1"
+                    style="@style/EdStyle"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/tv_title_3_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_3_2"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_3_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_3_3"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_3_2"
+                    android:text="" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF">
+
+
+                <TextView
+                    android:id="@+id/tv_title_4_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="下 : "
+                    android:textSize="12sp"
+                    android:visibility="invisible"/>
+
+                <EditText
+                    android:id="@+id/ed_4_1"
+                    style="@style/EdStyle"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/tv_title_4_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_4_2"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_4_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_4_3"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_4_2"
+                    android:text="" />
+
+                <Spinner
+                    android:id="@+id/ed_4_4"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="6dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:layout_toRightOf="@id/ed_4_3"
+                    android:entries="@array/xb_door"
+                    android:background="@drawable/edit_bg"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_5_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF">
+
+                <TextView
+                    android:id="@+id/tv_title_5_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_5_1_remark"
+                    style="@style/InputRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/tv_title_5_1"
+                    android:padding="4dp"
+                    android:text=""
+                    android:enabled="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="10dp"
+                    android:layout_below="@id/ed_5_1_remark"></View>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/ly_6_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffcc">
+
+
+                <TextView
+                    android:id="@+id/tv_title_6_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="15dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="悬摆板宽度 : "
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_6_1"
+                    style="@style/TopTitle"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_title_6_1"
+                    android:text="检测值1" />
+
+                <TextView
+                    android:id="@+id/tv_6_2"
+                    style="@style/TopTitle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_6_1"
+                    android:text="检测值2" />
+
+                <TextView
+                    android:id="@+id/tv_6_3"
+                    style="@style/TopTitle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_6_2"
+                    android:text="设计值" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_7_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffcc"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/tv_title_7_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="上 : "
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_7_1"
+                    style="@style/EdStyle"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/tv_title_7_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_7_2"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ed_7_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_7_3"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ed_7_2"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_8_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffcc"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/tv_title_8_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="中 : "
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_8_1"
+                    style="@style/EdStyle"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/tv_title_8_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_8_2"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_8_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_8_3"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_8_2"
+                    android:text="" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_9_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffcc">
+
+
+                <TextView
+                    android:id="@+id/tv_title_9_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="下 : "
+                    android:textSize="12sp"
+                    android:visibility="invisible"/>
+
+                <EditText
+                    android:id="@+id/ed_9_1"
+                    style="@style/EdStyle"
+                    android:layout_alignTop="@+id/tv_title_9_1"
+                    android:layout_toEndOf="@+id/tv_title_9_1"
+                    android:layout_toRightOf="@+id/tv_title_9_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_9_2"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_9_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_9_3"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_9_2"
+                    android:text="" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_10_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffcc">
+
+                <TextView
+                    android:id="@+id/tv_title_10_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_10_1_remark"
+                    style="@style/InputRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/tv_title_10_1"
+                    android:padding="4dp"
+                    android:text=""
+                    android:enabled="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="10dp"
+                    android:layout_below="@id/ed_10_1_remark"></View>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/ly_11_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF">
+
+
+                <TextView
+                    android:id="@+id/tv_title_11_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="15dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="悬摆板对角线 : "
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_11_1"
+                    style="@style/TopTitle"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_title_11_1"
+                    android:text="左上右下" />
+
+                <TextView
+                    android:id="@+id/tv_11_2"
+                    style="@style/TopTitle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_11_1"
+                    android:text="右上左下" />
+
+                <TextView
+                    android:id="@+id/tv_11_3"
+                    style="@style/TopTitle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/tv_11_2"
+                    android:text="互差" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_12_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF">
+
+
+                <TextView
+                    android:id="@+id/tv_title_12_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="A : "
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_12_1"
+                    style="@style/EdStyle"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/tv_title_12_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_12_2"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ed_12_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_12_3"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ed_12_2"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_13_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF">
+
+
+                <TextView
+                    android:id="@+id/tv_title_13_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text="B : "
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_13_1"
+                    style="@style/EdStyle"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/tv_title_13_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_13_2"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_13_1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/ed_13_3"
+                    style="@style/EdStyle"
+                    android:layout_marginLeft="10dp"
+                    android:text=""
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/ed_13_2"
+                     />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_14_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFF">
+
+                <TextView
+                    android:id="@+id/tv_title_14_1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="marquee"
+                    android:gravity="right"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_14_1_remark"
+                    style="@style/InputRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/tv_title_14_1"
+                    android:padding="4dp"
+                    android:text=""
+                    android:enabled="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="10dp"
+                    android:layout_below="@id/ed_14_1_remark"></View>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000"></View>
+
+</LinearLayout>

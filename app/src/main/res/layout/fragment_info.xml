@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#F5F5F5">
+
+    <!-- 这是企业记录Fragment的头布局-->
+    <include layout="@layout/title_list"
+        android:visibility="gone"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <mobileplayer.gitdemo.com.hunandefensesystem.widget.LoadMoreListView
+            android:id="@+id/lv_frg_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/day_layout_bg_normal"
+            />
+        <!--android:divider="#e7e7e7"
+        android:dividerHeight="1dp"-->
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

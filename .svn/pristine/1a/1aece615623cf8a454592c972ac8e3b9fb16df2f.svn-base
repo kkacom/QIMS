@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_detail"
+    android:visibility="visible"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFF"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/mkkg_title1"
+                style="@style/LeftTitle"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="门框孔高："
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mkkg_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="6dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="检测点"
+                app:layout_constraintStart_toEndOf="@+id/mkkg_title1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mkkg_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测点"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkkg_item1"
+                app:layout_constraintStart_toEndOf="@+id/mkkg_item1" />
+
+            <TextView
+                android:id="@+id/mkkg_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测点"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkkg_item2"
+                app:layout_constraintStart_toEndOf="@+id/mkkg_item2" />
+
+            <TextView
+                android:id="@+id/mkkg_d"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="设计值"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkkg_item3"
+                app:layout_constraintStart_toEndOf="@+id/mkkg_item3" />
+
+            <EditText
+                android:id="@+id/et_mkkg1"
+                style="@style/InputValue"
+                android:layout_marginStart="6dp"
+
+                app:layout_constraintStart_toEndOf="@+id/mkkg_title1"
+                app:layout_constraintTop_toBottomOf="@+id/mkkg_item1" />
+
+            <EditText
+                android:id="@+id/et_mkkg2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkkg1"
+                app:layout_constraintStart_toEndOf="@+id/et_mkkg1" />
+
+            <EditText
+                android:id="@+id/et_mkkg3"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkkg2"
+                app:layout_constraintStart_toEndOf="@+id/et_mkkg2" />
+
+            <EditText
+                android:id="@+id/et_mkkg_d"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkkg3"
+                app:layout_constraintStart_toEndOf="@+id/et_mkkg3" />
+
+            <EditText
+                android:id="@+id/et_mkkg_bz"
+                style="@style/InputRemarks"
+                android:layout_width="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_mkkg_d"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/et_mkkg1"
+                app:layout_constraintTop_toBottomOf="@+id/et_mkkg_d" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFCC"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/mkkk_title1"
+                style="@style/LeftTitle"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="门框孔宽："
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mkkk_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="6dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="检测点"
+                app:layout_constraintStart_toEndOf="@+id/mkkk_title1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mkkk_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测点"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkkk_item1"
+                app:layout_constraintStart_toEndOf="@+id/mkkk_item1" />
+
+            <TextView
+                android:id="@+id/mkkk_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="检测点"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkkk_item2"
+                app:layout_constraintStart_toEndOf="@+id/mkkk_item2" />
+
+            <TextView
+                android:id="@+id/mkkk_d"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="设计值"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkkk_item3"
+                app:layout_constraintStart_toEndOf="@+id/mkkk_item3" />
+
+            <EditText
+                android:id="@+id/et_mkkk1"
+                style="@style/InputValue"
+                android:layout_marginStart="6dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkkk_title1"
+                app:layout_constraintStart_toEndOf="@+id/mkkk_title1" />
+
+            <EditText
+                android:id="@+id/et_mkkk2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkkk1"
+                app:layout_constraintStart_toEndOf="@+id/et_mkkk1" />
+
+            <EditText
+                android:id="@+id/et_mkkk3"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkkk2"
+                app:layout_constraintStart_toEndOf="@+id/et_mkkk2" />
+
+            <EditText
+                android:id="@+id/et_mkkk_d"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkkk3"
+                app:layout_constraintStart_toEndOf="@+id/et_mkkk3" />
+
+            <EditText
+                android:id="@+id/et_mkkk_bz"
+                style="@style/InputRemarks"
+                android:layout_width="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_mkkk_d"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/et_mkkk1"
+                app:layout_constraintTop_toBottomOf="@+id/et_mkkk_d" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFF"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/mkdjx_title1"
+                style="@style/LeftTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="门框对角线："
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mkdjx_item1"
+                style="@style/TopTitle"
+                android:layout_marginStart="6dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="左上"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_title1"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/mkdjx_item2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="右下"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_item1"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_item1" />
+
+            <TextView
+                android:id="@+id/mkdjx_item3"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="互差"
+                android:textSize="@dimen/text_size_12"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_item2"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_item2" />
+
+            <EditText
+                android:id="@+id/et_mkdjx1"
+                style="@style/InputValue"
+
+                android:layout_marginStart="4dp"
+                app:layout_constraintEnd_toEndOf="@+id/mkdjx_item1"
+                app:layout_constraintStart_toStartOf="@+id/mkdjx_item1"
+                app:layout_constraintTop_toBottomOf="@+id/mkdjx_item1" />
+
+            <EditText
+                android:id="@+id/et_mkdjx2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx1"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx1" />
+
+            <EditText
+                android:id="@+id/et_mkdjx3"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx2"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx2" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_bz"
+                style="@style/InputRemarks"
+                android:layout_width="209dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@+id/et_mkdjx1"
+                app:layout_constraintTop_toBottomOf="@+id/et_mkdjx3" />
+
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="345dp"
+            android:background="#FFFFCC"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="383dp">
+
+
+            <TextView
+                android:id="@+id/mkdjx_xc_title11"
+                style="@style/LeftTitle"
+                android:layout_marginTop="64dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="门框对角线："
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_title2"
+                style="@style/LeftTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_x="16dp"
+                android:layout_y="34dp"
+                android:text="（砼门现场检测用）"
+                android:textSize="@dimen/text_size_8"
+                app:layout_constraintEnd_toEndOf="@+id/mkdjx_xc_title11"
+                app:layout_constraintStart_toStartOf="@+id/mkdjx_xc_title11"
+                app:layout_constraintTop_toBottomOf="@+id/mkdjx_xc_title11" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_xzd1"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="下支点1 "
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_title11"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_xzd2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="下支点2"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_xc_xzd1"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_xzd1" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_hfg1"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="焊缝高1"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_xc_xzd2"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_xzd2" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_hfg2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="焊缝高2"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_xc_hfg1"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_hfg1" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_hc1"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="互差"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_xc_hfg2"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_hfg2" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_xzd1"
+                style="@style/InputValue"
+
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintEnd_toEndOf="@+id/mkdjx_xc_xzd1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_title11"
+                app:layout_constraintTop_toBottomOf="@+id/mkdjx_xc_xzd1" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_xzd2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx_xc_xzd1"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx_xc_xzd1" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_hfg1"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx_xc_xzd2"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx_xc_xzd2" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_hfg2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx_xc_hfg1"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx_xc_hfg1" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_hc1"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx_xc_hfg2"
+                app:layout_constraintTop_toBottomOf="@+id/mkdjx_xc_hfg2" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_bz"
+                style="@style/InputRemarks"
+                android:layout_width="0dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_mkdjx_xc_hc1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/et_mkdjx_xc_xzd1"
+                app:layout_constraintTop_toBottomOf="@+id/et_mkdjx_xc_hfg2" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_szd1"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_x="100dp"
+                android:layout_y="5dp"
+                android:text="上支点1 "
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_title11"
+                app:layout_constraintTop_toBottomOf="@+id/et_mkdjx_xc_bz" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_szd2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="上支点2"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_xc_szd1"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_szd1" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_hfg3"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="焊缝高3"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_xc_szd2"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_szd2" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_hfg4"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="焊缝高4"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_xc_hfg3"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_hfg3" />
+
+            <TextView
+                android:id="@+id/mkdjx_xc_hc2"
+                style="@style/TopTitle"
+                android:layout_marginStart="8dp"
+                android:text="互差"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/mkdjx_xc_hfg4"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_hfg4" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_szd1"
+                style="@style/InputValue"
+
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintEnd_toEndOf="@+id/mkdjx_xc_szd1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/mkdjx_xc_title11"
+                app:layout_constraintTop_toBottomOf="@+id/mkdjx_xc_szd1" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_szd2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx_xc_szd1"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx_xc_szd1" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_hfg3"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx_xc_szd2"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx_xc_szd2" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_hfg4"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx_xc_hfg3"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx_xc_hfg3" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_hc2"
+                style="@style/InputValue"
+                android:layout_marginStart="8dp"
+
+                app:layout_constraintBaseline_toBaselineOf="@+id/et_mkdjx_xc_hfg4"
+                app:layout_constraintEnd_toEndOf="@+id/mkdjx_xc_hc2"
+                app:layout_constraintStart_toEndOf="@+id/et_mkdjx_xc_hfg4" />
+
+            <EditText
+                android:id="@+id/et_mkdjx_xc_bz2"
+                style="@style/InputRemarks"
+                android:layout_width="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_mkdjx_xc_hc2"
+                app:layout_constraintStart_toStartOf="@+id/et_mkdjx_xc_szd1"
+                app:layout_constraintTop_toBottomOf="@+id/et_mkdjx_xc_hfg4" />
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

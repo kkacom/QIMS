@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_page_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:text="生产质量-加工质量"-->
+            <!--android:textSize="14sp" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="单位 : mm"-->
+            <!--android:layout_marginLeft="18dp"-->
+            <!--android:layout_alignParentBottom="true"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_page_before"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_toRightOf="@id/tv_page_title"-->
+            <!--android:background="@drawable/edit_bg"-->
+            <!--android:padding="2dp"-->
+            <!--android:text="上一页" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_page_curpage"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_toRightOf="@id/tv_page_before"-->
+            <!--android:text="3/6" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_page_next"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_toRightOf="@id/tv_page_curpage"-->
+            <!--android:background="@drawable/edit_bg"-->
+            <!--android:padding="2dp"-->
+            <!--android:text="下一页" />-->
+
+
+    <!--</RelativeLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000"></View>
+
+
+    <RelativeLayout
+        android:id="@+id/ly_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99FFFF">
+
+
+        <TextView
+            android:id="@+id/tv_title_1_1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:text="焊脚高度 : "
+            android:layout_alignParentTop="true"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_1_1"
+            style="@style/TopTitle"
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_title_1_1"
+            android:text="1#" />
+
+        <TextView
+            android:id="@+id/tv_1_2"
+            style="@style/TopTitle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_1_1"
+            android:text="2#" />
+
+        <TextView
+            android:id="@+id/tv_1_3"
+            style="@style/TopTitle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_1_2"
+            android:text="3#" />
+
+        <TextView
+            android:id="@+id/tv_1_4"
+            style="@style/TopTitle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_1_3"
+            android:text="4#" />
+
+        <TextView
+            android:id="@+id/tv_1_5"
+            style="@style/TopTitle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_1_4"
+            android:text="5#" />
+
+        <TextView
+            android:id="@+id/tv_1_6"
+            style="@style/TopTitle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_1_5"
+            android:text="6#" />
+        <TextView
+            android:id="@+id/tv_1_7"
+            style="@style/TopTitle"
+            android:layout_width="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_1_6"
+            android:text="设计值" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99FFFF">
+
+
+        <TextView
+            android:id="@+id/tv_title_2_1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:text="竖边 : "
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ed_2_1"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/tv_title_2_1"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_2_2"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/ed_2_1"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_2_3"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/ed_2_2"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_2_4"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/ed_2_3"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_2_5"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/ed_2_4"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_2_6"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/ed_2_5"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_2_7"
+            style="@style/EdStyle"
+            android:layout_width="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/ed_2_6"
+            android:text="" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99FFFF">
+
+
+        <TextView
+            android:id="@+id/tv_title_3_1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:text="横边 : "
+            android:layout_alignParentTop="true"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ed_3_1"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/tv_title_3_1"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_3_2"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/ed_3_1"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_3_3"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/ed_3_2"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_3_4"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/ed_3_3"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_3_5"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/ed_3_4"
+            android:text="" />
+        <EditText
+            android:id="@+id/ed_3_6"
+            style="@style/EdStyle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/ed_3_5"
+            android:text="" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_4_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99FFFF">
+
+        <TextView
+            android:id="@+id/tv_title_4_1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:text=""
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ed_4_1_remark"
+            style="@style/InputRemarks"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/tv_title_4_1"
+            android:padding="4dp"
+            android:text=""
+            android:enabled="false"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:layout_below="@id/ed_4_1_remark"></View>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/ly_5_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffcc">
+
+
+        <TextView
+            android:id="@+id/tv_title_5_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:text="钢材锈蚀登级 : "
+            android:textSize="12sp"
+            android:layout_alignBaseline="@+id/tv_5_1"
+            android:layout_alignBottom="@+id/tv_5_1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tv_5_1"
+            style="@style/TopTitle"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_title_5_1"
+            android:text="检测值1" />
+
+        <TextView
+            android:id="@+id/tv_5_2"
+            style="@style/TopTitle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_5_1"
+            android:text="检测值2" />
+
+        <TextView
+            android:id="@+id/tv_5_3"
+            style="@style/TopTitle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_5_2"
+            android:text="检测值3" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_6_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffcc">
+
+
+        <TextView
+            android:id="@+id/tv_title_6_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:text="板材鉴定 : "
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ed_6_1"
+            style="@style/EdStyle"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/tv_title_6_1"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_6_2"
+            style="@style/EdStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/ed_6_1"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_6_3"
+            style="@style/EdStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/ed_6_2"
+            android:text="" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ly_7_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffcc">
+
+
+        <TextView
+            android:id="@+id/tv_title_7_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:text="型材鉴定 : "
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ed_7_1"
+            style="@style/EdStyle"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_title_7_1"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_7_2"
+            style="@style/EdStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/ed_7_1"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_7_3"
+            style="@style/EdStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/ed_7_2"
+            android:text="" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_8_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffcc">
+
+        <TextView
+            android:id="@+id/tv_title_8_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="right"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:text=""
+            android:textSize="12sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/view2"
+            android:layout_toEndOf="@+id/view2" />
+
+        <EditText
+            android:id="@+id/ed_8_1_remark"
+            style="@style/InputRemarks"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/tv_title_8_1"
+            android:padding="4dp"
+            android:text=""
+            android:enabled="false"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:layout_below="@id/ed_8_1_remark"
+            android:id="@+id/view2"></View>
+    </RelativeLayout>
+</LinearLayout>

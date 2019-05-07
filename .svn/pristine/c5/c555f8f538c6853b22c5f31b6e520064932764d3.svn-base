@@ -1,0 +1,110 @@
+// Generated code from Butter Knife. Do not modify!
+package com.zhilian.rf_qims.mvp.sample_detail.view;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.qmuiteam.qmui.widget.QMUITopBar;
+import com.zhilian.rf_qims.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class SampleDetailActivity_ViewBinding implements Unbinder {
+  private SampleDetailActivity target;
+
+  private View view2131297144;
+
+  private View view2131297162;
+
+  private View view2131297148;
+
+  @UiThread
+  public SampleDetailActivity_ViewBinding(SampleDetailActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public SampleDetailActivity_ViewBinding(final SampleDetailActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.mTopBar = Utils.findRequiredViewAsType(source, R.id.topbar, "field 'mTopBar'", QMUITopBar.class);
+    target.mTvEnterprise = Utils.findRequiredViewAsType(source, R.id.tv_enterprise, "field 'mTvEnterprise'", TextView.class);
+    target.mEtProjectAddr = Utils.findRequiredViewAsType(source, R.id.et_project_addr, "field 'mEtProjectAddr'", EditText.class);
+    target.mEtPart = Utils.findRequiredViewAsType(source, R.id.et_part, "field 'mEtPart'", EditText.class);
+    target.mEtSampleModel = Utils.findRequiredViewAsType(source, R.id.et_sample_model, "field 'mEtSampleModel'", EditText.class);
+    view = Utils.findRequiredView(source, R.id.tv_accept_date, "field 'mTvAcceptDate' and method 'onViewClicked'");
+    target.mTvAcceptDate = Utils.castView(view, R.id.tv_accept_date, "field 'mTvAcceptDate'", TextView.class);
+    view2131297144 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.tv_install_date, "field 'mTvInstallDate' and method 'onViewClicked'");
+    target.mTvInstallDate = Utils.castView(view, R.id.tv_install_date, "field 'mTvInstallDate'", TextView.class);
+    view2131297162 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.mEtInstallSide = Utils.findRequiredViewAsType(source, R.id.et_install_side, "field 'mEtInstallSide'", EditText.class);
+    view = Utils.findRequiredView(source, R.id.tv_check_date, "field 'mTvCheckDate' and method 'onViewClicked'");
+    target.mTvCheckDate = Utils.castView(view, R.id.tv_check_date, "field 'mTvCheckDate'", TextView.class);
+    view2131297148 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.mEtSampleNo = Utils.findRequiredViewAsType(source, R.id.et_sample_no, "field 'mEtSampleNo'", EditText.class);
+    target.mSpSampleState = Utils.findRequiredViewAsType(source, R.id.sp_sample_state, "field 'mSpSampleState'", Spinner.class);
+    target.mSpSampleType = Utils.findRequiredViewAsType(source, R.id.sp_sample_type, "field 'mSpSampleType'", Spinner.class);
+    target.mEtProductNo = Utils.findRequiredViewAsType(source, R.id.et_product_no, "field 'mEtProductNo'", EditText.class);
+    target.mEtTemperature = Utils.findRequiredViewAsType(source, R.id.et_temperature, "field 'mEtTemperature'", EditText.class);
+    target.mEtHumidity = Utils.findRequiredViewAsType(source, R.id.et_humidity, "field 'mEtHumidity'", EditText.class);
+    target.mEtSampleDescription = Utils.findRequiredViewAsType(source, R.id.et_sample_description, "field 'mEtSampleDescription'", EditText.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    SampleDetailActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.mTopBar = null;
+    target.mTvEnterprise = null;
+    target.mEtProjectAddr = null;
+    target.mEtPart = null;
+    target.mEtSampleModel = null;
+    target.mTvAcceptDate = null;
+    target.mTvInstallDate = null;
+    target.mEtInstallSide = null;
+    target.mTvCheckDate = null;
+    target.mEtSampleNo = null;
+    target.mSpSampleState = null;
+    target.mSpSampleType = null;
+    target.mEtProductNo = null;
+    target.mEtTemperature = null;
+    target.mEtHumidity = null;
+    target.mEtSampleDescription = null;
+
+    view2131297144.setOnClickListener(null);
+    view2131297144 = null;
+    view2131297162.setOnClickListener(null);
+    view2131297162 = null;
+    view2131297148.setOnClickListener(null);
+    view2131297148 = null;
+  }
+}

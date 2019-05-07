@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/TextViewStyle1"
+                android:text="2.6.2 加工平台总面积不小于50㎡，主平台尺寸不小于6m×4m，平整度公差不大于0.5mm。"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="设备信息"/>
+
+                        <Button
+                            style="@style/Text"
+                            android:id="@+id/create"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:gravity="center"
+                            android:text="创建设备"
+                            android:drawableLeft="@drawable/icon_person"
+                            android:background="@drawable/common_button_style"
+                            android:visibility="invisible"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="设备名称："/>
+
+                        <EditText
+                            android:id="@+id/et_name2_5_2"
+                            android:layout_width="match_parent"
+                            style="@style/EditTextStyle"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="设备型号："/>
+
+                        <EditText
+                            android:id="@+id/et_type2_5_2"
+                            android:layout_width="match_parent"
+                            style="@style/EditTextStyle"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="设备编号："/>
+
+                        <EditText
+                            android:id="@+id/et_number2_5_2"
+                            android:layout_width="match_parent"
+                            style="@style/EditTextStyle"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:text="备注内容："/>
+
+                        <EditText
+                            style="@style/EditTextStyle1"
+                            android:id="@+id/et_remark2_5_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:gravity="start"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="#F5F5F5"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="分值："/>
+
+                        <TextView
+                            android:id="@+id/tv_value2_5_2"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/style_edittext"/>
+
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="/得分："/>
+
+                        <TextView
+                            android:id="@+id/tv_score2_5_2"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Text"
+                            android:background="@drawable/style_edittext"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb1_2_6_2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="缺设备不得分"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb2_2_6_2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="总面积少于50㎡不得分"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb3_2_6_2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="公差大于0.5mm不得分"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+                        <CheckBox
+                            style="@style/Text"
+                            android:id="@+id/cb4_2_6_2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="主平台尺寸不满足不得分"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_rule2_5_2"
+                        style="@style/Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/style_edittext"
+                        android:text="面积少于50㎡或者公差大于0.5mm不得分。" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        android:id="@+id/view3"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <include
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</LinearLayout>

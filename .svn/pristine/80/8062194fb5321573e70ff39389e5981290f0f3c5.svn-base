@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\d6abb267b465a289b373cdc6f24671705b42bc14\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="e6b659b5a5850e1bfd6d81393d35ca3b50297239">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-f4ac4e430518b31747c2794ff86c921f8663be98.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.dubsmash.volley\library\2.0.1\8b2572dd32db404209ac150a0a0ef38bc45316cc\library-2.0.1.jar"
+        revision="27.0.3"
+        sha1="8b2572dd32db404209ac150a0a0ef38bc45316cc">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\library-2.0.1-03f2b076387c7fbbe722f664aae5227df54c88e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\74bd7a51ab6fb84a927cce45542ec607a593b15c\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="ed6560f31a6a40b5965f5879d8f2eab1f68def05">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-e80afc23b3c049f642f93c25e1730840d93a0817.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\90c150967979cb7f4fabd0e1a8b578c41e527026\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="cbbd26dd2f6d46181b41a5f6f5e34889442a811b">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-f034b7f542260cb624f72a62affe58571e8879c1.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\colin-utils\build\intermediates\bundles\default\libs\fastjson-1.1.53.android.jar"
+        revision="27.0.3"
+        sha1="b4e32a2e296bc35b10f6541eb481045a7253a574">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\fastjson-1.1.53.android-c1179573764cb143322f04603dc74af42247cc28.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\d1850906864b9aff1fbe5263642844ec640fa0ec\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="fe3916317a699975bcce0cba2d13fd2d8cf88922">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-182ceaf6fa50702ed8f34fa4660c26b8f7b6ce88.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        revision="27.0.3"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\okio-1.13.0-f63c7ab08dbed3c34e0fe0b9b1a691240ffa1bb7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\452fedd52b32b88e563144bc1ee22410ad2c809e\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="f3f00bb9cdb0a14b0db183427d227bfd78b29ec2">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-2d7d1f856187dffd5a387959a377d5c5f6b47126.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\app\libs\uhf.jar"
+        revision="27.0.3"
+        sha1="ad377c72c9e4d6a81e1ed62fe2e510a7888f152c">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\uhf-5b32fa80174c039b4187508941eef3adfae6c5ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\85b26e77b959efdac2dd6b2a7a09437064a36c25\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="dc703c35f594398c269b79b0178c86744add9494">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-27d4430d46b8e64d71aa2c089627e642c1cfbe89.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="04cd0cacbedcb338f64665b88bad64d145325fbd">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-629fd1aaf246b3cfd9513273ec4d379c8cda7d16.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\3905390cf181fbd2be911048bdba7c48991c5ff0\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-21894ded278f504c30b5bd637059fcb57752db25.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.2\b9ef4342c934a1a8b107506273dc8061662a322\support-annotations-27.0.2.jar"
+        revision="27.0.3"
+        sha1="0b9ef4342c934a1a8b107506273dc8061662a322">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\support-annotations-27.0.2-5a0ee4ba85493f120bf387b9d41fa9444ca3d98e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\d752f36d7d159b648688d928285d7fdd3538d2cb\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="69222656aff9fc06ba45b16a6cf65684ce39e121">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-d67f54d36e7314b5898748ea8098f5bcfc4365ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\60d24891735dcb43236b7bdc536ba10dfb1b1904\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-bb65d7ebebfaa82a9502d01d5565c0a79eae87da.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\53865d6a049e767e46aab6bfbf0f95ebd7de617d\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="f8a80c9882b064f2943e10649a8d2b249f5bf176">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-783e99877b5c112de9e2178dda5d0c30c57f2a21.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\2cc7e7805cd8800f0c9d6b935686ca6a1bc44207\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="fa0e9d2e5cf14f7d154c95672b3d37a845f09d57">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-12f2c73084d249e31e7f549925881da9d45f8efb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\9d45d2917190c45a6c3bc1c12702abf5b9f63f03\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-c99f6359844fc1c7a535576c7036b3c7208d8739.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\disklrucache\2.0.2\93b399470e72c0bc8cb52379943b63c9aa586cd8\disklrucache-2.0.2.jar"
+        revision="27.0.3"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\disklrucache-2.0.2-be47be7a71926436698005c3c73dd29eb62138fb.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\colin-utils\build\intermediates\bundles\default\libs\jackson-databind-2.4.3.jar"
+        revision="27.0.3"
+        sha1="756039ea5e35074ceef2650047c1a27e9693ecbe">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\jackson-databind-2.4.3-13b23104a66739e5f87d9d158416562db9005a9d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.5.0\86950b32ea96cceece316b829cbe47b735892551\disklrucache-4.5.0.jar"
+        revision="27.0.3"
+        sha1="86950b32ea96cceece316b829cbe47b735892551">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\disklrucache-4.5.0-15ec23e6ca72a2cd9013f6a3feb9aeec8844d87d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="147c3a0479cffc8b32ab7a661a907bb383bc2337">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-8509e171ede095120bb5cebc34dfa89759603c87.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.1\99895d4dc6d79efbb74360f13c556d95533ad8f8\rxjava-2.1.1.jar"
+        revision="27.0.3"
+        sha1="99895d4dc6d79efbb74360f13c556d95533ad8f8">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\rxjava-2.1.1-2cdee50dee1f151583b78195842406998e085785.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\d5b1456e13510229f75dd8461f8c68d37f41c0c6\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="0fa6e9584c97032493cc635b4d169dae6d05fd82">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-d2ac5bbbc3340b83ad1a9026b3d7073e3844fb61.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        revision="27.0.3"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\okhttp-3.8.0-33bf805d1981bef7597a6907c10bb939ca43c5d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.0\c6d610abe1d75d758431c9234917a349abc0a0ac\greendao-api-3.2.0.jar"
+        revision="27.0.3"
+        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\greendao-api-3.2.0-bcb0f0d31e328b5ad99ce3d5063ea26fb25ba869.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\c3a3c53f7e674b7f22f975be546ce304aeee36f4\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="ced2c9cad18369f076d58319666767cfc6e378e4">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-656a39005001f09a3563769b8c8a99c7d00d1153.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\0c38cbe924fe9c5b24dde08904d96ea248cf359a\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="caa03787689212c10939f308a55a8dc8a3333ed2">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-8b582c33bc44d35dfdf7681d620d0acb34c727a2.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\app\libs\tbs_sdk_thirdapp_v3.2.0.1104_43200_sharewithdownload_withfilereader_withoutGame_obfs_20170609_115346.jar"
+        revision="27.0.3"
+        sha1="e58a5f3e98fddc1752eb23c37db5e4b8fc174fe3">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\tbs_sdk_thirdapp_v3.2.0.1104_43200_sharewithdownload_withfilereader_withoutGame_obfs_20170609_115346-cc56b49bcca49b80dd8568684f04723f80d02fda.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        revision="27.0.3"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\converter-gson-2.3.0-553680e635ae731332198bb4f76e9def80b56aa3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\93f13c0ade7093955bd228d4f01ed6946ea814f5\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="2a24cba08e1d865a79e61335f5a1bd64d520106d">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-ad5d556385b4873cc6bd390f878073b9896fa24e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.0\e70040568b2929b8e5869ad1ffca8e4386dc53bc\greendao-3.2.0.jar"
+        revision="27.0.3"
+        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\greendao-3.2.0-a584c16f448569ed72551d6057e0354366b3f6ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.5.0\5c16a9f3c9e4c9b6dbea50374264ef26fb937423\annotations-4.5.0.jar"
+        revision="27.0.3"
+        sha1="5c16a9f3c9e4c9b6dbea50374264ef26fb937423">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\annotations-4.5.0-0e3f637833c33e4fbad80826c0c6492f62d9b00d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\90c7cdb7d84662df8a0583c9aa1587ef1edbb18a\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-75854925116756269ad399969985422d69e10b41.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\cfaba2799cd38d874d6ff360b00b5e45c78313da\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="d7cc5473b9cf4ea159a263cd477fb3ecb2987b96">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-ac6bfefe1ade0e70aecb3fb75c8b56b2d1c9e11a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="f25b1adab1e4b4f5cecb9dc6f19798afabcb177b">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-05500a4a0d986151e4d323e0c2533ce58e5cfcdf.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\colin-utils\build\intermediates\bundles\default\libs\commons-codec-1.9.jar"
+        revision="27.0.3"
+        sha1="5664723ffae7d1548f4e2e0df2b2a3a4cad2b175">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\commons-codec-1.9-c30747f15b1452a36181b9b9ac8746c95eb9453f.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\colin-utils\build\intermediates\bundles\default\libs\jackson-core-2.5.3.jar"
+        revision="27.0.3"
+        sha1="c910d25613510fc84ad71d0dc0f8ea512babd512">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\jackson-core-2.5.3-ff1d8f0b1d0b86db3c75d61dc8aa8f392d339f97.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.1.2\a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0\logging-interceptor-3.1.2.jar"
+        revision="27.0.3"
+        sha1="a1b4b8e4dc5f7bfa9186e79f9e267c1539a847b0">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\logging-interceptor-3.1.2-30b270bb378363c5ded28421fff9202428fed071.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\65f0f6dd23c791a2a1ac92a384fb99c59b3da367\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="3042a6fa1301374f44b76c8cd82b1f0247dc0eb9">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-53ace19363e85d66b54432689583522223749e10.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\cb8db121ece9ccfb0653230c7af8e612a4d7fd13\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="0964eb42553682b74d8551fa477d6a8479fe15f8">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-5786218703f8eb2a8810165e21cbc28f3c56f4ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\c0502353742a47eaed742bbb647ebbe3c9aaa892\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="9296d6f092fcdba4fafb6ac26546a39babdab46a">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-cd3eebfac09ca97522bb837414811bcf33d50ef6.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\colin-utils\build\intermediates\bundles\default\libs\picasso-2.5.2.jar"
+        revision="27.0.3"
+        sha1="4be4b04501b974e1be142024285f925b7ad9ff88">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\picasso-2.5.2-06d9a056e4c3064255a0e1c620960fd123f819d0.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\colin-utils\build\intermediates\bundles\default\classes.jar"
+        revision="27.0.3"
+        sha1="d0090e5315e8e9abb757c6aac067d1f0cdb624a0">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-40190d39e698e170b998e2a6288519dca93c5b54.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        revision="27.0.3"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\reactive-streams-1.0.0-5ea215fafe26757b3eaa9e791da078c680959e41.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\colin-utils\build\intermediates\bundles\default\libs\library-2.4.0.jar"
+        revision="27.0.3"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\library-2.4.0-36767766f9f9dbb547eb9f5d850a5dc527d86819.jar" />
+    </item>
+    <item
+        jar="D:\Android\WORK\RF-QIMS-APP1\colin-utils\build\intermediates\bundles\default\libs\jackson-annotations-2.4.0.jar"
+        revision="27.0.3"
+        sha1="b41853ada46621f0ba97d17230c5036474017a84">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\jackson-annotations-2.4.0-91748f66a809889f397dc8b0186e34b0dc6a3b6b.jar" />
+    </item>
+    <item
+        jar="D:\Android\SDK\platforms\android-26\android.jar"
+        revision="27.0.3"
+        sha1="18eaee6ff2a1c15c603daafb41277ea9376f30b5">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackRuntimeLibraries\release\jars\8000\40\android-2e0541f22b663ceb4fc183057c8bf0bdfa617942.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\bd957d556fef1e000c28d7c83e086dc2b8afeca5\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-47db0b4a503f336ae273d05962ee81c9414cce34.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\60b7bd5d9a5812d2f8706fcafb418b34bb991b3b\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="609e43f37ec3fb38728d04d79a2742607efd258f">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-6647629f7f187364176e5f08a24fa39e716054bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="543c4d3e20d4df2f38af8ce1ccb13543dc6c697c">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-c466cbcfbba7d2f6ae51ff6003f4110c2e351812.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.3.0\f436637f9500ab5b8bc32afe556373180894b4a5\adapter-rxjava2-2.3.0.jar"
+        revision="27.0.3"
+        sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\adapter-rxjava2-2.3.0-44f20bf39a10c4d40d1c07bbfcf28ac2b66d410f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\c16cd944d2be88dc1f789e4a74a84a09e41b0549\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="12a386ab8a358eea6e6f870787de568840ac58ab">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-f819f0d1e56f20e457de08d34c1ca20c5102cf76.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
+        revision="27.0.3"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\gson-2.8.2-6f92e0bc9cc6edb2f6dfe23a3b24d6c5a560f179.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.3\7d7f60c4783872861222166f6164215f8951c7b1\common-1.0.3.jar"
+        revision="27.0.3"
+        sha1="7d7f60c4783872861222166f6164215f8951c7b1">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\common-1.0.3-1e7df32ef0d1a26f4761f03308277703beafd849.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        revision="27.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\common-1.0.0-34ca24e8cff1f829d4bac2a8acae5d89393e0831.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        revision="27.0.3"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\retrofit-2.3.0-098b09b6a11593dc20fc4b42f55a6f8fd8090285.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\5af5767081b5c3b4dc3904ca97276673d5f8e98a\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-b415e36e13cdc1f600130119ef37d058838377fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\28af8bac5b9812978ef70d56c2059bdedd697c0c\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="8174013f25a7d1f9bb4e50e2e3dc11254dee1442">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-b8c65c7306d2e242ab1558726ec4e250ade1f54a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\450dcda5706ee9db913a1401fb686a7027d5d4ba\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="6ede77f4394f3fb177a64bfeaa295235a18faf18">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-7c409f53427ed1dd4ce0efff8f207a0e26bc3742.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\c39396302778092648a93af99beb7416f730a216\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="ac2ce6027755bcf49442e70597bec0feb9064f68">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-93f9a6a1a59cdbe5fbbff5b9f6a5a50b171d494c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        revision="27.0.3"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\butterknife-annotations-8.8.1-effad51e1b924a983cf91438469a33332a23c034.jar" />
+    </item>
+    <item
+        jar="D:\Android\SDK\platforms\android-26\optional\org.apache.http.legacy.jar"
+        revision="27.0.3"
+        sha1="d5b8c556427a60ed5f7f0abc415555de7bbba1ad">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackRuntimeLibraries\release\jars\8000\40\org.apache.http.legacy-ac9a8c99608473ff2dd050de13ea78defe0e756e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.android\build-cache\077fdc6255e8578358f9137700de15cd43ceed0e\output\jars\classes.jar"
+        revision="27.0.3"
+        sha1="618f75fe11febf263e3234c7da7dc892232a5608">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\classes-761b32e5ae90d57e257f232092d60d19f02c1e5a.jar" />
+    </item>
+    <item
+        jar="D:\Android\SDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="27.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Android\WORK\RF-QIMS-APP1\app\build\intermediates\transforms\preJackPackagedLibraries\release\jars\8000\1f\constraint-layout-solver-1.0.2-5a6b5e06fb90b05a0b4dd0560a0326c20ff0f1ff.jar" />
+    </item>
+
+</items>

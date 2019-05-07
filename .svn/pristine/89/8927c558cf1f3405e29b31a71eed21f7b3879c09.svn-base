@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="门框型钢厚度"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左侧"/>
+                </TableRow>
+                <TableRow>
+
+                    <EditText  android:id="@id/steel_thickness_frame_left1"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_frame_left2"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_frame_left3"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_frame_left4"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_frame_left5"
+                               style="@style/TestInput"/>
+                    <EditText  android:id="@id/steel_thickness_frame_left6"
+                               style="@style/TestInput"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右侧"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右侧"/>
+                </TableRow>
+                <TableRow>
+
+                    <EditText  android:id="@id/steel_thickness_frame_right1"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_frame_right2"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_frame_right3"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_frame_right4"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_frame_right5"
+                               style="@style/TestInput"/>
+                    <EditText  android:id="@id/steel_thickness_frame_right6"
+                               style="@style/TestInput"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+
+                </TableRow>
+                <TableRow>
+
+                    <EditText  android:id="@id/steel_thickness_frame_design"
+                               style="@style/TestInput"/>
+                    <EditText  android:id="@id/steel_thickness_frame_instruction"
+                               style="@style/TestInput"
+                               android:layout_span="5"
+                               android:gravity="left|center"
+                               android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <TableRow android:background="#EDD185" android:layout_marginTop="1dp">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="门扇钢板厚度"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板1"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板1"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板1"
+                        android:textSize="@dimen/text_size_12"/>
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板1"
+                        android:textSize="@dimen/text_size_12"/>
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板1"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板1"
+                        android:textSize="@dimen/text_size_12"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_front1"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_front2"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_front3"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_front4"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_front5"
+                               style="@style/TestInput"/>
+                    <EditText  android:id="@id/steel_thickness_planet1_front6"
+                               style="@style/TestInput"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="正面板2"
+                        android:textSize="@dimen/text_size_12"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_front1"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_front2"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_front3"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_front4"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_front5"
+                               style="@style/TestInput"/>
+                    <EditText  android:id="@id/steel_thickness_planet2_front6"
+                               style="@style/TestInput"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板1"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板1"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板1"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板1"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板1"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板1"
+                        android:textSize="@dimen/text_size_12"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_back1"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_back2"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_back3"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_back4"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet1_back5"
+                               style="@style/TestInput"/>
+                    <EditText  android:id="@id/steel_thickness_planet1_back6"
+                               style="@style/TestInput"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板2"
+                        android:textSize="@dimen/text_size_12"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="背面板2"
+                        android:textSize="@dimen/text_size_12"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_back1"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_back2"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_back3"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_back4"
+                               style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/steel_thickness_planet2_back5"
+                               style="@style/TestInput"/>
+                    <EditText  android:id="@id/steel_thickness_planet2_back6"
+                               style="@style/TestInput"/>
+                </TableRow>
+                <TableRow>
+
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+
+                </TableRow>
+
+                <TableRow>
+
+
+                    <EditText  android:id="@id/steel_thickness_leaf_design"
+                               style="@style/TestInput"/>
+                    <EditText  android:id="@id/steel_thickness_leaf_instruction"
+                               style="@style/TestInput"
+                               android:layout_span="5"
+                               android:gravity="left|center"
+                               android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>

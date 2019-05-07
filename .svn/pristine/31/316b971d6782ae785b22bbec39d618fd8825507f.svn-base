@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+             android:background="#fff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="来文单位"
+            android:gravity="center"
+            android:background="#F1F9FF"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:text="惠州市人民防空办公室"
+            android:id="@+id/from_unit"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:lineSpacingMultiplier="1.2"
+            android:minHeight="30dp"
+            android:gravity="center_vertical|left"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="收文日期"
+            android:gravity="center"
+            android:background="#F1F9FF"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC"/>
+
+        <TextView
+            android:id="@+id/receivedate"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DCDCDC"/>
+</TableLayout>

@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewStyle1"
+                android:text="1.3 环境设施"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/enterprise_qualification1.3.1"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_3_1"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_3_1"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb1_condition1_3_1"
+                        style="@style/TextStyle"
+                        android:layout_marginRight="20dp"
+                        android:text="自有"/>
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="每平米月租："/>
+
+                    <EditText
+                        android:id="@+id/et_rent1_3_1"
+                        style="@style/EditTextStyle"
+                        android:layout_width="80dp"
+                        android:layout_marginRight="20dp"/>
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="签约时间："/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_date_1_3_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:background="@drawable/style_edittext"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:id="@+id/tv_date_1_3_1"
+                            style="@style/Text"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:background="#F5F5F5"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/icon_date"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:id="@+id/cb2_condition1_3_1"
+                        style="@style/TextStyle"
+                        android:text="不足三年"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/enterprise_qualification1.3.2"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_3_2"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_3_2"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<TextView
+                        style="@style/TextStyle"
+                        android:text="受检单位："/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/style_edittext"
+                        android:layout_marginRight="20dp">
+
+                        <Spinner
+                            android:id="@+id/sn_company1_3_2"
+                            style="@style/Text"
+                            android:layout_width="100dp"
+                            android:layout_height="25dp"
+                            android:entries="@array/environmental_facility"/>
+                    </LinearLayout>-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="有效期至："/>
+
+                        <LinearLayout
+                            android:id="@+id/ll_date_1_3_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:background="@drawable/style_edittext"
+                            android:layout_marginRight="20dp">
+
+                            <TextView
+                                android:id="@+id/tv_date_1_3_2"
+                                style="@style/Text"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"/>
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="#F5F5F5"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"/>
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/icon_date"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/cb_condition1_3_2"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#666666"
+                        android:text="自述手续已办、未见原件"/>
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TableRow>
+                        <CheckBox
+                            android:id="@+id/cb_firefighting1_3_2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="消防设施有效、明确"
+                            android:textSize="16sp"
+                            android:textColor="#666666" />
+                        <CheckBox
+                            android:id="@+id/cb_manage1_3_2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="有管理制度或描述"
+                            android:textSize="16sp"
+                            android:textColor="#666666"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/enterprise_qualification1.3.3"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_3_3"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_3_3"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="涉及安全建议项："/>
+                        <EditText
+                            android:id="@+id/et_advise1_3_3"
+                            style="@style/EditTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="验收单位简称："/>
+                        <EditText
+                            android:id="@+id/et_unit1_3_3"
+                            style="@style/EditTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/enterprise_qualification1.3.4"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_3_4"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_3_4"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<TextView
+                        style="@style/TextStyle"
+                        android:text="受检单位："/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/style_edittext"
+                        android:layout_marginRight="20dp">
+
+                        <Spinner
+                            android:id="@+id/sn_company1_3_2"
+                            style="@style/Text"
+                            android:layout_width="100dp"
+                            android:layout_height="25dp"
+                            android:entries="@array/environmental_facility"/>
+                    </LinearLayout>-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            style="@style/TextStyle"
+                            android:text="有效期至："/>
+
+                        <LinearLayout
+                            android:id="@+id/ll_date_1_3_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:background="@drawable/style_edittext"
+                            android:layout_marginRight="20dp">
+
+                            <TextView
+                                android:id="@+id/tv_date_1_3_4"
+                                style="@style/Text"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"/>
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="#F5F5F5"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"/>
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/icon_date"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/cb_certificate1_3_4"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#666666"
+                        android:text="查有环评证书"/>
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TableRow>
+                        <CheckBox
+                            android:id="@+id/cb_environment1_3_4"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="环保措施有效、明确"
+                            android:textSize="16sp"
+                            android:textColor="#666666" />
+                        <CheckBox
+                            android:id="@+id/cb_manage1_3_4"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="有管理制度或描述"
+                            android:textSize="16sp"
+                            android:textColor="#666666"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/enterprise_qualification1.3.5"/>
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_3_5"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_3_5"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:id="@+id/cb_danger1_3_5"
+                        style="@style/TextStyle"
+                        android:text="危险、告诫警示清晰到位"
+                        android:layout_marginRight="20dp"/>
+                    <CheckBox
+                        android:id="@+id/cb_operation1_3_5"
+                        style="@style/TextStyle"
+                        android:text="操作规程挂墙明示"
+                        android:layout_marginRight="20dp"/>
+                    <CheckBox
+                        android:id="@+id/cb_manage1_3_5"
+                        style="@style/TextStyle"
+                        android:text="有管理制度或描述"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"/>
+
+    <LinearLayout
+        android:id="@+id/environmental_facility_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <include
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</LinearLayout>

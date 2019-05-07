@@ -1,0 +1,262 @@
+package com.zhilian.rf_qims.mvp.sample_data.pro_quality;
+
+
+import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.zhilian.api.StrKit;
+import com.zhilian.rf_qims.R;
+import com.zhilian.rf_qims.dao.GreenDaoManager;
+import com.zhilian.rf_qims.dao.SampleCheckDao;
+import com.zhilian.rf_qims.dao.SampleDao;
+import com.zhilian.rf_qims.entity.Sample;
+import com.zhilian.rf_qims.entity.SampleCheck;
+import com.zhilian.rf_qims.interfaces.EdDesignChangeSave;
+import com.zhilian.rf_qims.interfaces.EdTextChange;
+import com.zhilian.rf_qims.util.EdUtil;
+import com.zhilian.rf_qims.widget.LazyLoadFragment;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
+
+/**
+ * Created by colin on 2018/3/23 15:29 .
+ */
+
+public class ProQualityGJFB extends LazyLoadFragment {
+
+//    @BindView(R.id.tv_page_title)
+//    TextView tvPageTitle;
+//    @BindView(R.id.tv_page_before)
+//    TextView tvPageBefore;
+//    @BindView(R.id.tv_page_curpage)
+//    TextView tvPageCurpage;
+//    @BindView(R.id.tv_page_next)
+//    TextView tvPageNext;
+    @BindView(R.id.tv_title_1_1)
+    TextView tvTitle11;
+    @BindView(R.id.tv_1_1)
+    TextView tv11;
+    @BindView(R.id.tv_1_2)
+    TextView tv12;
+    @BindView(R.id.tv_1_3)
+    TextView tv13;
+    @BindView(R.id.tv_1_4)
+    TextView tv14;
+    @BindView(R.id.tv_1_5)
+    TextView tv15;
+    @BindView(R.id.tv_1_6)
+    TextView tv16;
+    @BindView(R.id.ly_1_1)
+    RelativeLayout ly11;
+    @BindView(R.id.tv_title_2_1)
+    TextView tvTitle21;
+    @BindView(R.id.ed_2_1)
+    EditText ed21;
+    @BindView(R.id.ed_2_2)
+    EditText ed22;
+    @BindView(R.id.ed_2_3)
+    EditText ed23;
+    @BindView(R.id.ed_2_4)
+    EditText ed24;
+    @BindView(R.id.ed_2_5)
+    EditText ed25;
+    @BindView(R.id.ed_2_6)
+    EditText ed26;
+    @BindView(R.id.ly_2_1)
+    RelativeLayout ly21;
+    @BindView(R.id.tv_title_3_1)
+    TextView tvTitle31;
+    @BindView(R.id.ed_3_1)
+    EditText ed31;
+    @BindView(R.id.ly_3_1)
+    RelativeLayout ly31;
+    @BindView(R.id.tv_title_4_1)
+    TextView tvTitle41;
+    @BindView(R.id.ed_4_1)
+    EditText ed41;
+    @BindView(R.id.ed_4_2)
+    EditText ed42;
+    @BindView(R.id.ed_4_3)
+    EditText ed43;
+    @BindView(R.id.ed_4_4)
+    EditText ed44;
+    @BindView(R.id.ed_4_5)
+    EditText ed45;
+    @BindView(R.id.ed_4_6)
+    EditText ed46;
+    @BindView(R.id.ly_4_1)
+    RelativeLayout ly41;
+    @BindView(R.id.tv_title_5_1)
+    TextView tvTitle51;
+    @BindView(R.id.ed_5_1)
+    EditText ed51;
+    @BindView(R.id.ly_5_1)
+    RelativeLayout ly51;
+    @BindView(R.id.tv_title_6_1)
+    TextView tvTitle61;
+    @BindView(R.id.ed_6_1)
+    EditText ed61;
+    @BindView(R.id.ed_6_2)
+    EditText ed62;
+    @BindView(R.id.ed_6_3)
+    EditText ed63;
+    @BindView(R.id.ed_6_4)
+    EditText ed64;
+    @BindView(R.id.ed_6_5)
+    EditText ed65;
+    @BindView(R.id.ed_6_6)
+    EditText ed66;
+    @BindView(R.id.ly_6_1)
+    RelativeLayout ly61;
+    @BindView(R.id.tv_title_7_1)
+    TextView tvTitle71;
+    @BindView(R.id.ed_7_1)
+    EditText ed71;
+    @BindView(R.id.ly_7_1)
+    RelativeLayout ly71;
+    @BindView(R.id.tv_title_8_1)
+    TextView tvTitle81;
+    @BindView(R.id.ed_8_1)
+    EditText ed81;
+    @BindView(R.id.tv_title_8_2)
+    TextView tvTitle82;
+    @BindView(R.id.ed_8_2)
+    EditText ed82;
+    @BindView(R.id.ly_8_1)
+    RelativeLayout ly81;
+    @BindView(R.id.tv_title_9_1)
+    TextView tvTitle91;
+    @BindView(R.id.ed_9_1_remark)
+    EditText ed91Remark;
+    @BindView(R.id.ly_9_1)
+    RelativeLayout ly91;
+    @BindView(R.id.tv_title_10_1)
+    TextView tvTitle101;
+    @BindView(R.id.tv_10_1)
+    TextView tv101;
+    @BindView(R.id.tv_10_2)
+    TextView tv102;
+    @BindView(R.id.tv_10_3)
+    TextView tv103;
+    @BindView(R.id.ly_10_1)
+    RelativeLayout ly101;
+    @BindView(R.id.tv_title_11_1)
+    TextView tvTitle111;
+    @BindView(R.id.ed_11_1)
+    EditText ed111;
+    @BindView(R.id.ed_11_2)
+    EditText ed112;
+    @BindView(R.id.ed_11_3)
+    EditText ed113;
+    @BindView(R.id.ly_11_1)
+    RelativeLayout ly111;
+    @BindView(R.id.tv_title_12_1)
+    TextView tvTitle121;
+    @BindView(R.id.ed_12_1_remark)
+    EditText ed121Remark;
+    @BindView(R.id.ly_12_1)
+    RelativeLayout ly121;
+    Unbinder unbinder;
+    private EditText[] editTexts1;
+    private EditText[] editTexts2;
+    private EditText[] editTexts3;
+    @Override
+    protected int setContentView() {
+        return R.layout.fragment_sczl_gjfb;
+    }
+    //设计值没有用
+    @Override
+    protected void lazyLoad() {
+        unbinder = ButterKnife.bind(this, view);
+        editTexts1 = new EditText[]{ed21, ed22, ed23,ed24,ed25,ed26,ed41,ed42,ed43,ed44,ed45,ed46,ed61,ed62,ed63,ed64,ed65,ed66};
+        editTexts2 = new EditText[]{ed111, ed112};
+        editTexts3 = new EditText[]{ed31, ed51,ed71};
+
+        Sample tentsample = (Sample) getActivity().getIntent().getSerializableExtra("sample");
+        Sample sample = GreenDaoManager.getInstance().getNewSession()
+                .getSampleDao().queryBuilder().where(SampleDao.Properties.Id.eq(tentsample.getId())).unique();
+        SampleCheck sampleCheck = GreenDaoManager.getInstance().getNewSession()
+                .getSampleCheckDao().queryBuilder().where(SampleCheckDao.Properties.Id.eq(tentsample.getId())).unique();
+        if (sampleCheck != null) {
+            //填充检测值
+            editTexts1[0].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[0]);
+            editTexts1[1].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[1]);
+            editTexts1[2].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[2]);
+            editTexts1[3].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[3]);
+            editTexts1[4].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[4]);
+            editTexts1[5].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[5]);
+            editTexts1[6].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[6]);
+            editTexts1[7].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[7]);
+            editTexts1[8].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[8]);
+            editTexts1[9].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[9]);
+            editTexts1[10].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[10]);
+            editTexts1[11].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[11]);
+            editTexts1[12].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[12]);
+            editTexts1[13].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[13]);
+            editTexts1[14].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[14]);
+            editTexts1[15].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[15]);
+            editTexts1[16].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[16]);
+            editTexts1[17].setText(EdUtil.split(sampleCheck.getProtective_layer_thickness())[17]);
+
+            editTexts2[0].setText(EdUtil.split(sampleCheck.getSteelbar_spacing())[0]);
+            editTexts2[1].setText(EdUtil.split(sampleCheck.getSteelbar_spacing())[1]);
+
+            editTexts3[0].setText(EdUtil.split(sampleCheck.getBar_spacing_file_name())[0]);
+            editTexts3[1].setText(EdUtil.split(sampleCheck.getBar_spacing_file_name())[1]);
+            editTexts3[2].setText(EdUtil.split(sampleCheck.getBar_spacing_file_name())[2]);
+
+        }
+        //设计值对比监听
+
+
+        //填充设计值
+        ed81.setText(StrKit.notBlank(sample.getSteelbarProtectThick() )? sample.getSteelbarProtectThick() +"": "");
+        ed82.setText(StrKit.notBlank(sample.getBarDiameterDesignValue() )? sample.getBarDiameterDesignValue() +"": "");
+        ed113.setText(StrKit.notBlank(sample.getSteelbarSpacing() )? sample.getSteelbarSpacing() +"": "");
+
+
+        //设计值保存监听
+        ed81.addTextChangedListener(new EdDesignChangeSave("setSteelbarProtectThick", sample, sample.getSteelbarProtectThick() + "", ed81));
+        ed82.addTextChangedListener(new EdDesignChangeSave("setBarDiameterDesignValue", sample, sample.getBarDiameterDesignValue() + "", ed82));
+        ed113.addTextChangedListener(new EdDesignChangeSave("setSteelbarSpacing", sample, sample.getSteelbarSpacing() + "", ed113));
+
+        //检测值保存监听
+        editTexts1[0].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[1].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[2].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[3].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[4].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[5].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[6].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[7].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[8].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[9].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[10].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[11].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[12].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[13].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[14].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[15].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[16].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+        editTexts1[17].addTextChangedListener(new EdTextChange("setProtective_layer_thickness", sampleCheck, sampleCheck.getProtective_layer_thickness(), editTexts1));
+
+
+
+        editTexts2[0].addTextChangedListener(new EdTextChange("setSteelbar_spacing", sampleCheck, sampleCheck.getSteelbar_spacing(), editTexts2));
+        editTexts2[1].addTextChangedListener(new EdTextChange("setSteelbar_spacing", sampleCheck, sampleCheck.getSteelbar_spacing(), editTexts2));
+
+
+        editTexts3[0].addTextChangedListener(new EdTextChange("setBar_spacing_file_name", sampleCheck, sampleCheck.getBar_spacing_file_name(), editTexts3));
+        editTexts3[1].addTextChangedListener(new EdTextChange("setBar_spacing_file_name", sampleCheck, sampleCheck.getBar_spacing_file_name(), editTexts3));
+        editTexts3[2].addTextChangedListener(new EdTextChange("setBar_spacing_file_name", sampleCheck, sampleCheck.getBar_spacing_file_name(), editTexts3));
+
+
+    }
+
+
+
+
+}

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--********************** 门扇宽度 ******************-->
+        <TableRow android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="门扇宽度"
+                />
+
+            <TableLayout android:layout_weight="5"
+                >
+
+                <TableRow>
+
+                    <TextView
+
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="@dimen/row_height">
+
+                    <EditText
+                        android:id="@+id/leaf_width1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_width2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_width3"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_width_design"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/leaf_width_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <!--**************** 门扇高度 *****************-->
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#EDD185">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="门扇高度"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测点"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@+id/leaf_height1"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@+id/leaf_height2"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@+id/leaf_height3"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@+id/leaf_height_design"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@+id/leaf_height_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <!--*************** 门扇厚度 ******************-->
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="门扇厚度"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值1"/>
+
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值2"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值3"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值4"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值5"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值6"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/leaf_thickness1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_thickness2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_thickness3"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_thickness4"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_thickness5"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_thickness6"
+                        style="@style/TestInput"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/leaf_thickness_design"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_thickness_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="3"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <!--**************** 门扇对角线 *****************-->
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="门扇\n对角线"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左上"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右下"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="互差"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/leaf_diagonal_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_diagonal_right_bottom"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_diagonal_difference"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/leaf_diagonal_design"
+                        style="@style/TestInput"/>
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText  android:id="@id/leaf_diagonal_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="4"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <!--*************** 门扇嵌压板高度 ******************-->
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="嵌压板\n高度"
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值1"/>
+
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值2"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值3"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值4"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值5"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值6"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/embedded_plate_height1"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height2"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height3"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height4"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height5"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height6"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值7"/>
+
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值8"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="检测值9"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/embedded_plate_height7"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height8"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height9"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height_design"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/embedded_plate_height_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="2"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

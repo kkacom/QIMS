@@ -1,0 +1,68 @@
+// Generated code from Butter Knife. Do not modify!
+package com.zhilian.rf_qims.widget;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class EnterpriseListFragment_ViewBinding implements Unbinder {
+  private EnterpriseListFragment target;
+
+  private View view2131755619;
+
+  private View view2131755617;
+
+  @UiThread
+  public EnterpriseListFragment_ViewBinding(final EnterpriseListFragment target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, 2131755619, "field 'mTvSearch' and method 'onViewClicked'");
+    target.mTvSearch = Utils.castView(view, 2131755619, "field 'mTvSearch'", TextView.class);
+    view2131755619 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, 2131755617, "field 'mIvDel' and method 'onViewClicked'");
+    target.mIvDel = Utils.castView(view, 2131755617, "field 'mIvDel'", ImageView.class);
+    view2131755617 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.mEtSearch = Utils.findRequiredViewAsType(source, 2131755616, "field 'mEtSearch'", EditText.class);
+    target.mLvEnterprise = Utils.findRequiredViewAsType(source, 2131755620, "field 'mLvEnterprise'", ListView.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    EnterpriseListFragment target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.mTvSearch = null;
+    target.mIvDel = null;
+    target.mEtSearch = null;
+    target.mLvEnterprise = null;
+
+    view2131755619.setOnClickListener(null);
+    view2131755619 = null;
+    view2131755617.setOnClickListener(null);
+    view2131755617 = null;
+  }
+}

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.david.gradientuilib:gradientuilibrary-1.0.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gradientuilibrary-1.0.1.aar/4ba138b8e8657be1a590fa0d8dd2cd2a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gradientuilibrary-1.0.1.aar/4ba138b8e8657be1a590fa0d8dd2cd2a/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.david.gradientuilib/gradientuilibrary/1.0.1/1fa310ea4fa7c41b528abbbc7579ce29ff5d7d0b/gradientuilibrary-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

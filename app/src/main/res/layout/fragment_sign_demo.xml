@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自拍照"
+            android:gravity="center"
+            android:textColor="#454545"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8A8A8A"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="拍照"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:id="@+id/tv_take_photo"
+                    android:gravity="center"
+                    android:textColor="#454545"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="保存"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:gravity="center"
+                    android:textColor="#454545"
+                    android:id="@+id/tv_save_photo"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="清空"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:gravity="center"
+                    android:textColor="#454545"
+                    android:id="@+id/tv_clear_photo"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#8A8A8A"
+                />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_user_photo"
+                android:layout_width="0dp"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                app:riv_border_color="#333333"
+                app:riv_border_width="2dp"
+                app:riv_oval="true"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8A8A8A"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8A8A8A"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手写签名"
+            android:gravity="center"
+            android:textColor="#454545"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8A8A8A"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/iv_sign"
+                android:layout_width="0dp"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#8A8A8A"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="签名"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:id="@+id/tv_take_sign"
+                    android:gravity="center"
+                    android:textColor="#454545"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="保存"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:gravity="center"
+                    android:textColor="#454545"
+                    android:id="@+id/tv_save_sign"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="清空"
+                    android:gravity="center"
+                    android:textColor="#454545"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:id="@+id/tv_clear_sign"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+       <!-- <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8A8A8A"
+            />-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8A8A8A"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

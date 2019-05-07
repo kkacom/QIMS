@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewStyle1"
+                android:text="1.2 质量体系"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/quality_system1.2.1"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_2_1"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_2_1"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb1_1_2_1"
+                    style="@style/TextStyle"
+                    android:text="国家认证认可信息查询系统，认证覆盖防护设备生产过程且在有效期内"
+                    android:layout_marginRight="20dp"/>
+
+                <CheckBox
+                    android:id="@+id/cb2_1_2_1"
+                    style="@style/TextStyle"
+                    android:text="认证已过期"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="有效期至："
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_date_1_2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:background="@drawable/style_edittext">
+
+                        <TextView
+                            android:id="@+id/tv_date_1_2_1"
+                            style="@style/Text"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:background="#F5F5F5"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/icon_date"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/quality_system1.2.2"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_2_2"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_2_2"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb1_1_2_2"
+                        style="@style/TextStyle"
+                        android:text="建有完整的质量体系文件且适用"
+                        android:layout_marginRight="20dp"/>
+
+                    <CheckBox
+                        android:id="@+id/cb2_1_2_2"
+                        style="@style/TextStyle"
+                        android:text="建有作业操作规程及工艺流程"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb3_1_2_2"
+                        style="@style/TextStyle"
+                        android:text="人员培训、岗位确认记录"
+                        android:layout_marginRight="20dp"/>
+
+                    <CheckBox
+                        android:id="@+id/cb4_1_2_2"
+                        style="@style/TextStyle"
+                        android:text="材料、产品出入库记录"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb5_1_2_2"
+                        style="@style/TextStyle"
+                        android:text="质量检验记录"
+                        android:layout_marginRight="20dp"/>
+
+                    <CheckBox
+                        android:id="@+id/cb6_1_2_2"
+                        style="@style/TextStyle"
+                        android:text="不符合处置记录"
+                        android:layout_marginRight="20dp"/>
+
+                    <CheckBox
+                        android:id="@+id/cb7_1_2_2"
+                        style="@style/TextStyle"
+                        android:text="记录不齐全"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/quality_system1.2.3"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_2_3"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_2_3"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb_manage_1_2_3"
+                        style="@style/TextStyle"
+                        android:text="管理清晰、职责分明"
+                        android:layout_marginRight="20dp"/>
+
+                    <CheckBox
+                        android:id="@+id/cb_institution_1_2_3"
+                        style="@style/TextStyle"
+                        android:text="制度明确、人员落实"
+                        android:layout_marginRight="20dp"/>
+
+                    <CheckBox
+                        android:id="@+id/cb_lack_1_2_3"
+                        style="@style/TextStyle"
+                        android:text="缺运行记录、工作场所"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewStyle2"
+                        android:text="@string/quality_system1.2.4"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_yes1_2_4"
+                            style="@style/TextStyle"
+                            android:text="Y"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_no1_2_4"
+                            style="@style/TextStyle"
+                            android:text="N"
+                            android:checked="true"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <CheckBox
+                            android:id="@+id/cb_one_1_2_4"
+                            style="@style/TextStyle"
+                            android:text="下料、加工、成型、仓储区域明确"
+                            android:layout_marginRight="20dp"/>
+
+                        <CheckBox
+                            android:id="@+id/cb_two_1_2_4"
+                            style="@style/TextStyle"
+                            android:text="流程图挂墙明示、物品标识清晰"/>
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="5dp">
+                        <CheckBox
+                            android:id="@+id/cb_three_1_2_4"
+                            style="@style/TextStyle"
+                            android:text="进货、检测、出品、项目有台账"
+                            android:layout_marginRight="20dp"/>
+
+                        <CheckBox
+                            android:id="@+id/cb_four_1_2_4"
+                            style="@style/TextStyle"
+                            android:text="凌乱无序、指示不清"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"/>
+
+    <LinearLayout
+        android:id="@+id/quality_system_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <include layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</LinearLayout>

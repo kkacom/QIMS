@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/TextViewStyle1"
+                android:text="2.7.1 外形与配合尺寸检测设备：大小钢尺。"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="分值："/>
+
+                    <TextView
+                        android:id="@+id/tv_value2_7_1"
+                        style="@style/EditTextStyle"
+                        android:layout_width="50dp"
+                        android:layout_marginRight="5dp"/>
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="/得分："/>
+
+                    <TextView
+                        android:id="@+id/tv_score2_7_1"
+                        style="@style/EditTextStyle"
+                        android:layout_width="50dp"
+                        android:text=""/>
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb_condition2_7_1"
+                    style="@style/TextStyle"
+                    android:text="符合"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb1_condition2_7_1"
+                        style="@style/TextStyle"
+                        android:layout_marginRight="20dp"
+                        android:text="缺规程"/>
+
+                    <CheckBox
+                        android:id="@+id/cb2_condition2_7_1"
+                        style="@style/TextStyle"
+                        android:layout_marginRight="20dp"
+                        android:text="缺设备"/>
+
+                    <CheckBox
+                        android:id="@+id/cb3_condition2_7_1"
+                        style="@style/TextStyle"
+                        android:layout_marginRight="20dp"
+                        android:text="缺证书"/>
+
+                    <CheckBox
+                        android:id="@+id/cb4_condition2_7_1"
+                        style="@style/TextStyle"
+                        android:text="缺凭证"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/cb5_condition2_7_1"
+                        style="@style/TextStyle"
+                        android:layout_marginRight="20dp"
+                        android:text="万能超压室"/>
+
+                    <CheckBox
+                        android:id="@+id/cb6_condition2_7_1"
+                        style="@style/TextStyle"
+                        android:layout_marginRight="20dp"
+                        android:text="典型超压室扣0.4分"/>
+
+                    <CheckBox
+                        android:id="@+id/cb7_condition2_7_1"
+                        style="@style/TextStyle"
+                        android:text="无超压室不得分"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        style="@style/Text"
+                        android:text="备注："
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/et_remark2_7_1"
+                        style="@style/Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/style_edittext"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        style="@style/Text"
+                        android:text="扣分规则:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tv_rule2_7_1"
+                        style="@style/Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/style_edittext"
+                        android:text="无单项质检工具操作规程扣0.1分、缺有效期内的检定校准证书、缺购置有效凭证均不得分。"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        android:layout_above="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff">
+
+        <include
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</LinearLayout>

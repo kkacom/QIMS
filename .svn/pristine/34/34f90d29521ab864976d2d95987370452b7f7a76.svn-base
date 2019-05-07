@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/tab_bg_green"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/icon_back" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_project_no"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="项目编号：RFTM17-0001A" />
+
+            <TextView
+                android:id="@+id/tv_sample_no"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="样品型号：HHFM1520(6)" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/no1_gray_light"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/tv_item_title"
+            android:textSize="@dimen/text_size_18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="产品尺寸-门框"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tv_previous"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="上一页"
+                android:background="@drawable/edit_bg"
+                />
+            <TextView
+                android:id="@+id/tv_num"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_18"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="1/3"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tv_next"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="下一页"
+                android:background="@drawable/edit_bg"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:id="@+id/tv_save"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:background="@drawable/edit_bg"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/frag_content"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/colorPrimaryDark"></FrameLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_sample_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="样品信息" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/tv_product_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="生产尺寸" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/tv_install_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="装配尺寸" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/tv_product_quality"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="生产质量" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/tv_install_quality"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="安装质量" />
+
+    </LinearLayout>
+</LinearLayout>

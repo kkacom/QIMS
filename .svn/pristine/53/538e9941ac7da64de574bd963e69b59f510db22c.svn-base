@@ -1,0 +1,92 @@
+// Generated code from Butter Knife. Do not modify!
+package com.zhilian.rf_qims.mvp.sample_data.info;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class InfoFragment_ViewBinding implements Unbinder {
+  private InfoFragment target;
+
+  @UiThread
+  public InfoFragment_ViewBinding(InfoFragment target, View source) {
+    this.target = target;
+
+    target.tvHumidity = Utils.findRequiredViewAsType(source, 2131821470, "field 'tvHumidity'", EditText.class);
+    target.tv131 = Utils.findRequiredViewAsType(source, 2131821471, "field 'tv131'", TextView.class);
+    target.tvMadeno = Utils.findRequiredViewAsType(source, 2131821455, "field 'tvMadeno'", EditText.class);
+    target.tv71 = Utils.findRequiredViewAsType(source, 2131821461, "field 'tv71'", TextView.class);
+    target.tv31 = Utils.findRequiredViewAsType(source, 2131821448, "field 'tv31'", TextView.class);
+    target.tv21 = Utils.findRequiredViewAsType(source, 2131821445, "field 'tv21'", TextView.class);
+    target.tv81 = Utils.findRequiredViewAsType(source, 2131821463, "field 'tv81'", TextView.class);
+    target.tv51 = Utils.findRequiredViewAsType(source, 2131821454, "field 'tv51'", TextView.class);
+    target.tvTemperature = Utils.findRequiredViewAsType(source, 2131821468, "field 'tvTemperature'", EditText.class);
+    target.tv111 = Utils.findRequiredViewAsType(source, 2131821467, "field 'tv111'", TextView.class);
+    target.tv101 = Utils.findRequiredViewAsType(source, 2131821465, "field 'tv101'", TextView.class);
+    target.mTvSitenumber = Utils.findRequiredViewAsType(source, 2131821457, "field 'mTvSitenumber'", EditText.class);
+    target.tvDesc = Utils.findRequiredViewAsType(source, 2131821472, "field 'tvDesc'", EditText.class);
+    target.tv91 = Utils.findRequiredViewAsType(source, 2131821458, "field 'tv91'", TextView.class);
+    target.tvInstalladdr = Utils.findRequiredViewAsType(source, 2131821462, "field 'tvInstalladdr'", EditText.class);
+    target.tvCompany = Utils.findRequiredViewAsType(source, 2131821444, "field 'tvCompany'", TextView.class);
+    target.tv11 = Utils.findRequiredViewAsType(source, 2131821315, "field 'tv11'", TextView.class);
+    target.tvAddr = Utils.findRequiredViewAsType(source, 2131821446, "field 'tvAddr'", TextView.class);
+    target.tvSamplemodel = Utils.findRequiredViewAsType(source, 2131821420, "field 'tvSamplemodel'", EditText.class);
+    target.tv121 = Utils.findRequiredViewAsType(source, 2131821469, "field 'tv121'", TextView.class);
+    target.tv41 = Utils.findRequiredViewAsType(source, 2131821447, "field 'tv41'", TextView.class);
+    target.tvMainUser = Utils.findRequiredViewAsType(source, 2131821451, "field 'tvMainUser'", TextView.class);
+    target.tvCheckdate = Utils.findRequiredViewAsType(source, 2131821466, "field 'tvCheckdate'", TextView.class);
+    target.tv61 = Utils.findRequiredViewAsType(source, 2131821459, "field 'tv61'", TextView.class);
+    target.tvMadedate = Utils.findRequiredViewAsType(source, 2131821460, "field 'tvMadedate'", TextView.class);
+    target.tvInstalldate = Utils.findRequiredViewAsType(source, 2131821464, "field 'tvInstalldate'", TextView.class);
+    target.tvSampleno = Utils.findRequiredViewAsType(source, 2131821421, "field 'tvSampleno'", EditText.class);
+    target.tvFuUser = Utils.findRequiredViewAsType(source, 2131821453, "field 'tvFuUser'", TextView.class);
+    target.spType = Utils.findRequiredViewAsType(source, 2131821449, "field 'spType'", Spinner.class);
+    target.tvPageTitle = Utils.findRequiredViewAsType(source, 2131821440, "field 'tvPageTitle'", TextView.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    InfoFragment target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.tvHumidity = null;
+    target.tv131 = null;
+    target.tvMadeno = null;
+    target.tv71 = null;
+    target.tv31 = null;
+    target.tv21 = null;
+    target.tv81 = null;
+    target.tv51 = null;
+    target.tvTemperature = null;
+    target.tv111 = null;
+    target.tv101 = null;
+    target.mTvSitenumber = null;
+    target.tvDesc = null;
+    target.tv91 = null;
+    target.tvInstalladdr = null;
+    target.tvCompany = null;
+    target.tv11 = null;
+    target.tvAddr = null;
+    target.tvSamplemodel = null;
+    target.tv121 = null;
+    target.tv41 = null;
+    target.tvMainUser = null;
+    target.tvCheckdate = null;
+    target.tv61 = null;
+    target.tvMadedate = null;
+    target.tvInstalldate = null;
+    target.tvSampleno = null;
+    target.tvFuUser = null;
+    target.spType = null;
+    target.tvPageTitle = null;
+  }
+}

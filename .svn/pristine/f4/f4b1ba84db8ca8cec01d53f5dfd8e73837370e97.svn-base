@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhilian.rf_qims"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 获取网络类型权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 读写SDCard权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 读取电话状态权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- WIFI权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 短信服务权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name="com.zhilian.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/QMUITheme" >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.zhilian.rf_qims.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.login.view.LoginActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.launcher.LauncherActivity"
+            android:screenOrientation="portrait" />
+        <!-- <activity android:name=".mvp.login.view.LoginActivity"/> -->
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.main.view.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.project_manager.view.ProjectManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.project_detail.view.ProjectDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.project_detail.view.ProjectDetailWeb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.sample_detail.view.SampleDetailActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.sample_manager.view.SampleManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.sample_data.DataActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.zhilian.rf_qims.service.ReceiveService" />
+        <service android:name="com.colin.download.service.DownloadService" />
+
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.test.view.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.util.FileDisplayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.project_detail.view.ProjectAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.project_detail.view.ProjectUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.office.PdfSeeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.office.WordSeeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.office.SignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.sample_detail.view.SampleUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zhilian.rf_qims.mvp.SamplePic.SamplePicActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.zhilian.rf_qims.mvp.rfid.RfidScanActivity" />
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+
+        <provider
+            android:name="com.luck.picture.lib.PictureFileProvider"
+            android:authorities="com.zhilian.rf_qims.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.luck.picture.lib.PicturePreviewActivity" />
+        <activity
+            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity" />
+        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+        <activity android:name="com.yalantis.ucrop.PictureMultiCuttingActivity" />
+        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity" />
+
+        <provider
+            android:name="com.amitshekhar.DebugDBInitProvider"
+            android:authorities="com.zhilian.rf_qims.DebugDBInitProvider"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

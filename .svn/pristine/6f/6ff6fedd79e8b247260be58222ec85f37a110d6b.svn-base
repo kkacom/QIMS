@@ -1,0 +1,193 @@
+package com.zhilian.rf_qims.mvp.sample_data.ins_quality;
+
+
+import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.zhilian.rf_qims.R;
+import com.zhilian.rf_qims.common.Common;
+import com.zhilian.rf_qims.entity.Sample;
+import com.zhilian.rf_qims.entity.SampleCheck;
+import com.zhilian.rf_qims.interfaces.EdTextChange;
+import com.zhilian.rf_qims.util.EdUtil;
+import com.zhilian.rf_qims.widget.LazyLoadFragment;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
+
+/**
+ * Created by colin on 2018/3/23 15:29 .
+ */
+
+public class InsQualityCZD extends LazyLoadFragment {
+
+//    @BindView(R.id.tv_page_title)
+//    TextView tvPageTitle;
+//    @BindView(R.id.tv_page_before)
+//    TextView tvPageBefore;
+//    @BindView(R.id.tv_page_curpage)
+//    TextView tvPageCurpage;
+//    @BindView(R.id.tv_page_next)
+//    TextView tvPageNext;
+    @BindView(R.id.tv_title_1_1)
+    TextView tvTitle11;
+    @BindView(R.id.tv_1_1)
+    TextView tv11;
+    @BindView(R.id.tv_1_2)
+    TextView tv12;
+    @BindView(R.id.tv_1_3)
+    TextView tv13;
+    @BindView(R.id.ly_1_1)
+    RelativeLayout ly11;
+    @BindView(R.id.tv_title_2_1)
+    TextView tvTitle21;
+    @BindView(R.id.ed_2_1)
+    EditText ed21;
+    @BindView(R.id.ed_2_2)
+    EditText ed22;
+    @BindView(R.id.ed_2_3)
+    EditText ed23;
+    @BindView(R.id.ly_2_1)
+    RelativeLayout ly21;
+    @BindView(R.id.tv_title_3_1)
+    TextView tvTitle31;
+    @BindView(R.id.ed_3_1_remark)
+    EditText ed31Remark;
+    @BindView(R.id.ly_3_1)
+    RelativeLayout ly31;
+    @BindView(R.id.tv_title_4_1)
+    TextView tvTitle41;
+    @BindView(R.id.tv_4_1)
+    TextView tv41;
+    @BindView(R.id.tv_4_2)
+    TextView tv42;
+    @BindView(R.id.tv_4_3)
+    TextView tv43;
+    @BindView(R.id.tv_4_4)
+    TextView tv44;
+    @BindView(R.id.ly_4_1)
+    RelativeLayout ly41;
+    @BindView(R.id.tv_title_5_1)
+    TextView tvTitle51;
+    @BindView(R.id.ed_5_1)
+    EditText ed51;
+    @BindView(R.id.ed_5_2)
+    EditText ed52;
+    @BindView(R.id.ed_5_3)
+    EditText ed53;
+    @BindView(R.id.ed_5_4)
+    EditText ed54;
+    @BindView(R.id.ly_5_1)
+    RelativeLayout ly51;
+    @BindView(R.id.tv_title_6_1)
+    TextView tvTitle61;
+    @BindView(R.id.ed_6_1)
+    EditText ed61;
+    @BindView(R.id.ed_6_2)
+    EditText ed62;
+    @BindView(R.id.ed_6_3)
+    EditText ed63;
+    @BindView(R.id.ed_6_4)
+    EditText ed64;
+    @BindView(R.id.ly_6_1)
+    RelativeLayout ly61;
+    @BindView(R.id.tv_title_7_1)
+    TextView tvTitle71;
+    @BindView(R.id.ed_7_1)
+    EditText ed71;
+    @BindView(R.id.ly_7_1)
+    RelativeLayout ly71;
+    @BindView(R.id.tv_title_8_1)
+    TextView tvTitle81;
+    @BindView(R.id.ed_8_1_remark)
+    EditText ed81Remark;
+    @BindView(R.id.ly_8_1)
+    RelativeLayout ly81;
+    Unbinder unbinder;
+    private EditText[] editTexts1;
+    private EditText[] editTexts2;
+    private EditText[] editTexts3;
+    private EditText[] editTexts4;
+    private EditText[] editTexts5;
+    private EditText[] editTexts6;
+    private EditText[] editTexts7;
+    private EditText[] editTexts8;
+
+    @Override
+    protected int setContentView() {
+        return R.layout.fragment_azzl_czd;
+    }
+
+    @Override
+    protected void lazyLoad() {
+        unbinder = ButterKnife.bind(this, view);
+
+        editTexts1 = new EditText[]{ed21};
+        editTexts2 = new EditText[]{ed22};
+        editTexts3 = new EditText[]{ed23};
+        editTexts4 = new EditText[]{ed51,ed52};
+        editTexts5 = new EditText[]{ed53,ed54};
+        editTexts6 = new EditText[]{ed61,ed62};
+        editTexts7 = new EditText[]{ed63,ed64};
+        editTexts8 = new EditText[]{ed71};
+
+
+       /* Sample tentsample = (Sample) getActivity().getIntent().getSerializableExtra("sample");
+        Sample sample = GreenDaoManager.getInstance().getNewSession()
+                .getSampleDao().queryBuilder().where(SampleDao.Properties.Id.eq(tentsample.getId())).unique();
+        SampleCheck sampleCheck = GreenDaoManager.getInstance().getNewSession()
+                .getSampleCheckDao().queryBuilder().where(SampleCheckDao.Properties.Id.eq(tentsample.getId())).unique();*/
+        Common common = new Common();
+        SampleCheck sampleCheck = common.getSampleCheck();
+        Sample sample = common.getSample();
+        if (sampleCheck != null) {
+            //填充检测值
+            editTexts1[0].setText(EdUtil.split(sampleCheck.getHinge_axis_perpendicularity_bothway())[0]);
+
+            editTexts2[0].setText(EdUtil.split(sampleCheck.getHinge_axis_perpendicularity_vertical())[0]);
+
+            editTexts3[0].setText(EdUtil.split(sampleCheck.getHinge_axis_perpendicularity_parallel())[0]);
+
+            editTexts4[0].setText(EdUtil.split(sampleCheck.getFrame_inter_wall_verticality1())[0]);
+            editTexts4[1].setText(EdUtil.split(sampleCheck.getFrame_inter_wall_verticality1())[1]);
+
+            editTexts5[0].setText(EdUtil.split(sampleCheck.getFrame_inter_wall_verticality2())[0]);
+            editTexts5[1].setText(EdUtil.split(sampleCheck.getFrame_inter_wall_verticality2())[1]);
+
+            editTexts6[0].setText(EdUtil.split(sampleCheck.getFrame_inter_wall_verticality3())[0]);
+            editTexts6[1].setText(EdUtil.split(sampleCheck.getFrame_inter_wall_verticality3())[1]);
+
+            editTexts7[0].setText(EdUtil.split(sampleCheck.getFrame_inter_wall_verticality4())[0]);
+            editTexts7[1].setText(EdUtil.split(sampleCheck.getFrame_inter_wall_verticality4())[1]);
+
+            editTexts8[0].setText(EdUtil.split(sampleCheck.getLine_hammer_specifications())[0]);
+
+
+        }
+
+        //检测值保存监听
+        editTexts1[0].addTextChangedListener(new EdTextChange("setHinge_axis_perpendicularity_bothway", sampleCheck, sampleCheck.getHinge_axis_perpendicularity_bothway(), editTexts1));
+
+        editTexts2[0].addTextChangedListener(new EdTextChange("setHinge_axis_perpendicularity_vertical", sampleCheck, sampleCheck.getHinge_axis_perpendicularity_vertical(), editTexts2));
+
+        editTexts3[0].addTextChangedListener(new EdTextChange("setHinge_axis_perpendicularity_parallel", sampleCheck, sampleCheck.getHinge_axis_perpendicularity_parallel(), editTexts3));
+
+        editTexts4[0].addTextChangedListener(new EdTextChange("setFrame_inter_wall_verticality1", sampleCheck, sampleCheck.getFrame_inter_wall_verticality1(), editTexts4));
+        editTexts4[1].addTextChangedListener(new EdTextChange("setFrame_inter_wall_verticality1", sampleCheck, sampleCheck.getFrame_inter_wall_verticality1(), editTexts4));
+
+        editTexts5[0].addTextChangedListener(new EdTextChange("setFrame_inter_wall_verticality2", sampleCheck, sampleCheck.getFrame_inter_wall_verticality2(), editTexts5));
+        editTexts5[1].addTextChangedListener(new EdTextChange("setFrame_inter_wall_verticality2", sampleCheck, sampleCheck.getFrame_inter_wall_verticality2(), editTexts5));
+
+        editTexts6[0].addTextChangedListener(new EdTextChange("setFrame_inter_wall_verticality3", sampleCheck, sampleCheck.getFrame_inter_wall_verticality3(), editTexts6));
+        editTexts6[1].addTextChangedListener(new EdTextChange("setFrame_inter_wall_verticality3", sampleCheck, sampleCheck.getFrame_inter_wall_verticality3(), editTexts6));
+
+        editTexts7[0].addTextChangedListener(new EdTextChange("setFrame_inter_wall_verticality4", sampleCheck, sampleCheck.getFrame_inter_wall_verticality4(), editTexts7));
+        editTexts7[1].addTextChangedListener(new EdTextChange("setFrame_inter_wall_verticality4", sampleCheck, sampleCheck.getFrame_inter_wall_verticality4(), editTexts7));
+
+        editTexts8[0].addTextChangedListener(new EdTextChange("setLine_hammer_specifications", sampleCheck, sampleCheck.getLine_hammer_specifications(), editTexts8));
+
+    }
+
+}

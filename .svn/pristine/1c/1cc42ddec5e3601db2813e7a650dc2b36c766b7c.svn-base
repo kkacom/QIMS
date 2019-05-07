@@ -1,0 +1,90 @@
+package com.zhilian.rf_qims.entity;
+
+import org.greenrobot.greendao.annotation.Entity;
+import org.greenrobot.greendao.annotation.Id;
+import org.greenrobot.greendao.annotation.Generated;
+
+import java.io.Serializable;
+
+/**
+ * Created by sl on 2017-10-17.
+ */
+@Entity
+public class Company implements Serializable{
+
+	private static final long serialVersionUID = 5251488744519183844L;
+	@Id
+	private long id;//对应json的eid
+	private String name;
+	private String addr;
+	private String area;
+	private String contacts;
+	private String phone;
+
+
+
+	@Generated(hash = 427639799)
+	public Company(long id, String name, String addr, String area, String contacts,
+			String phone) {
+		this.id = id;
+		this.name = name;
+		this.addr = addr;
+		this.area = area;
+		this.contacts = contacts;
+		this.phone = phone;
+	}
+	@Generated(hash = 1096856789)
+	public Company() {
+	}
+
+
+
+	public String getName() {
+					return this.name;
+	}
+	public void setName(String name) {
+					this.name = name;
+	}
+	public String getAddr() {
+					return this.addr;
+	}
+	public void setAddr(String addr) {
+					this.addr = addr;
+	}
+	public String getArea() {
+					return this.area;
+	}
+	public void setArea(String area) {
+					this.area = area;
+	}
+	public String getContacts() {
+					return this.contacts;
+	}
+	public void setContacts(String contacts) {
+					this.contacts = contacts;
+	}
+	public String getPhone() {
+					return this.phone;
+	}
+	public void setPhone(String phone) {
+					this.phone = phone;
+	}
+	public long getId() {
+		return this.id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "Company{" +
+			"id=" + id +
+			", name='" + name + '\'' +
+			", addr='" + addr + '\'' +
+			", area='" + area + '\'' +
+			", contacts='" + contacts + '\'' +
+			", phone='" + phone + '\'' +
+			'}';
+	}
+}

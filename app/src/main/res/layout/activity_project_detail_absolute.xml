@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:qmui_topbar_title_gravity="left_center"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/project_bg_green">
+            <!-- 委托单编号 -->
+            <TextView
+                android:id="@+id/item1"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="委托单编号: "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_item_code"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+
+                app:layout_constraintStart_toEndOf="@+id/item1"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="80dp" />
+            <!-- 项目代码 -->
+            <TextView
+                android:id="@+id/item2"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="项目代码: "
+                app:layout_constraintEnd_toEndOf="@+id/item1"
+                app:layout_constraintStart_toStartOf="@+id/item1"
+                app:layout_constraintTop_toBottomOf="@+id/item1"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_project_code"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+
+                android:minHeight="30dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_item_code"
+                app:layout_constraintStart_toStartOf="@+id/et_item_code"
+                app:layout_constraintTop_toBottomOf="@+id/et_item_code"
+                tools:layout_editor_absoluteX="80dp" />
+            <!-- 委托单位 -->
+            <TextView
+                android:id="@+id/item3"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="委托单位: "
+                app:layout_constraintEnd_toEndOf="@+id/item2"
+                app:layout_constraintStart_toStartOf="@+id/item2"
+                app:layout_constraintTop_toBottomOf="@+id/item2"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/tv_commission_unit"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_project_code"
+                app:layout_constraintStart_toStartOf="@+id/et_project_code"
+                app:layout_constraintTop_toBottomOf="@+id/et_project_code"
+                tools:layout_editor_absoluteX="80dp" />
+            <!-- 项目名称 -->
+            <TextView
+                android:id="@+id/item4"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="项目名称: "
+                app:layout_constraintEnd_toEndOf="@+id/item3"
+                app:layout_constraintStart_toStartOf="@+id/item3"
+                app:layout_constraintTop_toBottomOf="@+id/item3"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_item_name"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edit_bg_white"
+
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_commission_unit"
+                app:layout_constraintStart_toStartOf="@+id/tv_commission_unit"
+                app:layout_constraintTop_toBottomOf="@+id/tv_commission_unit"
+                tools:layout_editor_absoluteX="80dp" />
+            <!-- 样品地址 -->
+            <TextView
+                android:id="@+id/item5"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="样品地址: "
+
+                app:layout_constraintEnd_toEndOf="@+id/item4"
+                app:layout_constraintStart_toStartOf="@+id/item4"
+                app:layout_constraintTop_toBottomOf="@+id/item4"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_item_addr"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+
+                android:minHeight="30dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_item_name"
+                app:layout_constraintStart_toStartOf="@+id/et_item_name"
+                app:layout_constraintTop_toBottomOf="@+id/et_item_name"
+                tools:layout_editor_absoluteX="80dp" />
+            <!-- 样品来源 样品区域 -->
+            <TextView
+                android:id="@+id/item6"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="样品来源: "
+                app:layout_constraintStart_toStartOf="@+id/item5"
+                app:layout_constraintTop_toBottomOf="@+id/item5"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Spinner
+                android:id="@+id/sp_item_source"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/text_readonly"
+                android:clickable="false"
+                android:entries="@array/sample_source"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item6"
+                app:layout_constraintStart_toEndOf="@+id/item6"
+                app:layout_constraintTop_toTopOf="@+id/item6"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp" />
+
+            <TextView
+                android:id="@+id/item7"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="样品区域: "
+                app:layout_constraintBottom_toBottomOf="@+id/sp_item_source"
+
+                app:layout_constraintStart_toEndOf="@+id/sp_item_source"
+                app:layout_constraintTop_toTopOf="@+id/sp_item_source"
+                tools:layout_editor_absoluteX="160dp" />
+
+            <Spinner
+                android:id="@+id/sp_item_area"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/text_readonly"
+                android:clickable="false"
+                android:entries="@array/sample_area"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item7"
+                app:layout_constraintStart_toEndOf="@+id/item7"
+                app:layout_constraintTop_toTopOf="@+id/item7"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="240dp" />
+            <!-- 收样日期 委托形式 -->
+            <TextView
+                android:id="@+id/item8"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="收样日期: "
+                app:layout_constraintEnd_toEndOf="@+id/item6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item6"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/tv_accept_date"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/text_readonly"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item8"
+                app:layout_constraintStart_toEndOf="@+id/item8"
+                app:layout_constraintTop_toTopOf="@+id/item8"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp" />
+
+            <TextView
+                android:id="@+id/item9"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="委托形式: "
+                app:layout_constraintBottom_toBottomOf="@+id/tv_accept_date"
+                app:layout_constraintStart_toEndOf="@+id/tv_accept_date"
+                app:layout_constraintTop_toTopOf="@+id/tv_accept_date"
+                tools:layout_editor_absoluteX="160dp" />
+
+            <Spinner
+                android:id="@+id/sp_commission_shape"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/text_readonly"
+                android:clickable="false"
+                android:entries="@array/shapes"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item9"
+                app:layout_constraintStart_toEndOf="@+id/item9"
+                app:layout_constraintTop_toTopOf="@+id/item9"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="240dp" />
+
+            <!-- 见证单位 -->
+            <TextView
+                android:id="@+id/item10"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="见证单位: "
+                app:layout_constraintEnd_toEndOf="@+id/item8"
+                app:layout_constraintStart_toStartOf="@+id/item8"
+                app:layout_constraintTop_toBottomOf="@+id/item8"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_witness_unit"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/item10"
+
+                app:layout_constraintStart_toEndOf="@+id/item10"
+                tools:layout_editor_absoluteX="80dp" />
+            <!-- 联系电话 -->
+            <TextView
+                android:id="@+id/item11"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="联系电话: "
+                app:layout_constraintEnd_toEndOf="@+id/item10"
+                app:layout_constraintStart_toStartOf="@+id/item10"
+                app:layout_constraintTop_toBottomOf="@+id/item10"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_witness_unit_phone"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/item11"
+
+                app:layout_constraintStart_toEndOf="@+id/item11"
+                tools:layout_editor_absoluteX="80dp" />
+
+
+            <!-- 见证人姓名 见证人电话 -->
+            <TextView
+                android:id="@+id/item12"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="见证人姓名: "
+                app:layout_constraintEnd_toEndOf="@+id/item11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item11"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_witness"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item12"
+                app:layout_constraintStart_toEndOf="@+id/item12"
+                app:layout_constraintTop_toTopOf="@+id/item12"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp" />
+
+            <TextView
+                android:id="@+id/item13"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="见证人电话: "
+                app:layout_constraintBottom_toBottomOf="@+id/et_witness"
+                app:layout_constraintStart_toEndOf="@+id/et_witness"
+                app:layout_constraintTop_toTopOf="@+id/et_witness"
+                tools:layout_editor_absoluteX="160dp" />
+
+            <EditText
+                android:id="@+id/et_witness_phone"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item13"
+                app:layout_constraintStart_toEndOf="@+id/item13"
+                app:layout_constraintTop_toTopOf="@+id/item13"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="240dp" />
+            <!-- 委托人姓名 委托人电话 -->
+            <TextView
+                android:id="@+id/item14"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="委托人姓名: "
+                app:layout_constraintEnd_toEndOf="@+id/item12"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item12"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_sender"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item14"
+                app:layout_constraintStart_toEndOf="@+id/item14"
+                app:layout_constraintTop_toTopOf="@+id/item14"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp" />
+
+            <TextView
+                android:id="@+id/item15"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="委托人电话: "
+                app:layout_constraintBottom_toBottomOf="@+id/et_sender"
+                app:layout_constraintStart_toEndOf="@+id/et_sender"
+                app:layout_constraintTop_toTopOf="@+id/et_sender"
+                tools:layout_editor_absoluteX="160dp" />
+
+            <EditText
+                android:id="@+id/et_sender_phone"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item15"
+                app:layout_constraintStart_toEndOf="@+id/item15"
+                app:layout_constraintTop_toTopOf="@+id/item15"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="240dp" />
+
+            <!-- 收 样 人 委托类别 -->
+            <TextView
+                android:id="@+id/item16"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="收 样 人: "
+                app:layout_constraintEnd_toEndOf="@+id/item14"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item14"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_acceptor"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item16"
+                app:layout_constraintStart_toEndOf="@+id/item16"
+                app:layout_constraintTop_toTopOf="@+id/item16"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp" />
+
+            <TextView
+                android:id="@+id/item17"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="委托类别: "
+                app:layout_constraintBottom_toBottomOf="@+id/et_acceptor"
+                app:layout_constraintStart_toEndOf="@+id/et_acceptor"
+                app:layout_constraintTop_toTopOf="@+id/et_acceptor"
+                tools:layout_editor_absoluteX="160dp" />
+
+            <Spinner
+                android:id="@+id/sp_commission_category"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/text_readonly"
+                android:clickable="false"
+                android:entries="@array/commission_category"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item17"
+                app:layout_constraintStart_toEndOf="@+id/item17"
+                app:layout_constraintTop_toTopOf="@+id/item17"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="240dp" />
+
+
+            <!-- 监督单位 -->
+            <TextView
+                android:id="@+id/item18"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="监督单位: "
+                app:layout_constraintEnd_toEndOf="@+id/item16"
+                app:layout_constraintStart_toStartOf="@+id/item16"
+                app:layout_constraintTop_toBottomOf="@+id/item16"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_supervision_unit"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintStart_toEndOf="@+id/item18"
+                app:layout_constraintTop_toTopOf="@+id/item18"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp" />
+            <!-- 监督员姓名 保密要求 -->
+            <TextView
+                android:id="@+id/item19"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="监督员姓名: "
+                app:layout_constraintEnd_toEndOf="@+id/item18"
+                app:layout_constraintStart_toStartOf="@+id/item18"
+                app:layout_constraintTop_toBottomOf="@+id/item18"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_supervisor"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item19"
+                app:layout_constraintStart_toEndOf="@+id/item19"
+                app:layout_constraintTop_toTopOf="@+id/item19"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="80dp" />
+
+            <TextView
+                android:id="@+id/item20"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="保密要求: "
+                app:layout_constraintBottom_toBottomOf="@+id/et_supervisor"
+                app:layout_constraintStart_toEndOf="@+id/et_supervisor"
+                app:layout_constraintTop_toTopOf="@+id/et_supervisor"
+                tools:layout_editor_absoluteX="160dp" />
+
+            <Spinner
+                android:id="@+id/sp_secret"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/text_readonly"
+                android:clickable="false"
+                android:entries="@array/secret"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="@+id/item20"
+                app:layout_constraintStart_toEndOf="@+id/item20"
+                app:layout_constraintTop_toTopOf="@+id/item20"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="240dp" />
+            <!-- 备 注 -->
+            <TextView
+                android:id="@+id/item21"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center|right"
+                android:minHeight="30dp"
+                android:text="备 注: "
+                app:layout_constraintEnd_toEndOf="@+id/item19"
+                app:layout_constraintStart_toStartOf="@+id/item19"
+                app:layout_constraintTop_toBottomOf="@+id/item19"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_desc"
+                android:layout_width="248dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edit_bg_white"
+                android:clickable="false"
+                android:minHeight="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/sp_secret"
+                app:layout_constraintStart_toStartOf="@+id/et_supervisor"
+                app:layout_constraintTop_toBottomOf="@+id/item20"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="76dp" />
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+</LinearLayout>

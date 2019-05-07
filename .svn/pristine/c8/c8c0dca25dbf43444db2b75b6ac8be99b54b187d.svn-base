@@ -1,0 +1,97 @@
+// Generated code from Butter Knife. Do not modify!
+package com.zhilian.rf_qims.mvp.project_detail.view;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.qmuiteam.qmui.widget.QMUITopBar;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ProjectAddActivity_ViewBinding implements Unbinder {
+  private ProjectAddActivity target;
+
+  private View view2131755469;
+
+  @UiThread
+  public ProjectAddActivity_ViewBinding(ProjectAddActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ProjectAddActivity_ViewBinding(final ProjectAddActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.mEtWitnessUnit = Utils.findRequiredViewAsType(source, 2131755473, "field 'mEtWitnessUnit'", EditText.class);
+    target.mSpItemSource = Utils.findRequiredViewAsType(source, 2131755465, "field 'mSpItemSource'", Spinner.class);
+    target.mEtItemAddr = Utils.findRequiredViewAsType(source, 2131755463, "field 'mEtItemAddr'", EditText.class);
+    target.mEtItemCode = Utils.findRequiredViewAsType(source, 2131755455, "field 'mEtItemCode'", EditText.class);
+    view = Utils.findRequiredView(source, 2131755469, "field 'mTvAcceptDate' and method 'onViewClicked'");
+    target.mTvAcceptDate = Utils.castView(view, 2131755469, "field 'mTvAcceptDate'", TextView.class);
+    view2131755469 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked();
+      }
+    });
+    target.mEtWitness = Utils.findRequiredViewAsType(source, 2131755477, "field 'mEtWitness'", EditText.class);
+    target.mSpItemArea = Utils.findRequiredViewAsType(source, 2131755467, "field 'mSpItemArea'", Spinner.class);
+    target.mSpCommissionCategory = Utils.findRequiredViewAsType(source, 2131755487, "field 'mSpCommissionCategory'", Spinner.class);
+    target.mSpCommissionShape = Utils.findRequiredViewAsType(source, 2131755471, "field 'mSpCommissionShape'", Spinner.class);
+    target.mSpSecret = Utils.findRequiredViewAsType(source, 2131755493, "field 'mSpSecret'", Spinner.class);
+    target.mTvCommissionUnit = Utils.findRequiredViewAsType(source, 2131755459, "field 'mTvCommissionUnit'", TextView.class);
+    target.mEtSenderPhone = Utils.findRequiredViewAsType(source, 2131755483, "field 'mEtSenderPhone'", EditText.class);
+    target.mEtWitnessUnitPhone = Utils.findRequiredViewAsType(source, 2131755475, "field 'mEtWitnessUnitPhone'", EditText.class);
+    target.mEtItemName = Utils.findRequiredViewAsType(source, 2131755461, "field 'mEtItemName'", EditText.class);
+    target.mEtSender = Utils.findRequiredViewAsType(source, 2131755481, "field 'mEtSender'", EditText.class);
+    target.mEtDesc = Utils.findRequiredViewAsType(source, 2131755495, "field 'mEtDesc'", EditText.class);
+    target.mEtSupervisor = Utils.findRequiredViewAsType(source, 2131755491, "field 'mEtSupervisor'", EditText.class);
+    target.mEtSupervisionUnit = Utils.findRequiredViewAsType(source, 2131755489, "field 'mEtSupervisionUnit'", EditText.class);
+    target.mEtAcceptor = Utils.findRequiredViewAsType(source, 2131755485, "field 'mEtAcceptor'", EditText.class);
+    target.mTopBar = Utils.findRequiredViewAsType(source, 2131755440, "field 'mTopBar'", QMUITopBar.class);
+    target.mEtProjectCode = Utils.findRequiredViewAsType(source, 2131755457, "field 'mEtProjectCode'", EditText.class);
+    target.mEtWitnessPhone = Utils.findRequiredViewAsType(source, 2131755479, "field 'mEtWitnessPhone'", EditText.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ProjectAddActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.mEtWitnessUnit = null;
+    target.mSpItemSource = null;
+    target.mEtItemAddr = null;
+    target.mEtItemCode = null;
+    target.mTvAcceptDate = null;
+    target.mEtWitness = null;
+    target.mSpItemArea = null;
+    target.mSpCommissionCategory = null;
+    target.mSpCommissionShape = null;
+    target.mSpSecret = null;
+    target.mTvCommissionUnit = null;
+    target.mEtSenderPhone = null;
+    target.mEtWitnessUnitPhone = null;
+    target.mEtItemName = null;
+    target.mEtSender = null;
+    target.mEtDesc = null;
+    target.mEtSupervisor = null;
+    target.mEtSupervisionUnit = null;
+    target.mEtAcceptor = null;
+    target.mTopBar = null;
+    target.mEtProjectCode = null;
+    target.mEtWitnessPhone = null;
+
+    view2131755469.setOnClickListener(null);
+    view2131755469 = null;
+  }
+}

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:stretchColumns="1"
+
+             android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:text="碳化深度"
+            />
+
+        <TableLayout>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点1"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+            <TableRow android:layout_marginTop="5dp"><View android:layout_span="5" android:layout_height="2dp" android:background="#dcdcdc" android:layout_width="match_parent"/> </TableRow>
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点2"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+            <TableRow android:layout_marginTop="5dp"><View android:layout_span="5" android:layout_height="2dp" android:background="#dcdcdc" android:layout_width="match_parent"/> </TableRow>
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="检测点3"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+            <TableRow android:layout_marginTop="5dp"><View android:layout_span="5" android:layout_height="2dp" android:background="#dcdcdc" android:layout_width="match_parent"/> </TableRow>
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+            <TableRow android:layout_marginTop="5dp"><View android:layout_span="5" android:layout_height="2dp" android:background="#dcdcdc" android:layout_width="match_parent"/> </TableRow>
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="极差"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="总平均值"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="设计值"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+
+                    android:text="推定"
+                    android:textSize="@dimen/text_size_12"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:layout_span="2"
+                    android:text="回弹文件名"
+                    android:textSize="@dimen/text_size_12"/>
+
+
+            </TableRow>
+            <TableRow>
+                <EditText  android:id="@id/destroy"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    android:layout_span="2"
+                    android:text="H"
+                    android:gravity="left"
+                    style="@style/TestInput"/>
+                <EditText  android:id="@id/destroy"
+                    android:hint="现场调查及说明"
+                    android:layout_span="2"
+                    style="@style/TestInput"/>
+
+            </TableRow>
+            <TableRow android:layout_marginTop="5dp">
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:background="#EDD185">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_height="match_parent"
+            android:text="门框贴合面平面度"
+            />
+
+        <TableLayout>
+
+
+        </TableLayout>
+    </TableRow>
+</TableLayout>
+
+
+
+</ScrollView>

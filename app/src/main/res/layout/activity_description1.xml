@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view3"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViewStyle1"
+            android:text="2.1.1 生产部门负责人具有建筑工程或机械工程类专业的中级技术职称"
+            android:id="@+id/textView4"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F5F5F5"
+            android:id="@+id/view4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:text="个人信息"/>
+
+                    <Button
+                        style="@style/Text"
+                        android:id="@+id/create"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        android:paddingLeft="20dp"
+                        android:gravity="center"
+                        android:text="创建人员"
+                        android:drawableLeft="@drawable/icon_person"
+                        android:background="@drawable/common_button_style"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:layout_width="100dp"
+                        android:text="姓名："/>
+
+                    <EditText
+                        android:id="@+id/et_name2_1_1"
+                        android:layout_width="match_parent"
+                        style="@style/EditTextStyle"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:layout_width="100dp"
+                        android:text="身份证："/>
+
+                    <EditText
+                        android:id="@+id/et_card2_1_1"
+                        android:layout_width="match_parent"
+                        style="@style/EditTextStyle"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:layout_width="100dp"
+                        android:text="手机号码："/>
+
+                    <EditText
+                        android:id="@+id/et_phone2_1_1"
+                        android:layout_width="match_parent"
+                        style="@style/EditTextStyle"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:layout_width="100dp"
+                        android:text="入职时间："/>
+
+                    <EditText
+                        android:id="@+id/et_time2_1_1"
+                        android:layout_width="match_parent"
+                        style="@style/EditTextStyle"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:layout_width="100dp"
+                        android:text="备注："/>
+
+                    <EditText
+                        android:id="@+id/et_remark2_1_1"
+                        style="@style/EditTextStyle1"
+                        android:gravity="start"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:text="分值："/>
+
+                    <TextView
+                        android:id="@+id/tv_value2_1_1"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:gravity="center"
+                        android:background="@drawable/style_edittext"
+                        android:layout_marginRight="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:text="/得分："
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_score2_1_1"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:background="@drawable/style_edittext"
+                        style="@style/Text"/>
+                </LinearLayout>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb1_yes2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="满足"/>
+
+                    <RadioButton
+                        android:id="@+id/rb1_no2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="不满足"
+                        android:checked="true"/>
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb2_yes2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="在岗"/>
+
+                    <RadioButton
+                        android:id="@+id/rb2_no2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="不在岗"
+                        android:checked="true"/>
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb3_yes2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="有社保"/>
+
+                    <RadioButton
+                        android:id="@+id/rb3_no2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="无社保"
+                        android:checked="true"/>
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb4_yes2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="有职称证书"/>
+
+                    <RadioButton
+                        android:id="@+id/rb4_no2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="无职称证书"
+                        android:checked="true"/>
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb5_yes2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="有学历证书"/>
+
+                    <RadioButton
+                        android:id="@+id/rb5_no2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="无学历证书"
+                        android:checked="true"/>
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb6_yes2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="考核满意"/>
+
+                    <RadioButton
+                        android:id="@+id/rb6_no2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="考核不满意"
+                        android:checked="true"/>
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb7_yes2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="有劳动合同"/>
+
+                    <RadioButton
+                        android:id="@+id/rb7_no2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="无劳动合同"
+                        android:checked="true"/>
+                </RadioGroup>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <RadioButton
+                        android:id="@+id/rb8_yes2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="有任命(聘用)书"/>
+
+                    <RadioButton
+                        android:id="@+id/rb8_no2_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/Text"
+                        android:text="无任命(聘用)书"
+                        android:checked="true"/>
+                </RadioGroup>
+
+
+                <TextView
+                    android:id="@+id/tv_rule2_1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    style="@style/Text"
+                    android:background="@drawable/style_edittext"
+                    android:text="缺任命书或不在岗 扣一半分值;专业不符或缺社保 不得分。"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        android:layout_above="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/view3"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff">
+
+        <include
+            android:id="@+id/description1_bottom"
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</RelativeLayout>

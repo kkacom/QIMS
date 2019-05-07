@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="关闭悬摆板的启动力"
+            />
+
+        <TableLayout >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="悬板质量"
+                    android:textSize="@dimen/text_size_10"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="铰座质量"
+                    android:textSize="@dimen/text_size_10"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="当量管径"
+                    android:textSize="@dimen/text_size_10"/>
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp">
+
+
+                <EditText
+                    android:id="@id/xbm_max_start_instruction"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="1dp"
+        android:background="#EDD185">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_height="match_parent"
+            android:text="悬摆板关闭时的最大力"
+            />
+
+        <TableLayout >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+
+
+            </TableRow>
+
+
+            <TableRow android:layout_marginTop="5dp">
+
+
+                <EditText
+                    android:id="@id/groove_width_right_bottom"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:background="#6DEDD7">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="悬摆板与门扇间最大间隙"
+            />
+
+        <TableLayout >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+
+
+            </TableRow>
+
+
+            <TableRow android:layout_marginTop="5dp">
+
+
+                <EditText
+                    android:id="@id/groove_width_right_bottom"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp"/>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:background="#EDD185">
+
+        <TextView
+            style="@style/TableTitle"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:text="门框与门扇间最大间隙"
+            />
+
+        <TableLayout >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+                <TextView
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/TableTitle"
+                    android:text="检测值"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+                <EditText
+                    android:id="@id/xbm_max_start1"
+                    style="@style/TestInput"/>
+
+
+
+            </TableRow>
+
+
+            <TableRow android:layout_marginTop="5dp">
+
+
+                <EditText
+                    android:id="@+id/xbm_max_frame_spacing_instruction"
+                    style="@style/TestInput"
+                    android:layout_span="3"
+                    android:gravity="left|center"
+                    android:hint="现场调查及说明"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+</TableLayout>
+</ScrollView>

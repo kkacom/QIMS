@@ -1,0 +1,25 @@
+package com.zhilian.rf_qims.mvp.sample_data.view;
+
+import android.content.Context;
+import android.support.annotation.NonNull;
+import android.view.LayoutInflater;
+import android.widget.FrameLayout;
+
+import butterknife.ButterKnife;
+
+/**
+ * Created by colin on 2018/3/23 15:23 .
+ */
+
+public abstract class DataFrameLayout extends FrameLayout{
+	public DataFrameLayout(@NonNull Context context) {
+		super(context);
+		LayoutInflater.from(context).inflate(layoutRes(),this);
+		ButterKnife.bind(this);
+		initContentView();
+	}
+
+	protected abstract void initContentView();
+	protected abstract int layoutRes();
+	public abstract void saveViewData();
+}

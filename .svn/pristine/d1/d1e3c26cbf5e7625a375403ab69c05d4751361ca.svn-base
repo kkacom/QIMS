@@ -1,0 +1,81 @@
+package com.zhilian;
+
+import android.app.Application;
+import android.content.Context;
+
+import com.colin.base.ActivityManager;
+import com.tencent.smtt.sdk.QbSdk;
+import com.zhilian.rf_qims.dao.GreenDaoManager;
+import com.zhy.http.okhttp.OkHttpUtils;
+
+import java.util.concurrent.TimeUnit;
+
+import okhttp3.OkHttpClient;
+//import com.zhilian.rf_qims.entity.DaoMaster;
+//import com.zhilian.rf_qims.entity.DaoSession;
+
+/**
+ * Created by Administrator on 2017-9-21.
+ */
+public class App extends Application {
+    public static GreenDaoManager mDaoManager = null;
+    private static ActivityManager manager = null;
+    private static Context mAppContext = null;
+
+    public static Context getAppContext() {
+        return mAppContext;
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        OkHttpClient okHttpClient = new OkHttpClient.Builder()
+//                .addInterceptor(new LoggerInterceptor("TAG"))
+                .connectTimeout(10000L, TimeUnit.MILLISECONDS)
+                .readTimeout(10000L, TimeUnit.MILLISECONDS)
+                //其他配置
+                .build();
+
+        OkHttpUtils.getInstance(okHttpClient);
+//        QbSdk.setDownloadWithoutWifi(true);
+//        QbSdk.initX5Environment(this, new QbSdk.PreInitCallback() {
+//            @Override
+//            public void onCoreInitFinished() {
+//
+//            }
+//
+//            @Override
+//            public void onViewInitFinished(boolean b) {
+//                //这里被回调，并且b=true说明内核初始化并可以使用
+//                //如果b=false,内核会尝试安装，你可以通过下面监听接口获知
+//            }
+//        });
+//        QbSdk.setDownloadWithoutWifi(true);
+//        QbSdk.setTbsListener(new TbsListener() {
+//            @Override
+//            public void onDownloadFinish(int i) {
+//                //tbs内核下载完成回调
+//            }
+//
+//            @Override
+//            public void onInstallFinish(int i) {
+//                //内核安装完成回调，
+//            }
+//
+//            @Override
+//            public void onDownloadProgress(int i) {
+//                //下载进度监听
+//            }
+//        });
+//        QbSdk.setDownloadWithoutWifi(true);
+        QbSdk.initX5Environment(this,null);
+        mAppContext = getApplicationContext();
+        manager =new ActivityManager();
+        mDaoManager = GreenDaoManager.getInstance();
+
+    }
+
+    public static ActivityManager getManager() {
+        return manager;
+    }
+}

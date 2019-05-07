@@ -1,0 +1,806 @@
+[
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_tip_new.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_tip_new.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_done.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_done.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkbox_normal.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkbox_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_topbar_back.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_topbar_back.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_popup_arrow_down.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_popup_arrow_down.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_popup_arrow_down.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_popup_arrow_down.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\66a2184c0367a861a0846136160fdfc30250386a\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_topbar_back.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_topbar_back.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_tip_new.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_tip_new.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_chevron.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_chevron.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkbox_checked.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkbox_checked.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_info.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_info.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_error.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_error.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6516219c2c84e4c536e9b68b9d702f5d06fe8b9f\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_chevron.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_chevron.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_popup_arrow_down.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_popup_arrow_down.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_switch_normal.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_switch_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_done.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_done.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkbox_normal.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkbox_normal.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_switch_checked.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_switch_checked.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_info.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_info.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_popup_bg.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_popup_bg.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_switch_checked.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_switch_checked.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_error.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_error.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_popup_bg.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_popup_bg.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\66a2184c0367a861a0846136160fdfc30250386a\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_switch_normal.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_switch_normal.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_popup_bg.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_popup_bg.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_tip_new.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_tip_new.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_topbar_back.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_topbar_back.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkmark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkmark.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_info.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_info.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_error.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_error.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkbox_normal.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkbox_normal.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_switch_normal.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_switch_normal.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkbox_checked.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_notify_done.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_notify_done.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkbox_checked.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkmark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84c3ea1463b3cbac29f17f2931804b97cdb90f56\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkmark.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6516219c2c84e4c536e9b68b9d702f5d06fe8b9f\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_checkmark.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_checkmark.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_switch_checked.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_switch_checked.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47d82400150d121ac1e92e1917373f95790d390d\\output\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qmui_icon_chevron.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fb29ac1636eb2ff3bac613dfc3463afa68c44e17\\output\\res\\drawable-xhdpi-v4\\qmui_icon_chevron.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8b284ddf534d2915a6ee330a17c4f0266c5f1d7c\\output\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\fed384f1ddacafe7b24c18836036184653e1ab53\\output\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    }
+]

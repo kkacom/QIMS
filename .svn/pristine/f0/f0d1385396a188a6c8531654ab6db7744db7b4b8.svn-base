@@ -1,0 +1,362 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-124:12
+	package
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:7:5-9:47
+	tools:ignore
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:8:9-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [RF-QIMS-APP:colin-utils:unspecified] D:\Android\WORK\RF-QIMS-APP\colin-utils\build\intermediates\bundles\default\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.CAMERA
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:24:5-60
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:24:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:25:19-67
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:27:5-76
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:27:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:29:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:31:5-69
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:31:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:33:22-64
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:34:5-36:47
+	tools:ignore
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:36:9-44
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:35:9-59
+application
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:38:5-122:19
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\Administrator\.android\build-cache\28af8bac5b9812978ef70d56c2059bdedd697c0c\output\AndroidManifest.xml:13:5-20
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\Administrator\.android\build-cache\d5b1456e13510229f75dd8461f8c68d37f41c0c6\output\AndroidManifest.xml:11:5-15:19
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\Administrator\.android\build-cache\65f0f6dd23c791a2a1ac92a384fb99c59b3da367\output\AndroidManifest.xml:11:5-17:19
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\Administrator\.android\build-cache\cb8db121ece9ccfb0653230c7af8e612a4d7fd13\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\3905390cf181fbd2be911048bdba7c48991c5ff0\output\AndroidManifest.xml:9:5-20
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:11:5-34:19
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\Administrator\.android\build-cache\2cc7e7805cd8800f0c9d6b935686ca6a1bc44207\output\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\Administrator\.android\build-cache\d6abb267b465a289b373cdc6f24671705b42bc14\output\AndroidManifest.xml:9:5-20
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:32:5-38:19
+	android:label
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:42:9-41
+	android:supportsRtl
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:43:9-35
+	android:allowBackup
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:40:9-35
+	android:icon
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:41:9-41
+	android:theme
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:44:9-41
+		REJECTED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:11:18-49
+	tools:replace
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:45:9-52
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:39:9-39
+provider#android.support.v4.content.FileProvider
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:authorities
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:48:13-64
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	android:grantUriPermissions
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:50:13-47
+	android:exported
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:47:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:51:13-53:53
+	android:resource
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:53:17-50
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:52:17-67
+activity#com.zhilian.rf_qims.mvp.login.view.LoginActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:56:9-64:20
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:57:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:62:27-74
+activity#com.zhilian.rf_qims.mvp.launcher.LauncherActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:65:9-67:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:67:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:66:13-58
+activity#com.zhilian.rf_qims.mvp.main.view.MainActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:69:9-71:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:70:13-55
+activity#com.zhilian.rf_qims.mvp.project_manager.view.ProjectManagerActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:72:9-74:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:73:13-76
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectDetailActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:75:9-77:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:77:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:76:13-74
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectDetailWeb
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:78:9-80:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:79:13-69
+activity#com.zhilian.rf_qims.mvp.sample_detail.view.SampleDetailActivity2
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:81:9-83:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:83:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:82:13-73
+activity#com.zhilian.rf_qims.mvp.sample_manager.view.SampleManagerActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:84:9-86:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:86:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:85:13-74
+activity#com.zhilian.rf_qims.mvp.sample_data.DataActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:87:9-89:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:89:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:88:13-57
+service#com.zhilian.rf_qims.service.ReceiveService
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:91:9-59
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:91:18-56
+service#com.colin.download.service.DownloadService
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:92:9-78
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:92:18-75
+activity#com.zhilian.rf_qims.mvp.test.view.TestActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:95:13-55
+activity#com.zhilian.rf_qims.util.FileDisplayActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:97:9-99:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:98:13-53
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectAddActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:100:9-102:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:101:13-71
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectUpdateActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:103:9-105:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:104:13-74
+activity#com.zhilian.rf_qims.mvp.office.PdfSeeActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:106:9-108:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:107:13-54
+activity#com.zhilian.rf_qims.mvp.office.WordSeeActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:109:9-111:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:110:13-55
+activity#com.zhilian.rf_qims.mvp.office.SignActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:112:9-114:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:113:13-52
+activity#com.zhilian.rf_qims.mvp.sample_detail.view.SampleUpdateActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:115:9-117:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:116:13-72
+activity#com.zhilian.rf_qims.mvp.SamplePic.SamplePicActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:118:9-120:52
+	android:screenOrientation
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:119:13-60
+activity#com.zhilian.rf_qims.mvp.rfid.RfidScanActivity
+ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:121:9-72
+	android:name
+		ADDED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml:121:19-60
+uses-sdk
+INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.android\build-cache\bd957d556fef1e000c28d7c83e086dc2b8afeca5\output\AndroidManifest.xml:18:5-42
+MERGED from [RF-QIMS-APP:colin-utils:unspecified] D:\Android\WORK\RF-QIMS-APP\colin-utils\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\Administrator\.android\build-cache\28af8bac5b9812978ef70d56c2059bdedd697c0c\output\AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.4] C:\Users\Administrator\.android\build-cache\93f13c0ade7093955bd228d4f01ed6946ea814f5\output\AndroidManifest.xml:11:5-13:41
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\Administrator\.android\build-cache\d5b1456e13510229f75dd8461f8c68d37f41c0c6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\Administrator\.android\build-cache\5af5767081b5c3b4dc3904ca97276673d5f8e98a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.qmuiteam:qmui:1.0.6] C:\Users\Administrator\.android\build-cache\b78c1992f26e1fdde6c792453625cd4e2a4d6d07\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:design:27.0.1] C:\Users\Administrator\.android\build-cache\885530e46ff66d5c0531a9e9aca4d5cdec381ccd\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] C:\Users\Administrator\.android\build-cache\85b26e77b959efdac2dd6b2a7a09437064a36c25\output\AndroidManifest.xml:20:5-44
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\Administrator\.android\build-cache\65f0f6dd23c791a2a1ac92a384fb99c59b3da367\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\Administrator\.android\build-cache\d752f36d7d159b648688d928285d7fdd3538d2cb\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\Administrator\.android\build-cache\c3a3c53f7e674b7f22f975be546ce304aeee36f4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\Administrator\.android\build-cache\90c150967979cb7f4fabd0e1a8b578c41e527026\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\Administrator\.android\build-cache\53865d6a049e767e46aab6bfbf0f95ebd7de617d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\Administrator\.android\build-cache\cb8db121ece9ccfb0653230c7af8e612a4d7fd13\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.android\build-cache\90c7cdb7d84662df8a0583c9aa1587ef1edbb18a\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\3905390cf181fbd2be911048bdba7c48991c5ff0\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.bigkoo:pickerview:2.0.8] C:\Users\Administrator\.android\build-cache\452fedd52b32b88e563144bc1ee22410ad2c809e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.venusic:E-signature:0.2] C:\Users\Administrator\.android\build-cache\450dcda5706ee9db913a1401fb686a7027d5d4ba\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.3.9] C:\Users\Administrator\.android\build-cache\60b7bd5d9a5812d2f8706fcafb418b34bb991b3b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.2.3] C:\Users\Administrator\.android\build-cache\c16cd944d2be88dc1f789e4a74a84a09e41b0549\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.android\build-cache\6326f4c54e2ddfc9f06f43f12e9999e611e243d2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.android\build-cache\d1850906864b9aff1fbe5263642844ec640fa0ec\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.android\build-cache\0c38cbe924fe9c5b24dde08904d96ea248cf359a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.android\build-cache\c0502353742a47eaed742bbb647ebbe3c9aaa892\output\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\Administrator\.android\build-cache\2cc7e7805cd8800f0c9d6b935686ca6a1bc44207\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\Administrator\.android\build-cache\d6abb267b465a289b373cdc6f24671705b42bc14\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.android\build-cache\077fdc6255e8578358f9137700de15cd43ceed0e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.android\build-cache\74bd7a51ab6fb84a927cce45542ec607a593b15c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.android\build-cache\c39396302778092648a93af99beb7416f730a216\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.android\build-cache\9d45d2917190c45a6c3bc1c12702abf5b9f63f03\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.android\build-cache\cfaba2799cd38d874d6ff360b00b5e45c78313da\output\AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.android\build-cache\60d24891735dcb43236b7bdc536ba10dfb1b1904\output\AndroidManifest.xml:19:5-43
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:25:5-27:41
+	tools:overrideLibrary
+		ADDED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\Administrator\.android\build-cache\28af8bac5b9812978ef70d56c2059bdedd697c0c\output\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\WORK\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Administrator\.android\build-cache\65f0f6dd23c791a2a1ac92a384fb99c59b3da367\output\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Administrator\.android\build-cache\65f0f6dd23c791a2a1ac92a384fb99c59b3da367\output\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Administrator\.android\build-cache\65f0f6dd23c791a2a1ac92a384fb99c59b3da367\output\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Administrator\.android\build-cache\65f0f6dd23c791a2a1ac92a384fb99c59b3da367\output\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Administrator\.android\build-cache\65f0f6dd23c791a2a1ac92a384fb99c59b3da367\output\AndroidManifest.xml:13:13-86
+provider#com.luck.picture.lib.PictureFileProvider
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:12:9-20:20
+	android:authorities
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:14:13-60
+	android:grantUriPermissions
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:16:13-47
+	android:exported
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:13:13-68
+activity#com.luck.picture.lib.PictureSelectorActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:22:9-24:55
+	android:windowSoftInputMode
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:23:13-72
+activity#com.luck.picture.lib.PicturePreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:25:9-80
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:25:19-77
+activity#com.luck.picture.lib.PictureVideoPlayActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:26:9-29:50
+	android:screenOrientation
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:29:13-47
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:27:13-73
+activity#com.luck.picture.lib.PictureExternalPreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:30:9-88
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:30:19-85
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:31:19-66
+activity#com.yalantis.ucrop.PictureMultiCuttingActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:32:9-83
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:32:19-80
+activity#com.luck.picture.lib.PicturePlayAudioActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:33:9-82
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\Administrator\.android\build-cache\a9f08727c411edc43773fd2164863d135909f991\output\AndroidManifest.xml:33:19-79
+provider#com.amitshekhar.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:33:9-37:40
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:35:13-71
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] C:\Users\Administrator\.android\build-cache\2d806d435520d4e45104f505b898f0f2e0d269c7\output\AndroidManifest.xml:34:13-63

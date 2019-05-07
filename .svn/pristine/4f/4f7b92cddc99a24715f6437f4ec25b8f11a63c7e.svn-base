@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.LuckSiege.PictureSelector:picture_library-v2.2.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/a9f08727c411edc43773fd2164863d135909f991/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/a9f08727c411edc43773fd2164863d135909f991/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

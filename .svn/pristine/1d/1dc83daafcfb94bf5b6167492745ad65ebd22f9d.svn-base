@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_right.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\shrink_from_bottomright_to_topleft.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\shrink_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\grow_from_topleft_to_bottomright.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\shrink_from_bottom.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\shrink_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\grow_from_bottomleft_to_topright.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\grow_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\decelerate_low_factor_interpolator.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\decelerate_low_factor_interpolator.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\c971e56c74f7e4691caa635ab703798c9254d1f3\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\slide_still.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\slide_still.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\decelerate_factor_interpolator.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\decelerate_factor_interpolator.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\grow_from_topright_to_bottomleft.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\shrink_from_bottomleft_to_topright.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\c971e56c74f7e4691caa635ab703798c9254d1f3\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\c971e56c74f7e4691caa635ab703798c9254d1f3\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\tooltip_enter.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\grow_from_top.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\grow_from_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\shrink_from_top.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\shrink_from_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\315af454195bb33ca377313604be9d511dd21ea2\\output\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\scale_exit.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\scale_exit.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\grow_from_bottom.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\grow_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\grow_from_bottomright_to_topleft.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\grow_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\shrink_from_topleft_to_bottomright.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\c971e56c74f7e4691caa635ab703798c9254d1f3\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\scale_enter.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\scale_enter.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\debug\\anim\\shrink_from_topright_to_bottomleft.xml",
+        "source": "C:\\Users\\zhilian\\.android\\build-cache\\6f8800ede3e1d5f958ebdd9135064a21ade11306\\output\\res\\anim\\shrink_from_topright_to_bottomleft.xml"
+    }
+]

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="贴合面间隙"
+                android:textSize="@dimen/text_size_12"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+
+                        style="@style/TableTitle"
+                        android:text="左上"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左中"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左下"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右上"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右中"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右下"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@id/surface_gap_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/surface_gap_left_middle"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/surface_gap_left_bottom"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/surface_gap_right_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/surface_gap_right_middle"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/surface_gap_right_bottom"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@id/surface_gap_spacing_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="3"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp"/>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="帖合面中心线偏差"
+                android:textSize="@dimen/text_size_10"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitleT1"
+
+                        android:text="左上"/>
+
+                    <TextView
+                        style="@style/TableTitleT1"
+
+                        android:text="左中"/>
+
+                    <TextView
+                        style="@style/TableTitleT1"
+
+                        android:text="左下"/>
+
+                    <TextView
+                        style="@style/TableTitleT1"
+
+                        android:text="右上"/>
+
+                    <TextView
+                        style="@style/TableTitleT1"
+
+                        android:text="右中"/>
+
+                    <TextView
+                        style="@style/TableTitleT1"
+
+                        android:text="右下"/>
+
+
+                </TableRow>
+
+
+            </TableLayout>
+        </TableRow>
+        <TableRow
+
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="胶条槽宽"
+                android:textSize="@dimen/text_size_10"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@id/groove_width_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/groove_width_left_middle"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/groove_width_left_bottom"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/groove_width_right_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/groove_width_right_middle"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/groove_width_right_bottom"
+                        style="@style/TestInput"/>
+
+
+                </TableRow>
+
+
+            </TableLayout>
+        </TableRow>
+        <TableRow
+
+            android:background="#EDD185">
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="压痕位置"
+                android:textSize="@dimen/text_size_10"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@id/indentation_position_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/indentation_position_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/indentation_position_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/indentation_position_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@+id/indentation_position_right_middle"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@+id/indentation_position_right_bottom"
+                        style="@style/TestInput"/>
+
+
+                </TableRow>
+
+
+            </TableLayout>
+        </TableRow>
+        <TableRow
+
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="嵌压板宽度"
+                android:textSize="@dimen/text_size_10"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitleL"
+                        android:text="左边"/>
+
+                    <EditText
+                        android:id="@id/plate_width_left"
+                        style="@style/TestInput"/>
+
+                    <TextView
+                        style="@style/TableTitleL"
+                        android:text="上边"/>
+
+                    <EditText
+                        android:id="@id/plate_width_top"
+                        style="@style/TestInput"/>
+
+
+                </TableRow>
+                <TableRow>
+
+                    <EditText
+                        android:id="@id/center_line_deviation_instruction"
+                        android:gravity="left|center"
+                        android:hint="@string/et_hint"
+                        android:layout_span="6"
+                        style="@style/TestInput"/>
+
+
+
+                </TableRow>
+
+            </TableLayout>
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="B 型门帖合面中心线\n偏差"
+
+                />
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左上"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左中"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="左下"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右上"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右中"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="右下"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@id/b_groove_width_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/b_groove_width_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/b_groove_width_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/b_groove_width_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/b_groove_width_left_top"
+                        style="@style/TestInput"/>
+
+                    <EditText
+                        android:id="@id/b_groove_width_left_top"
+                        style="@style/TestInput"/>
+                </TableRow>
+
+                <TableRow>
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@+id/b_center_line_deviation_instruction"
+                        style="@style/TestInput"
+                        android:layout_span="3"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+                <TableRow android:layout_marginTop="5dp"/>
+            </TableLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

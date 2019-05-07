@@ -1,0 +1,426 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:grantUriPermissions
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:50:13-47
+	android:authorities
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:48:13-64
+	android:exported
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:47:13-67
+manifest
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+MERGED from [:colin-utils] E:\as_workspace\RF-QIMS-APP\colin-utils\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\a10a04dc86df01e8e2e01d9404f2cf3f\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:2:1-36:12
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\core-0.8.5.3.aar\b9a5820e3b2aed8504d3dd25d05a01e8\AndroidManifest.xml:2:1-15:12
+MERGED from [com.qmuiteam:qmui:1.0.8] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\qmui-1.0.8.aar\826f3576d15e395a0ce9a44208387317\AndroidManifest.xml:2:1-10:12
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\ucrop-v2.2.3.aar\637c3309543056df42d18466fd0de1c2\AndroidManifest.xml:2:1-12:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.4] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\library-1.1.4.aar\e0c7ef2f5b6530bf2947ddce8c66675b\AndroidManifest.xml:6:1-15:12
+MERGED from [com.android.support:design:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\b35f63973fce513f2ad19211badbed7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ff8d30b5b43a0b4605136e2c4892b7e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.zhy:okhttputils:2.3.9] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\okhttputils-2.3.9.aar\129ba92629a90ef3b25e5127ee136b65\AndroidManifest.xml:2:1-11:12
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gradientuilibrary-1.0.1.aar\03224d6bad2676ac68f142d7b8eb543d\AndroidManifest.xml:2:1-17:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\e67c881d6291f791d6f9f2a8afeb5e12\AndroidManifest.xml:15:1-21:12
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\2f154542865456fd7a9ee7cbb2251a26\AndroidManifest.xml:2:1-11:12
+MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\c2f328fc3158d89734ec36ae35a9c2ff\AndroidManifest.xml:2:1-11:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\f9d8577bae5fbb02657853f059547eba\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fc0d582916a0e9c188d8bfe0592492c6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.bigkoo:pickerview:2.0.8] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\pickerview-2.0.8.aar\5a18d711ed39647687e12503efecf48e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.venusic:E-signature:0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\E-signature-0.2.aar\7f26b59cfeecc00cef6db99c972a4e5d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\fbf2eb3ed208c632c1e68db510a16108\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\fa1bc77b0b87ccbf3ed97b2e61edc65c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\f08a88c1b24e15e150024755aab09bf8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\32a3290c2314ba4daaf072ab1317e360\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\7e41448aca373d2ddf1a69778b3d8df8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\d8813d97e577e1130b7f09763f6729c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\9878d1832451e27ff5f9fd295a38ccde\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\6d96d2f6f81cd22cbf3bfec778e262a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d5777a7be2a7cdb81bd248d4f446a6e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7cef2409ac806162b29c0c33038cff61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c892a9a0d416ffa158d858f3d4266f4f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6f6aaa4a3ddb22f32ad8650dfe58ec65\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f5fa592a91626c465f40df927a8d66c1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\f5a42aadf89916e1bf571b5d36cd0340\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+	package
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:1-120:12
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:7:5-9:47
+	tools:ignore
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:8:9-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [:colin-utils] E:\as_workspace\RF-QIMS-APP\colin-utils\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-79
+MERGED from [:colin-utils] E:\as_workspace\RF-QIMS-APP\colin-utils\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.CAMERA
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:24:5-60
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:24:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:25:19-67
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:27:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:29:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:31:5-69
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:31:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:33:22-64
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:34:5-36:47
+	tools:ignore
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:36:9-44
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:35:9-59
+application
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:38:5-118:19
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:11:5-34:19
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:11:5-34:19
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\core-0.8.5.3.aar\b9a5820e3b2aed8504d3dd25d05a01e8\AndroidManifest.xml:13:5-20
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\core-0.8.5.3.aar\b9a5820e3b2aed8504d3dd25d05a01e8\AndroidManifest.xml:13:5-20
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:11:5-17:19
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gradientuilibrary-1.0.1.aar\03224d6bad2676ac68f142d7b8eb543d\AndroidManifest.xml:11:5-15:19
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gradientuilibrary-1.0.1.aar\03224d6bad2676ac68f142d7b8eb543d\AndroidManifest.xml:11:5-15:19
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\f9d8577bae5fbb02657853f059547eba\AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\f9d8577bae5fbb02657853f059547eba\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fc0d582916a0e9c188d8bfe0592492c6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fc0d582916a0e9c188d8bfe0592492c6\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\fbf2eb3ed208c632c1e68db510a16108\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\fbf2eb3ed208c632c1e68db510a16108\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\fa1bc77b0b87ccbf3ed97b2e61edc65c\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\fa1bc77b0b87ccbf3ed97b2e61edc65c\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:43:9-35
+	android:label
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:42:9-41
+	android:icon
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:41:9-41
+	android:allowBackup
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:40:9-35
+	android:theme
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:44:9-41
+		REJECTED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:11:18-49
+	tools:replace
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:45:9-52
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:39:9-39
+activity#com.zhilian.rf_qims.mvp.login.view.LoginActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:56:9-64:20
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:57:13-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:62:27-74
+activity#com.zhilian.rf_qims.mvp.launcher.LauncherActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:65:9-67:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:67:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:66:13-58
+activity#com.zhilian.rf_qims.mvp.main.view.MainActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:69:9-71:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:70:13-55
+activity#com.zhilian.rf_qims.mvp.project_manager.view.ProjectManagerActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:72:9-74:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:73:13-76
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectDetailActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:75:9-77:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:77:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:76:13-74
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectDetailWeb
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:78:9-80:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:79:13-69
+activity#com.zhilian.rf_qims.mvp.sample_detail.view.SampleDetailActivity2
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:81:9-83:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:83:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:82:13-73
+activity#com.zhilian.rf_qims.mvp.sample_manager.view.SampleManagerActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:84:9-86:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:86:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:85:13-74
+activity#com.zhilian.rf_qims.mvp.sample_data.DataActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:87:9-89:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:89:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:88:13-57
+service#com.zhilian.rf_qims.service.ReceiveService
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:91:9-59
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:91:18-56
+service#com.colin.download.service.DownloadService
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:92:9-78
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:92:18-75
+activity#com.zhilian.rf_qims.mvp.test.view.TestActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:95:13-55
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectAddActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:97:9-99:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:98:13-71
+activity#com.zhilian.rf_qims.mvp.project_detail.view.ProjectUpdateActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:100:9-102:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:101:13-74
+activity#com.zhilian.rf_qims.mvp.office.PdfSeeActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:103:9-105:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:104:13-54
+activity#com.zhilian.rf_qims.mvp.office.WordSeeActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:106:9-108:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:107:13-55
+activity#com.zhilian.rf_qims.mvp.office.SignActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:109:9-111:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:110:13-52
+activity#com.zhilian.rf_qims.mvp.sample_detail.view.SampleUpdateActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:112:9-114:52
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:113:13-72
+activity#com.zhilian.rf_qims.mvp.SamplePic.SamplePicActivity
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:115:9-117:61
+	android:screenOrientation
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:116:13-60
+uses-sdk
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+MERGED from [:colin-utils] E:\as_workspace\RF-QIMS-APP\colin-utils\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:colin-utils] E:\as_workspace\RF-QIMS-APP\colin-utils\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\a10a04dc86df01e8e2e01d9404f2cf3f\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\a10a04dc86df01e8e2e01d9404f2cf3f\AndroidManifest.xml:5:5-43
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\core-0.8.5.3.aar\b9a5820e3b2aed8504d3dd25d05a01e8\AndroidManifest.xml:8:5-11:75
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\core-0.8.5.3.aar\b9a5820e3b2aed8504d3dd25d05a01e8\AndroidManifest.xml:8:5-11:75
+MERGED from [com.qmuiteam:qmui:1.0.8] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\qmui-1.0.8.aar\826f3576d15e395a0ce9a44208387317\AndroidManifest.xml:6:5-8:41
+MERGED from [com.qmuiteam:qmui:1.0.8] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\qmui-1.0.8.aar\826f3576d15e395a0ce9a44208387317\AndroidManifest.xml:6:5-8:41
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\ucrop-v2.2.3.aar\637c3309543056df42d18466fd0de1c2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\ucrop-v2.2.3.aar\637c3309543056df42d18466fd0de1c2\AndroidManifest.xml:8:5-10:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.4] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\library-1.1.4.aar\e0c7ef2f5b6530bf2947ddce8c66675b\AndroidManifest.xml:11:5-13:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.4] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\library-1.1.4.aar\e0c7ef2f5b6530bf2947ddce8c66675b\AndroidManifest.xml:11:5-13:41
+MERGED from [com.android.support:design:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\b35f63973fce513f2ad19211badbed7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\design-27.0.1.aar\b35f63973fce513f2ad19211badbed7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ff8d30b5b43a0b4605136e2c4892b7e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ff8d30b5b43a0b4605136e2c4892b7e7\AndroidManifest.xml:20:5-44
+MERGED from [com.zhy:okhttputils:2.3.9] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\okhttputils-2.3.9.aar\129ba92629a90ef3b25e5127ee136b65\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.3.9] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\okhttputils-2.3.9.aar\129ba92629a90ef3b25e5127ee136b65\AndroidManifest.xml:7:5-9:41
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gradientuilibrary-1.0.1.aar\03224d6bad2676ac68f142d7b8eb543d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.david.gradientuilib:gradientuilibrary:1.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gradientuilibrary-1.0.1.aar\03224d6bad2676ac68f142d7b8eb543d\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\e67c881d6291f791d6f9f2a8afeb5e12\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\e67c881d6291f791d6f9f2a8afeb5e12\AndroidManifest.xml:19:5-43
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\2f154542865456fd7a9ee7cbb2251a26\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.2.aar\2f154542865456fd7a9ee7cbb2251a26\AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\c2f328fc3158d89734ec36ae35a9c2ff\AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\c2f328fc3158d89734ec36ae35a9c2ff\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\f9d8577bae5fbb02657853f059547eba\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\f9d8577bae5fbb02657853f059547eba\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fc0d582916a0e9c188d8bfe0592492c6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fc0d582916a0e9c188d8bfe0592492c6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.bigkoo:pickerview:2.0.8] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\pickerview-2.0.8.aar\5a18d711ed39647687e12503efecf48e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bigkoo:pickerview:2.0.8] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\pickerview-2.0.8.aar\5a18d711ed39647687e12503efecf48e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.venusic:E-signature:0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\E-signature-0.2.aar\7f26b59cfeecc00cef6db99c972a4e5d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.venusic:E-signature:0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\E-signature-0.2.aar\7f26b59cfeecc00cef6db99c972a4e5d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\fbf2eb3ed208c632c1e68db510a16108\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\glide-4.5.0.aar\fbf2eb3ed208c632c1e68db510a16108\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\fa1bc77b0b87ccbf3ed97b2e61edc65c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.5.0.aar\fa1bc77b0b87ccbf3ed97b2e61edc65c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\f08a88c1b24e15e150024755aab09bf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\transition-27.0.1.aar\f08a88c1b24e15e150024755aab09bf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\32a3290c2314ba4daaf072ab1317e360\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\32a3290c2314ba4daaf072ab1317e360\AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\7e41448aca373d2ddf1a69778b3d8df8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\7e41448aca373d2ddf1a69778b3d8df8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\d8813d97e577e1130b7f09763f6729c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.1.aar\d8813d97e577e1130b7f09763f6729c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\9878d1832451e27ff5f9fd295a38ccde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.1.aar\9878d1832451e27ff5f9fd295a38ccde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\6d96d2f6f81cd22cbf3bfec778e262a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\6d96d2f6f81cd22cbf3bfec778e262a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d5777a7be2a7cdb81bd248d4f446a6e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\d5777a7be2a7cdb81bd248d4f446a6e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7cef2409ac806162b29c0c33038cff61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7cef2409ac806162b29c0c33038cff61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c892a9a0d416ffa158d858f3d4266f4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c892a9a0d416ffa158d858f3d4266f4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6f6aaa4a3ddb22f32ad8650dfe58ec65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6f6aaa4a3ddb22f32ad8650dfe58ec65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f5fa592a91626c465f40df927a8d66c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f5fa592a91626c465f40df927a8d66c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\f5a42aadf89916e1bf571b5d36cd0340\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\f5a42aadf89916e1bf571b5d36cd0340\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.github.afollestad.material-dialogs:core:0.8.5.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\core-0.8.5.3.aar\b9a5820e3b2aed8504d3dd25d05a01e8\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:51:13-53:53
+	android:resource
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:53:17-50
+	android:name
+		ADDED from E:\as_workspace\RF-QIMS-APP\app\src\main\AndroidManifest.xml:52:17-67
+provider#com.luck.picture.lib.PictureFileProvider
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:13:13-68
+activity#com.luck.picture.lib.PictureSelectorActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:22:9-24:55
+	android:windowSoftInputMode
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:23:13-72
+activity#com.luck.picture.lib.PicturePreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:25:9-80
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:25:19-77
+activity#com.luck.picture.lib.PictureVideoPlayActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:26:9-29:50
+	android:screenOrientation
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:29:13-47
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:27:13-73
+activity#com.luck.picture.lib.PictureExternalPreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:30:9-88
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:30:19-85
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:31:19-66
+activity#com.yalantis.ucrop.PictureMultiCuttingActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:32:9-83
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:32:19-80
+activity#com.luck.picture.lib.PicturePlayAudioActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:33:9-82
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\picture_library-v2.2.3.aar\a888d9f986b5fe01fc8ff04e8dcb2722\AndroidManifest.xml:33:19-79
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\zhilian\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\08d6a3e129c7d65e54ab79fed260987f\AndroidManifest.xml:13:13-86

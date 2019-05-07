@@ -1,0 +1,177 @@
+// Generated code from Butter Knife. Do not modify!
+package com.zhilian.rf_qims.mvp.sample_detail.view;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.Spinner;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class SampleDetailActivity2_ViewBinding implements Unbinder {
+  private SampleDetailActivity2 target;
+
+  private View view2131821464;
+
+  private View view2131821460;
+
+  private View view2131821466;
+
+  private View view2131821282;
+
+  private View view2131821441;
+
+  @UiThread
+  public SampleDetailActivity2_ViewBinding(SampleDetailActivity2 target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public SampleDetailActivity2_ViewBinding(final SampleDetailActivity2 target, View source) {
+    this.target = target;
+
+    View view;
+    target.tvDesc = Utils.findRequiredViewAsType(source, 2131821472, "field 'tvDesc'", EditText.class);
+    target.tvTemperature = Utils.findRequiredViewAsType(source, 2131821468, "field 'tvTemperature'", EditText.class);
+    target.tvCompany = Utils.findRequiredViewAsType(source, 2131821444, "field 'tvCompany'", TextView.class);
+    target.tv81 = Utils.findRequiredViewAsType(source, 2131821463, "field 'tv81'", TextView.class);
+    target.topbar = Utils.findRequiredViewAsType(source, 2131821281, "field 'topbar'", RelativeLayout.class);
+    target.tv41 = Utils.findRequiredViewAsType(source, 2131821447, "field 'tv41'", TextView.class);
+    target.mTvSitenumber = Utils.findRequiredViewAsType(source, 2131821457, "field 'mTvSitenumber'", EditText.class);
+    view = Utils.findRequiredView(source, 2131821464, "field 'tvInstalldate' and method 'onClick'");
+    target.tvInstalldate = Utils.castView(view, 2131821464, "field 'tvInstalldate'", TextView.class);
+    view2131821464 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    target.tv11 = Utils.findRequiredViewAsType(source, 2131821315, "field 'tv11'", TextView.class);
+    target.tv51 = Utils.findRequiredViewAsType(source, 2131821454, "field 'tv51'", TextView.class);
+    target.tv91 = Utils.findRequiredViewAsType(source, 2131821458, "field 'tv91'", TextView.class);
+    target.tvAddr = Utils.findRequiredViewAsType(source, 2131821446, "field 'tvAddr'", TextView.class);
+    target.tv61 = Utils.findRequiredViewAsType(source, 2131821459, "field 'tv61'", TextView.class);
+    target.tvSampleno = Utils.findRequiredViewAsType(source, 2131821421, "field 'tvSampleno'", EditText.class);
+    target.tvTisampleno = Utils.findRequiredViewAsType(source, 2131821439, "field 'tvTisampleno'", TextView.class);
+    target.tv111 = Utils.findRequiredViewAsType(source, 2131821467, "field 'tv111'", TextView.class);
+    target.tv121 = Utils.findRequiredViewAsType(source, 2131821469, "field 'tv121'", TextView.class);
+    target.tv21 = Utils.findRequiredViewAsType(source, 2131821445, "field 'tv21'", TextView.class);
+    target.tvFuUser = Utils.findRequiredViewAsType(source, 2131821453, "field 'tvFuUser'", TextView.class);
+    target.tvHumidity = Utils.findRequiredViewAsType(source, 2131821470, "field 'tvHumidity'", EditText.class);
+    view = Utils.findRequiredView(source, 2131821460, "field 'tvMadedate' and method 'onClick'");
+    target.tvMadedate = Utils.castView(view, 2131821460, "field 'tvMadedate'", TextView.class);
+    view2131821460 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, 2131821466, "field 'tvCheckdate' and method 'onClick'");
+    target.tvCheckdate = Utils.castView(view, 2131821466, "field 'tvCheckdate'", TextView.class);
+    view2131821466 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    target.tv2 = Utils.findRequiredViewAsType(source, 2131821443, "field 'tv2'", TextView.class);
+    target.tvMadeno = Utils.findRequiredViewAsType(source, 2131821455, "field 'tvMadeno'", EditText.class);
+    target.spType = Utils.findRequiredViewAsType(source, 2131821449, "field 'spType'", Spinner.class);
+    target.tvInstalladdr = Utils.findRequiredViewAsType(source, 2131821462, "field 'tvInstalladdr'", EditText.class);
+    target.tvTisamplemodel = Utils.findRequiredViewAsType(source, 2131821438, "field 'tvTisamplemodel'", TextView.class);
+    target.tv31 = Utils.findRequiredViewAsType(source, 2131821448, "field 'tv31'", TextView.class);
+    target.tvMainUser = Utils.findRequiredViewAsType(source, 2131821451, "field 'tvMainUser'", TextView.class);
+    view = Utils.findRequiredView(source, 2131821282, "field 'ivBack' and method 'onClick'");
+    target.ivBack = Utils.castView(view, 2131821282, "field 'ivBack'", ImageView.class);
+    view2131821282 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    target.tv71 = Utils.findRequiredViewAsType(source, 2131821461, "field 'tv71'", TextView.class);
+    target.tv131 = Utils.findRequiredViewAsType(source, 2131821471, "field 'tv131'", TextView.class);
+    target.tv101 = Utils.findRequiredViewAsType(source, 2131821465, "field 'tv101'", TextView.class);
+    view = Utils.findRequiredView(source, 2131821441, "field 'btnSave' and method 'onClick'");
+    target.btnSave = Utils.castView(view, 2131821441, "field 'btnSave'", Button.class);
+    view2131821441 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    target.tvPageTitle = Utils.findRequiredViewAsType(source, 2131821440, "field 'tvPageTitle'", TextView.class);
+    target.tv1 = Utils.findRequiredViewAsType(source, 2131821442, "field 'tv1'", TextView.class);
+    target.tvSamplemodel = Utils.findRequiredViewAsType(source, 2131821420, "field 'tvSamplemodel'", EditText.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    SampleDetailActivity2 target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.tvDesc = null;
+    target.tvTemperature = null;
+    target.tvCompany = null;
+    target.tv81 = null;
+    target.topbar = null;
+    target.tv41 = null;
+    target.mTvSitenumber = null;
+    target.tvInstalldate = null;
+    target.tv11 = null;
+    target.tv51 = null;
+    target.tv91 = null;
+    target.tvAddr = null;
+    target.tv61 = null;
+    target.tvSampleno = null;
+    target.tvTisampleno = null;
+    target.tv111 = null;
+    target.tv121 = null;
+    target.tv21 = null;
+    target.tvFuUser = null;
+    target.tvHumidity = null;
+    target.tvMadedate = null;
+    target.tvCheckdate = null;
+    target.tv2 = null;
+    target.tvMadeno = null;
+    target.spType = null;
+    target.tvInstalladdr = null;
+    target.tvTisamplemodel = null;
+    target.tv31 = null;
+    target.tvMainUser = null;
+    target.ivBack = null;
+    target.tv71 = null;
+    target.tv131 = null;
+    target.tv101 = null;
+    target.btnSave = null;
+    target.tvPageTitle = null;
+    target.tv1 = null;
+    target.tvSamplemodel = null;
+
+    view2131821464.setOnClickListener(null);
+    view2131821464 = null;
+    view2131821460.setOnClickListener(null);
+    view2131821460 = null;
+    view2131821466.setOnClickListener(null);
+    view2131821466 = null;
+    view2131821282.setOnClickListener(null);
+    view2131821282 = null;
+    view2131821441.setOnClickListener(null);
+    view2131821441 = null;
+  }
+}

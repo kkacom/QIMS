@@ -1,0 +1,11 @@
+package com.zhilian.rf_qims.mvp.sample_data;
+
+/**
+ * Created by colin on 2018/3/12 15:49 .
+ */
+
+public class DataModel {
+	interface Callback{
+
+	}
+}

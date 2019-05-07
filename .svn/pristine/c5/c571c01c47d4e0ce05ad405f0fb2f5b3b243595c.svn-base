@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bae001f707f568268f3ff6fb3d9a55f96d9218b9\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\androidproject\\RF-QIMS-APP\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e7391a4d76e2c9467d1f064d63b60e64dc485535\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\colin-utils\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1430881f4e031a602c9030b91af781c8197f6907\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

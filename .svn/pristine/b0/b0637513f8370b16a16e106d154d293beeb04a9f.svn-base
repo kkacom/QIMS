@@ -1,0 +1,628 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="js/rf.js"></script>
+    <link href="css/rf.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="bg">
+        <div align="center">
+            <p style="font-weight: bold;font-size: 16pt;">钢筋混凝土防护门生产质量检测原始记录</p>
+        </div>
+        <form id="rfjc_fh_01_b1">
+            <table class="wordInfo" style=" border: none;">
+                <!-- ************************表头************************ -->
+                <tr>
+                    <td class="title" colspan="2" rowspan="2">
+                        <p>检测项目</p>
+                        <td class="title" colspan="4" rowspan="2">
+                            <p>检测点(1∣4)</p>
+                            <td class="title" colspan="4" rowspan="2">
+                                <p>检测点(2∣5)</p>
+                                <td class="title" colspan="4" rowspan="2">
+                                    <p>检测点(3∣6)</p>
+                                    <td class="title" colspan="2">
+                                        <p>现场调查及说明</p>
+                                    </td>
+                                </td>
+                            </td>
+                        </td>
+                    </td>
+                    <tr>
+                        <td class="title" colspan="2">
+                            <p>设计值</p>
+                        </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>门框孔高（mm）</p>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_height1">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_height2">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_height3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_height_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>门框孔宽（mm）</p>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_width1">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_width2">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_width3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_width_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>门扇宽度（mm）</p>
+                        <td colspan="4">
+                            <input type="text" name="door_leaf_width1">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_leaf_width2">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_leaf_width3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_leaf_width_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>嵌压板高度（mm）</p>
+                        <td colspan="2">
+                            <input type="text" name="embedded_plate_height1">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="embedded_plate_height2">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="embedded_plate_height3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="embedded_plate_height4">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="embedded_plate_height5">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="embedded_plate_height6">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="embedded_plate_height_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>门框对角线（mm）</p>
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="door_frame_diagonal1">
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="door_frame_diagonal2">
+                    </td>
+                    <td class="title" colspan="2">
+                        <p>互差</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_frame_diagonal_difference">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_frame_diagonal_s">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>门扇对角线（mm）</p>
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="door_leaf_diagonal1">
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="door_leaf_diagonal2">
+                    </td>
+                    <td class="title" colspan="2">
+                        <p>互差</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_leaf_diagonal_difference">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_leaf_diagonal_s">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>闭锁轴直径公差（mm）</p>
+                        <td colspan="2">
+                            <input type="text" name="atresia_shaft_diameter1">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="atresia_shaft_diameter2">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="atresia_shaft_diameter3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="atresia_shaft_diameter4">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="atresia_shaft_diameter5">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="atresia_shaft_diameter6">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="atresia_shaft_diameter_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>闭锁孔直径公差（mm）</p>
+                        <td colspan="4">
+                            <input type="text" name="atresia_hole_diameter1">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="atresia_hole_diameter2">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="atresia_hole_diameter3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="atresia_hole_diameter_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>铰页轴直径公差（mm）</p>
+                        <td colspan="4">
+                            <input type="text" name="hingepage_shaft_diameter1">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="hingepage_shaft_diameter2">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="hingepage_shaft_diameter3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="hingepage_shaft_diameter_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>铰页孔直径公差（mm）</p>
+                        <td colspan="4">
+                            <input type="text" name="hingepage_hole_diameter1">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="hingepage_hole_diameter2">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="hingepage_hole_diameter3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="hingepage_hole_diameter_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>门扇贴合面平面度（mm）</p>
+                        <td colspan="4">
+                            <input type="text" name="door_leaf_surface1">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_leaf_surface2">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_leaf_surface3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_leaf_surface_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2">
+                        <p>门框贴合面平面度（mm）</p>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_surface1">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_surface2">
+                        </td>
+                        <td colspan="4">
+                            <input type="text" name="door_frame_surface3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_surface_s">
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="title">
+                        <p>焊脚高度(mm)</p>
+                    </td>
+                    <td class="title">
+                        <p>竖边</p>
+                        <td colspan="2">
+                            <input type="text" name="leg_height_vertical1">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="leg_height_vertical2">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="leg_height_vertical3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="leg_height_vertical4">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="leg_height_vertical5">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="leg_height_vertical6">
+                        </td>
+                    </td>
+                    <td class="title">
+                        <p>设计值</p>
+                    </td>
+                    <td>
+                        <input type="text" name="leg_height_vertical_s">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">
+                        <p>竖边</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="leg_height_across1">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="leg_height_across2">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="leg_height_across3">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="leg_height_across4">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="leg_height_across5">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="leg_height_across6">
+                    </td>
+                    <td class="title">
+                        <p>Min</p>
+                    </td>
+                    <td>
+                        <input type="text" name="leg_height_across_min">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="title">
+                        <p>门框型钢厚度(mm)</p>
+                    </td>
+                    <td class="title">
+                        <p>左侧</p>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_left1">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_left2">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_left3">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_left4">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_left5">
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="door_frame_left6">
+                        </td>
+                    </td>
+                    <td class="title">
+                        <p>型号</p>
+                    </td>
+                    <td>
+                        <input type="text" name="door_frame_left_xh">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">
+                        <p>右侧</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_frame_right1">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_frame_right2">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_frame_right3">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_frame_right4">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_frame_right5">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_frame_right6">
+                    </td>
+                    <td class="title">
+                        <p>厚度</p>
+                    </td>
+                    <td>
+                        <input type="text" name="door_frame_right_hd">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="5" class="title">
+                        <p>门扇混凝土强度(MPa)</p>
+                    </td>
+                    <td rowspan="3" class="title">
+                        <p>碳化深度(mm)</p>
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength00">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength01">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength02">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength03">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength04">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength05">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength06">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength07">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength08">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength09">
+                    </td>
+                    <td class="title" colspan="2">
+                        <p>极差</p>
+                    </td>
+                    <td class="title" rowspan="2">
+                        <p>设计值</p>
+                    </td>
+                    <td rowspan="2">
+                        <input type="text" name="door_leaf_concrete_strength_s">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength10">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength11">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength12">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength13">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength14">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength15">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength16">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength17">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength18">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength19">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_leaf_concrete_strength_difference">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength20">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength21">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength22">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength23">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength24">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength25">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength26">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength27">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength28">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength29">
+                    </td>
+                    <td class="title" colspan="2">
+                        <p>平均值</p>
+                    </td>
+                    <td class="title" rowspan="2" colspan="2">
+                        <p>碳化深度值每次读至0.25mm；
+                            <br>平均至0.5mm</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">
+                        <p>平均</p>
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg00">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg01">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg02">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg03">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg04">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg05">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg06">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg07">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg08">
+                    </td>
+                    <td>
+                        <input type="text" name="door_leaf_concrete_strength_avg09">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="door_leaf_concrete_strength_avg">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">
+                        <p>推定</p>
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="door_leaf_concrete_strength_td">
+                    </td>
+                    <td class="title" colspan="4">
+                        <p>回弹文件名</p>
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="door_leaf_concrete_file">
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="door_leaf_concrete_s">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title" colspan="2" rowspan="2">钢筋保护层及间距</td>
+                    <td class="title" colspan="4">
+                        <p>A部位文件名</p>
+                    </td>
+                    <td class="title" colspan="4">
+                        <p>A部位文件名</p>
+                    </td>
+                    <td class="title" colspan="4">
+                        <p>A部位文件名</p>
+                    </td>
+                    <td class="title">
+                        <p>保护层</p>
+                    </td>
+                    <td>
+                        <input type="text" name="steel_protective">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="filename_a">
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="filename_b">
+                    </td>
+                    <td colspan="4">
+                        <input type="text" name="filename_c">
+                    </td>
+                    <td class="title">
+                        <p>间距</p>
+                    </td>
+                    <td>
+                        <input type="text" name="steel_spacing">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="22 "><button  type="button" style="width: 16.3%;height: 25pt;" onclick="js2Android()">提交</button></td>
+                </tr>
+                <!-- 定义单元格大小 -->
+                <tr>
+                    <td style="border:none;border-top:1px solid #888;width:9.3%; " />
+                    <td style="border:none;border-top:1px solid #888;width:7.0%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:5.625%; " />
+                    <td style="border:none;border-top:1px solid #888;width:9.2%; " />
+                    <td style="border:none;border-top:1px solid #888;width:7.0%; " />
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

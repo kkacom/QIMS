@@ -1,0 +1,19 @@
+package com.zhilian.rf_qims.mvp.sample_data.info;
+
+
+/**
+ * Created by colin on 2018/3/26 10:36 .
+ */
+
+public class InfoPresenter implements InfoModel.Callback{
+	private InfoFragment view;
+	private InfoModel model;
+
+	public InfoPresenter(InfoFragment view) {
+		this.view = view;
+	}
+
+
+
+
+}

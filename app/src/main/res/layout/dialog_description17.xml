@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/TextViewStyle1"
+            android:text="3.1.7 防护设备出厂制式合格证及质检、合格印章。"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F5F5F5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="分值："/>
+
+                    <TextView
+                        android:id="@+id/tv_value3_1_7"
+                        style="@style/EditTextStyle"
+                        android:layout_width="50dp"
+                        android:layout_marginRight="5dp"/>
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="/得分："/>
+
+                    <TextView
+                        android:id="@+id/tv_score3_1_7"
+                        style="@style/EditTextStyle"
+                        android:layout_width="50dp"/>
+                </LinearLayout>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_yes3_1_7"
+                        style="@style/TextStyle"
+                        android:layout_marginRight="20dp"
+                        android:text="符合"/>
+
+                    <RadioButton
+                        android:id="@+id/rb_no3_1_7"
+                        style="@style/TextStyle"
+                        android:checked="true"
+                        android:text="不符合"/>
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb1_condition3_1_7"
+                        style="@style/TextStyle"
+                        android:layout_marginRight="20dp"
+                        android:text="缺使用说明"/>
+
+                    <CheckBox
+                        android:id="@+id/cb2_condition3_1_7"
+                        style="@style/TextStyle"
+                        android:text="缺质检报告"/>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_remark3_1_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/style_edittext"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_rule3_1_7"
+                    style="@style/Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/style_edittext"
+                    android:text="缺使用说明扣1.0分；缺质检报告扣0.5分"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        android:layout_above="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff">
+
+        <include
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</RelativeLayout>

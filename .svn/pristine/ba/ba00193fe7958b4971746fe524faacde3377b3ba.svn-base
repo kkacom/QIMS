@@ -1,0 +1,28 @@
+package com.zhilian.rf_qims.bean;
+
+/**
+ * Created by colin on 2018/2/5 16:28 .
+ */
+
+public class UpdateBean {
+	private int mForceUpdate;
+	private int mVersionCode;
+	private String mAppVersion;
+	private int mVersionDesc;
+
+	public int getForceUpdate() {
+		return mForceUpdate;
+	}
+
+	public int getVersionCode() {
+		return mVersionCode;
+	}
+
+	public String getAppVersion() {
+		return mAppVersion;
+	}
+
+	public int getVersionDesc() {
+		return mVersionDesc;
+	}
+}

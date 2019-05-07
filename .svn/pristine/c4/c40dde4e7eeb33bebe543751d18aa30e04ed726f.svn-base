@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/rf.css">
+    <link href="jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+      
+        <form action="">
+            <fieldset>
+                <legend>添加委托单</legend>
+                <table class="wordInfo">
+                    <tr>
+                        <td class="title" width="8%">
+                            <p>委托单编号</p>
+                        </td>
+                        <td class="readonly" width="12%">
+                            <p name="">sss</p>
+                        </td>
+                        <td class="title" width="8%">
+                            <p>收样日期</p>
+                        </td>
+                        <td width="12%">
+                            <input type="text" id="datepicker">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="title">
+                            <p>样品来源</p>
+                        </td>
+                        <td>
+                            <select id="states">
+                                <option selected="selected">--请选择--</option>
+                                <option>厂区</option>
+                                <option>现场</option>
+                            </select>
+                        </td>
+                        <td class="title">
+                            <p>样品区域</p>
+                        </td>
+                        <td>
+                            <select id="stylesheet">
+                                <option selected="selected">--请选择--</option>
+                                <option>Slow</option>
+                                <option>Fast</option>
+                                <option>Faster</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="title">
+                            <p>委托人姓名</p>
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td class="title">
+                            <p>收 样 人</p>
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="title">
+                            <p>委托单位</p>
+                        </td>
+                        <td colspan="3">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="title">
+                            <p>样品地址</p>
+                        </td>
+                        <td colspan="3">
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+                <div style="margin-top: 5px" align="right"> <button class="ui-button" >保存</button> <button class="ui-button">关闭</button>  </div>
+            </fieldset>
+        </form>
+    </div>
+    <script type="text/javascript" src="js/rf.js"></script>
+    <script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script>
+    $("#accordion").accordion();
+
+
+
+    var availableTags = [
+        "ActionScript",
+        "AppleScript",
+        "Asp",
+        "BASIC",
+        "C",
+        "C++",
+        "Clojure",
+        "COBOL",
+        "ColdFusion",
+        "Erlang",
+        "Fortran",
+        "Groovy",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Lisp",
+        "Perl",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Scala",
+        "Scheme"
+    ];
+    $("#autocomplete").autocomplete({
+        source: availableTags
+    });
+
+
+
+    $("#button").button();
+    $("#button-icon").button({
+        icon: "ui-icon-gear",
+        showLabel: false
+    });
+
+
+
+    $("#radioset").buttonset();
+
+
+
+    $("#controlgroup").controlgroup();
+
+
+
+    $("#tabs").tabs();
+
+
+
+    $("#dialog").dialog({
+        autoOpen: false,
+        width: 400,
+        buttons: [{
+                text: "Ok",
+                click: function() {
+                    $(this).dialog("close");
+                }
+            },
+            {
+                text: "Cancel",
+                click: function() {
+                    $(this).dialog("close");
+                }
+            }
+        ]
+    });
+
+    // Link to open the dialog
+    $("#dialog-link").click(function(event) {
+        $("#dialog").dialog("open");
+        event.preventDefault();
+    });
+
+
+
+    $("#datepicker").datepicker({
+        inline: true
+    });
+
+
+
+    $("#slider").slider({
+        range: true,
+        values: [17, 67]
+    });
+
+
+
+    $("#progressbar").progressbar({
+        value: 20
+    });
+
+
+
+    $("#spinner").spinner();
+
+
+
+    $("#menu").menu();
+
+
+
+    $("#tooltip").tooltip();
+
+
+
+    $("#selectmenu").selectmenu();
+
+
+    // Hover states on the static widgets
+    $("#dialog-link, #icons li").hover(
+        function() {
+            $(this).addClass("ui-state-hover");
+        },
+        function() {
+            $(this).removeClass("ui-state-hover");
+        }
+    );
+    </script>
+    <script>
+    function callAndroid() {
+        AndroidNative.hello();
+    }
+
+    function callAndroidWithParams() {
+        AndroidNative.hello('hello Android');
+    }
+
+    function getAndroid() {
+        var temp = AndroidNative.getAndroid();
+        console.log(temp);
+        alert(temp);
+    }
+    </script>
+</body>
+
+</html>

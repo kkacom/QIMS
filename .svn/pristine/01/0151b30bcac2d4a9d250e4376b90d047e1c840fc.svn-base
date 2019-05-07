@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="门扇启闭力"
+                android:textSize="@dimen/text_size_12"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+
+                <TableRow android:layout_marginTop="5dp">
+
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"
+                        android:layout_span="3"
+                        android:gravity="left|center"
+                        android:hint="现场调查及说明"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp"/>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_height="match_parent"
+                android:text="关锁操纵力"
+                android:textSize="@dimen/text_size_12"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="设计值"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:layout_span="2"
+                        android:text="原手柄加力长度"/>
+                </TableRow>
+
+                <TableRow>
+
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"
+                        android:layout_span="2"
+                        android:gravity="left|center"
+                        />
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp"/>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="左门扇运转性能(自开状态)"
+                android:textSize="@dimen/text_size_8"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="0°"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="45°"/>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/TableTitle"
+                        android:text="90°"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="Max"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+
+
+
+                <TableRow android:layout_marginTop="5dp"/>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="左门扇运转性能(运行噪音)"
+                android:textSize="@dimen/text_size_8"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="Max"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+
+
+
+                <TableRow android:layout_marginTop="5dp"/>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="#6DEDD7">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="右门扇运转性能(自开状态)"
+                android:textSize="@dimen/text_size_8"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="0°"/>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        style="@style/TableTitle"
+                        android:text="45°"/>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/TableTitle"
+                        android:text="90°"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="Max"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+
+
+
+                <TableRow android:layout_marginTop="5dp"/>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="#EDD185">
+
+            <TextView
+                style="@style/TableTitle"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="右门扇运转性能(运行噪音)"
+                android:textSize="@dimen/text_size_8"/>
+
+            <TableLayout>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+                        android:text="检测值"/>
+
+                    <TextView
+                        style="@style/TableTitle"
+
+                        android:text="Max"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                    <EditText  android:id="@id/destroy"
+                        style="@style/TestInput"/>
+
+                </TableRow>
+
+
+
+
+                <TableRow android:layout_marginTop="5dp"/>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

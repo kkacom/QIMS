@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/TextViewStyle1"
+            android:text="2.7.7 用商品混凝土生产混凝土门，应配置钢筋加工、混凝土浇筑和振捣设备、试件成型模具等。"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#F5F5F5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:text="设备信息"/>
+
+                    <Button
+                        style="@style/Text"
+                        android:id="@+id/create"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="40dp"
+                        android:paddingLeft="20dp"
+                        android:gravity="center"
+                        android:text="创建设备"
+                        android:drawableLeft="@drawable/icon_person"
+                        android:background="@drawable/common_button_style"
+                        android:visibility="invisible"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="设备名称："/>
+
+                    <EditText
+                        android:id="@+id/et_name2_7_7"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="设备型号："/>
+
+                    <EditText
+                        android:id="@+id/et_type2_7_7"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="设备编号："/>
+
+                    <EditText
+                        android:id="@+id/et_number2_7_7"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="备注内容："/>
+
+                    <EditText
+                        style="@style/EditTextStyle1"
+                        android:id="@+id/et_remark2_7_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:minHeight="80dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#F5F5F5"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="分值："/>
+
+                    <TextView
+                        android:id="@+id/tv_value2_7_7"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/style_edittext"/>
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:text="/得分："/>
+
+                    <TextView
+                        android:id="@+id/tv_score2_7_7"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        style="@style/Text"
+                        android:background="@drawable/style_edittext"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <CheckBox
+                        style="@style/Text"
+                        android:id="@+id/cb1_2_7_7"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="采用商品混凝土生产设备"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <CheckBox
+                        style="@style/Text"
+                        android:id="@+id/cb2_2_7_7"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="满足要求，配置齐全"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <CheckBox
+                        style="@style/Text"
+                        android:id="@+id/cb3_2_7_7"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="缺振捣设备扣0.5分"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <CheckBox
+                        style="@style/Text"
+                        android:id="@+id/cb4_2_7_7"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="缺试件成型模具扣0.5分"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_rule2_7_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Text"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/style_edittext"
+                    android:text="单项设备未固定扣减一半分值；单项未能运转不得分；无付款凭证证明设备所有权不得分"/>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        android:layout_above="@+id/linearLayout6"
+        android:id="@+id/view3"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <include
+            layout="@layout/include_bottom2"/>
+    </LinearLayout>
+
+</LinearLayout>

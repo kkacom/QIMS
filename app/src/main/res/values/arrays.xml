@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 环境设施 -->
+    <string-array name="environmental_facility">
+        <item>业主</item>
+        <item>企业</item>
+    </string-array>
+
+    <!-- 技术人员 -->
+    <string-array name="technical_personnel215">
+        <item>小明</item>
+        <item>小红</item>
+        <item>小张</item>
+    </string-array>
+
+    <!-- 关键人员 -->
+    <string-array name="key_personnel1">
+        <item>一级</item>
+        <item>二级</item>
+    </string-array>
+
+    <!-- 关键人员 -->
+    <string-array name="key_personnel2">
+        <item>已颁发</item>
+        <item>已注册未颁发</item>
+        <item>已通过未注册</item>
+    </string-array>
+
+</resources>

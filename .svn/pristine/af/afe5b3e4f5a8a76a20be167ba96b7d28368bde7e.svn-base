@@ -1,0 +1,63 @@
+<resources>
+
+    <dimen name="home_tab_height">49dp</dimen>
+    <dimen name="common_content_spacing">@dimen/qmui_content_spacing_horizontal</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- ListView -->
+    <dimen name="list_divider_height">1px</dimen>
+    <dimen name="list_divider_height_negative">-1px</dimen>
+    <!-- Helper 系列界面 -->
+
+    <!-- ColorHelper 颜色工具 -->
+    <dimen name="colorHelper_square_length">46dp</dimen>
+    <dimen name="colorHelper_square_margin">23dp</dimen>
+    <dimen name="colorHelper_square_desc_marginTop">10dp</dimen>
+    <dimen name="colorHelper_column_marginBottom">35dp</dimen>
+
+    <!-- DeviceHelper 设备检测工具 -->
+    <dimen name="deviceHelper_column_marginBottom">30dp</dimen>
+
+    <!-- DrawableHelper Drawable 工具 -->
+    <dimen name="drawableHelper_column_marginBottom">35dp</dimen>
+    <dimen name="drawableHelper_item_marginHorizontal">20dp</dimen>
+    <dimen name="drawableHelper_common_shape_size">50dp</dimen>
+
+    <!-- Span Utils 各种 Span 工具 -->
+    <dimen name="spanUtils_column_marginBottom">35dp</dimen>
+    <dimen name="spanUtils_common_textSize">16sp</dimen>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_6">6sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="project_img_size">45dp</dimen>
+    <dimen name="btn_width">35dp</dimen>
+    <dimen name="btn_height">25dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="et_height">30dp</dimen>
+    <dimen name="tv_height">27dp</dimen>
+
+    <dimen name="row_height">25dp</dimen>
+    <dimen name="project_row_height">35dp</dimen>
+    <dimen name="col_width">100dp</dimen>
+    <dimen name="col_left_margin">5dp</dimen>
+    <dimen name="input_height">25dp</dimen>
+    <dimen name="input_width">45dp</dimen>
+    <dimen name="small_input_width">35dp</dimen>
+    <dimen name="input_remarks_width">186dp</dimen>
+    <item name="th_top_margin" type="dimen">37dp</item>
+    <item name="titlebar_height" type="dimen">56dp</item>
+    <!-- 工程明细 -->
+    <dimen name="item_width">80dp</dimen>
+    <dimen name="item_big_width">248dp</dimen>
+</resources>

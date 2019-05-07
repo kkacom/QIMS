@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\xml\\filepaths.xml",
+        "source": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\src\\main\\res\\xml\\filepaths.xml"
+    },
+    {
+        "merged": "D:\\Android\\WORK\\RF-QIMS-APP1\\app\\build\\intermediates\\res\\merged\\release\\xml\\file_paths.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a9f08727c411edc43773fd2164863d135909f991\\output\\res\\xml\\file_paths.xml"
+    }
+]
