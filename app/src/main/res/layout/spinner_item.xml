@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    >
+   <LinearLayout
+       android:id="@+id/head"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#dcdcdc"/>
+   </LinearLayout>
+    <TextView
+        android:id="@+id/text1"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ellipsize="marquee"
+        android:text="年休假"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="inherit"/>
+    <LinearLayout
+        android:id="@+id/foot"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dcdcdc"/>
+
+    </LinearLayout>
+</LinearLayout>

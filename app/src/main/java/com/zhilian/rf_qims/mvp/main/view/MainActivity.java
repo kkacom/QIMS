@@ -50,6 +50,7 @@ import com.zhilian.rf_qims.mvp.project_manager.view.ProjectManagerActivity;
 import com.zhilian.rf_qims.mvp.work_assessment.view.activity.workassessment.WorkAssessmentFieldActivity;
 import com.zhilian.rf_qims.util.ToastUtils;
 import com.zhilian.rf_qims.widget.DialogProgress;
+import com.zhilian.rf_qims.mvp.leave.view.LeaveManagerActivity;
 
 import java.util.HashMap;
 import java.util.List;
@@ -132,7 +133,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements IMainVi
 						startActivity(new Intent(MainActivity.this, WorkAssessmentFieldActivity.class));
 						break;
 					case 3:
-
+						startActivity(new Intent(MainActivity.this,LeaveManagerActivity.class));
 						break;
 					case 4:
 

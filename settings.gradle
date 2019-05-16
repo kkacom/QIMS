@@ -1,1 +1,1 @@
-include ':app', ':colin-utils',':dRlibfileselector'
+include ':app', ':colin-utils'

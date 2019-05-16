@@ -112,4 +112,13 @@
     <color name="tab_text_normal">#8D9AA0</color>
     <color name="tab_text_selected">#5CB292</color>
     <color name="tab_indicator">#5CB292</color>
+
+
+    <!-- 主界面 -->
+    <color name="line_gray">#DCDCDC</color>
+
+    <color name="tab_bg_blue">#E1E1E1</color>
+    <color name="tab_bg_light_blue">#F1F9FF</color>
+    <color name="tab_selected">#99CCFF</color>
+    <color name="tab_unselected">#fff</color>
 </resources>

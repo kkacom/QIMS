@@ -27,6 +27,7 @@ public class MainModel implements IMainModel {
         list.add(new WorkResBean(R.mipmap.test_product));
         list.add(new WorkResBean(R.mipmap.test_install));
         list.add(new WorkResBean(R.mipmap.assessment));
+        list.add(new WorkResBean(R.drawable.icon_leave_item));
 //        list.add(new WorkResBean(R.mipmap.employment_evaluation));
 //        list.add(new WorkResBean(R.mipmap.integrity_evluation));
 //        list.add(new WorkResBean(R.mipmap.icon_feedback));

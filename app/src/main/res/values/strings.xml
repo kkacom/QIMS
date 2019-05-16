@@ -215,5 +215,11 @@
     <string name="key_personnel.4.1">1.4.1 1个一级、两个二级注册防护工程师人员</string>
     <string name="key_personnel.4.2">1.4.2 技术负责人具有建筑工程或机械工程类专业的高级技术职称</string>
 
+    <string-array name="apply_dayt_type">
+    <item>一天</item>
+    <item>半天</item>
+    <item>多天</item>
+    </string-array>
+
 
 </resources>

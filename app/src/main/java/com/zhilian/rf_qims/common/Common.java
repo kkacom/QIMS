@@ -1,5 +1,10 @@
 package com.zhilian.rf_qims.common;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.widget.Toast;
+
 import com.zhilian.rf_qims.entity.CaTestJson;
 import com.zhilian.rf_qims.entity.PersonnelJson;
 import com.zhilian.rf_qims.entity.Sample;
@@ -90,5 +95,19 @@ public class Common {
 
 	public static void setConfigExplain(String configExplain) {
 		Common.configExplain = configExplain;
+	}
+
+	public static boolean judgeNet(Context mContext) {//判断是否有网络
+		boolean flag = true;
+		final ConnectivityManager connectivityManager = (ConnectivityManager) mContext
+				.getSystemService(Context.CONNECTIVITY_SERVICE);
+		final NetworkInfo mobNetInfoActivity = connectivityManager
+				.getActiveNetworkInfo();
+		if (mobNetInfoActivity == null || !mobNetInfoActivity.isAvailable()) {
+			Toast.makeText(mContext, "当前没有连接网络！", Toast.LENGTH_SHORT).show();
+			flag = false;
+		}
+
+		return flag;
 	}
 }

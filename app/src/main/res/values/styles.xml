@@ -316,4 +316,10 @@
         <item name="android:textColor">@color/colorAccent</item>
         <item name="android:textSize">14sp</item>
     </style>
+
+    <!--进度条弹出时背景不变暗，设备了圆角需要把框体设置成透明不然会有白角-->
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
 </resources>
